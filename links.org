@@ -54,3 +54,38 @@ desowin.org/usbpcap
 
 USB数据包检测,捕获工具
 -----
+www.java.com/en/download/manual.jsp
+
+所有jre(Java Runtime Environment)下载
+-----
+wordpress.org
+
+个人博客和内容管理系统(cms)
+-----
+httpd.apache.org
+
+Apache HTTP Server（简称Apache）是Apache软件基金会的一个开放源代码的网页服务器软件
+-----
+mysql.com
+
+关系数据库管理系统
+-----
+mozilla.org/zh-CN/thunderbird/
+
+电子邮箱客户端
+-----
+7-zip.org
+
+数据压缩程序
+-----
+phpmyadmin.net
+
+以Web-Base方式架构在网站主机上的MySQL的数据库管理工具,让管理者可用Web接口管理MySQL数据库
+-----
+typecho.org
+
+一个简单,轻巧的博客程序
+-----
+github.com/phuslu/goproxy
+
+通过Google Appengine科学上网
