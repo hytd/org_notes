@@ -54,7 +54,7 @@ desowin.org/usbpcap
 
 USB数据包检测,捕获工具
 -----
-www.java.com/en/download/manual.jsp
+java.com/en/download/manual.jsp
 
 所有jre(Java Runtime Environment)下载
 -----
