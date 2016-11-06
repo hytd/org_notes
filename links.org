@@ -119,7 +119,7 @@ translate.google.com(cn)
 
 google翻译
 -----
-www.chiark.greenend.org.uk/~sgtatham/putty/
+=www.chiark.greenend.org.uk/~sgtatham/putty/=
 
 Telnet, SSH, rlogin, 纯TCP以及串行端口连接软件
 -----
