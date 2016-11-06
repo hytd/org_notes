@@ -1,15 +1,34 @@
+#+BEGIN_EXAMPLE
 nmap.org
 
-Nmap（网络映射器）是一款用于网络发现和安全审计的网络安全工具,它是自由软件.软件名字Nmap是Network Mapper的简称
------
+Nmap（网络映射器）是一款用于网络发现和安全审计的网络安全工具，它是自由软件。软件名字Nmap是Network Mapper的简称。通常情况下，Nmap用于：
+
+    列举网络主机清单
+    管理服务升级调度
+    监控主机
+    服务运行状况
+
+Nmap可以检测目标主机是否在线、端口开放情况、侦测运行的服务类型及版本信息、侦测操作系统与设备类型等信息。 它是网络管理员必用的软件之一，用以评估网络系统安全。
+
+Nmap 是不少黑客及脚本小孩爱用的工具 。系统管理员可以利用Nmap来探测工作环境中未经批准使用的服务器，黑客通常会利用Nmap来搜集目标电脑的网络设定，从而计划攻击的方法。
+
+Nmap通常用在信息搜集阶段，用于搜集目标机主机的基本状态信息。扫描结果可以作为漏洞扫描、漏洞利用和权限提升阶段的输入。例如，业界流行的漏洞扫描工具Nessus与漏洞利用工具Metasploit都支持导入Nmap的XML格式结果，而Metasploit框架内也集成了Nmap工具（支持Metasploit直接扫描）。
+
+Nmap不仅可以用于扫描单个主机，也可以适用于扫描大规模的计算机网络（例如，扫描英特网上数万台计算机，从中找出感兴趣的主机和服务）。
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
 exploit-db.com
 
-漏洞利用数据库
------
+漏洞利用数据库,可以下载指定漏洞攻击文件
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
 sectools.org
 
-125个网络安全工具排名
------
+黑客常用的,125个网络安全工具排名
+#+END_EXAMPLE
+
 freebuf.org
 
 关注黑客与极客
@@ -282,3 +301,13 @@ windows硬件查看工具
 majorgeeks.com
 
 极客少校软件下载站
+
+#+BEGIN_EXAMPLE
+openvpn.net
+
+OpenVPN是一个用于创建虚拟专用网络加密通道的软件包，最早由James Yonan编写。OpenVPN允许创建的VPN使用公开密钥、电子证书、或者用户名／密码来进行身份验证。
+
+它大量使用了OpenSSL加密库中的SSLv3/TLSv1协议函数库。
+
+目前OpenVPN能在Solaris、Linux、OpenBSD、FreeBSD、NetBSD、Mac OS X与Microsoft Windows以及Android和iOS上运行，并包含了许多安全性的功能
+#+END_EXAMPLE
