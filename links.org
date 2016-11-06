@@ -89,3 +89,196 @@ typecho.org
 github.com/phuslu/goproxy
 
 通过Google Appengine科学上网
+-----
+mozilla.org/en-US/firefox/all/
+
+纯净firefox下载
+-----
+gimp.org
+
+位图图像编辑器
+-----
+nginx.org
+
+一个网页服务器,它能反向代理HTTP, HTTPS, SMTP, POP3, IMAP的协议链接, 以及一个负载均衡器和一个HTTP
+缓存
+-----
+heidisql.com
+
+SQL管理工具
+-----
+mactype.net
+
+字体渲染
+-----
+justgetflux.com
+
+自动调整色温,保护眼睛
+-----
+translate.google.com(cn)
+
+google翻译
+-----
+www.chiark.greenend.org.uk/~sgtatham/putty/
+
+Telnet, SSH, rlogin, 纯TCP以及串行端口连接软件
+-----
+winscp.net
+
+sftp客户端,还支持ssh,scp
+-----
+cheatengine.org
+
+查找与修改内存地址
+-----
+opendns.com/about/innovations/dnscrypt/
+
+防止DNS污染
+-----
+fcitx-im.org
+
+X Window中使用的输入法框架,支持拼音,五笔,可以输入UTF-8编码中的汉语文字
+-----
+winehq.org
+
+Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多种 POSIX-compliant 操作系统（诸如 
+Linux，Mac OSX 及 BSD 等）上运行 Windows 应用的兼容层。 Wine 不是像虚拟机或者模拟器一样模仿内部
+的 Windows 逻辑，而是將 Windows API 调用翻译成为动态的 POSIX 调用，免除了性能和其他一些行为的内
+存占用，让你能够干净地集合 Windows 应用到你的桌面。
+-----
+libreoffice.org
+
+办公室套件,包含文字处理器,电子电子表格,演示文稿程序,向量图形编辑器和图表工具,数据库管理程序及创
+建和编辑数学公式的应用程序
+-----
+hosts.huhamhire.com
+
+添加host记录,科学上网
+-----
+archive.org
+
+互联网档案馆(Internet Archive)是一个非营利性的数字图书馆.成立于1996年,提供数字数据如网站,音乐,动
+态图像,和数百万书籍的永久性免费存储及获取.迄至2012年10月,其信息储量达到10PB
+-----
+mariadb.org
+
+替代mysql方案
+-----
+drupal.org
+
+内容管理系统,在业界Drupal常被视为内容管理框架(CMF),而非一般意义上的内容管理系统(CMS)
+-----
+vim.org
+
+Vim是从vi发展出来的一个文本编辑器.代码补完,编译及错误跳转等方便编程的功能特别丰富,在程序员中被广
+泛使用.和Emacs并列成为类Unix系统用户最喜欢的编辑器.最初的简称是Vi IMitation, 随着功能的不断增加,
+正式名称改成了Vi IMproved
+-----
+gcc.gnu.org
+
+GNU编译器套装（英语：GNU Compiler Collection，缩写为GCC），一套编程语言编译器，以GPL及LGPL许可证
+所发行的自由软件，也是GNU项目的关键部分，也是GNU工具链的主要组成部分之一。GCC（特别是其中的C语言
+编译器）也常被认为是跨平台编译器的事实标准。原名为GNU C语言编译器（GNU C Compiler），因为它原本
+只能处理C语言。GCC很快地扩展，变得可处理C++。之后也变得可处理Fortran、Pascal、Objective-C、Java
+、Ada，以及Go与其他语言
+-----
+llvm.org
+
+LLVM，一个自由软件项目，是一种编译器的基础建设，以C++写成。它是为了任意一种编程语言写成的程序，
+利用虚拟技术，创造出编译时期，链接时期，运行时期以及“闲置时期”的最优化。它最早是以C/C++为实现
+对象，目前它支持了包括ActionScript、Ada、D语言、Fortran、GLSL、Haskell、Java bytecode、
+Objective-C、Swift、Python、Ruby、Rust、Scala以及C#
+-----
+clang.llvm.org
+
+Clang 是一个C、C++、Objective-C和Objective-C++编程语言的编译器前端。它采用了底层虚拟机（LLVM）作
+为其后端。它的目标是提供一个GNU编译器套装（GCC）的替代品
+-----
+mingw.org
+
+MinGW（Minimalist GNU for Windows），又称mingw32，是将GCC编译器和GNU Binutils移植到Win32平台下的
+产物，包括一系列头文件（Win32API）、库和可执行文件。
+-----
+mingw-w64.org
+
+用于产生32位及64位Windows可执行文件的MinGW-w64项目，是从原本MinGW产生的分支。如今已经独立发展。
+-----
+cygwin.com
+
+Cygwin是许多自由软件的集合，最初由Cygnus Solutions开发，用于各种版本的Microsoft Windows上，运行
+类UNIX系统。Cygwin的主要目的是通过重新编译，将POSIX系统（例如Linux、BSD，以及其他Unix系统）上的
+软件移植到Windows上。Cygwin移植工作在Windows NT上比较好
+-----
+php.net
+
+PHP（全称：PHP：Hypertext Preprocessor，即“PHP：超文本预处理器”）是一种开源的通用计算机脚本语
+言，尤其适用于网络开发并可嵌入HTML中使用。
+-----
+tukaani.org/xz/
+
+xz是一个使用LZMA/LZMA2压缩算法的无损数据压缩文件格式
+-----
+gnu.org/software/tar/
+
+Unix和类Unix系统上的压缩打包工具，可以将多个文件合并为一个文件，打包后的文件名亦为“tar”。目前
+，tar文件格式已经成为POSIX标准，最初是POSIX.1-1988，目前是POSIX.1-2001。本程序最初的设计目的是将
+文件备份到磁带上（tape archive），因而得名tar
+-----
+gnu.org/software/wget/
+
+GNU Wget是一个在网络上进行下载的简单而强大的自由软件，其本身也是GNU计划的一部分。它的名字
+是“World Wide Web”和“Get”的结合，同时也隐含了软件的主要功能。目前它支持通过HTTP、HTTPS，以及
+FTP这三个最常见的TCP/IP协议协议下载
+-----
+cabextract.org.uk
+
+解压缩Microsoft cabinet文件，也称为.CAB文件
+-----
+sqlite.org
+
+SQLite 是遵守ACID的关系数据库管理系统，它包含在一个相对小的C程序库中。与许多其它数据库管理系统不
+同，SQLite不是一个客户端/服务器结构的数据库引擎，而是被集成在用户程序中
+-----
+gtk.org
+
+GTK+最初是GIMP的专用开发库（GIMP Toolkit），后来发展为Unix-like系统下开发图形界面的应用程序的主
+流开发工具之一。GTK+是自由软件，并且是GNU计划的一部分。GTK+的许可协议是LGPL
+-----
+nasm.us
+
+汇编编译器
+-----
+tightvnc.com
+
+VNC的实现,VNC（Virtual Network Computing），为一种使用RFB协议的屏幕画面分享及远程操作软件。此软
+件借由网络，可发送键盘与鼠标的动作及即时的屏幕画面
+-----
+tcsh.org
+
+一个向下兼容c shell的Unix shell。它本质上是为c shell增加命令补完，命令编辑等其他功能
+-----
+rsync.samba.org
+
+rsync是Unix下的一款应用软件，它能同步更新两处计算机的文件与目录，并适当利用差分编码以减少数据传
+输
+-----
+kernel.org
+
+linux
+-----
+cmake.org
+
+CMake,跨平台自动化建构系统
+-----
+jemalloc.net
+
+内存管理,Jemalloc的创始人Jason Evans也是在FreeBSD很有名的开发人员,在2006年为提高低性能的malloc而
+写的jemalloc,Jemalloc是从2007年开始以FreeBSD标准引进来
+-----
+rh-software.com
+
+windows硬件查看工具
+-----
+majorgeeks.com
+
+极客少校软件下载站
