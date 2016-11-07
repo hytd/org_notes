@@ -311,3 +311,51 @@ OpenVPN是一个用于创建虚拟专用网络加密通道的软件包，最早�
 
 目前OpenVPN能在Solaris、Linux、OpenBSD、FreeBSD、NetBSD、Mac OS X与Microsoft Windows以及Android和iOS上运行，并包含了许多安全性的功能
 #+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+enigmail.net
+
+Enigmail是一个Mozilla Thunderbird和SeaMonkey网络包的数据加密和解密扩展，提供了OpenPGP的电子邮件公钥加密和签名功能。Enigmail可以在Microsoft Windows、类Unix和Mac OS X操作系统下运行。它的加密功能由GNU Privacy Guard负责处理
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+onionshare.org
+
+匿名共享文件
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+tails.boum.org
+
+Tails（英语：The Amnesic Incognito Live System）是一个侧重安全，基于Debian着眼于个人隐私和匿名性，并将非匿名通信进行封锁的操作系统。 这个系统所有的外部通信均强制通过Tor进行传送， 此系统设计为使用Live DVD或者Live USB进行引导，且不让计算机在非显式行为下留下数据痕迹。另外，Tor Project对于此项开发提供经济支持
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+whonix.org
+
+Whonix是一个基于Virtual Box、Debian GNU/Linux和Tor的匿名通用操作系统
+
+据项目开发者adrelanos声称：Whonix的设计可以完全避免使用者IP地址和DNS的泄露，即使是有root管理权限的恶意软件也不能发现用户本地真实的IP地址信息。因为Whonix是由两个虚拟机构成的，其中一个虚拟机只运行Tor，充当网关，称之为Whonix-Gateway；另一个虚拟机，称之为Whonix-Workstation，工作在一个完全隔离的网络上，两个虚拟机之间传输的数据全部通过Tor（网关）中转
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+qubes-os.org
+
+Qubes OS是一个面向安全的桌面操作系统，旨在通过隔离提供安全保障。通过Xen来执行虚拟化，用户环境可以基于Fedora，Debian，Whonix，和 Microsoft Windows，或其他操作系统。
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+gnupg.org
+
+GNU Privacy Guard（GnuPG或GPG）是一种加密软件，它是PGP加密软件的满足GPL的替代物。GnuPG依照由IETF订定的OpenPGP技术标准设计。GnuPG用于加密、数字签名及产生非对称匙对的软件。
+
+IETF正在为PGP协议进行标准化，标准化的PGP称为OpenPGP。当前版本的PGP及Veridis' Filecrypt与GnuPG或其他OpenPGP系统兼容。
+
+GnuPG是自由软件基金会的GNU计划的一部分，目前受德国政府资助。以GNU通用公共许可证第三版授权
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+torproject.org
+
+Tor（The Onion Router，洋葱路由器）是实现匿名通信的自由软件。Tor是第二代洋葱路由的一种实现，用户通过Tor可以在因特网上进行匿名交流。最初该项目由美国海军研究实验室赞助。2004年后期，Tor成为电子前哨基金会（EFF）的一个项目。2005年后期，EFF不再赞助Tor项目，但他们继续维持Tor的官方网站。
+#+END_EXAMPLE
