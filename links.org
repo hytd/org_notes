@@ -138,7 +138,7 @@ translate.google.com(cn)
 
 google翻译
 -----
-=www.chiark.greenend.org.uk/~sgtatham/putty/=
+www.chiark.greenend.org.uk/~sgtatham/putty/
 
 Telnet, SSH, rlogin, 纯TCP以及串行端口连接软件
 -----
@@ -192,6 +192,14 @@ vim.org
 Vim是从vi发展出来的一个文本编辑器.代码补完,编译及错误跳转等方便编程的功能特别丰富,在程序员中被广
 泛使用.和Emacs并列成为类Unix系统用户最喜欢的编辑器.最初的简称是Vi IMitation, 随着功能的不断增加,
 正式名称改成了Vi IMproved
+-----
+gnu.org/software/emacs/
+
+Emacs（英语发音：/ˈiːmæks/，源自Editor MACroS，宏编辑器），是一个文本编辑器家族，具有强大的可扩展性，在程序员和其他以技术工作为主的计算机用户中广受欢迎。最初由Richard Stallman于1975年在MIT协同盖伊·史提尔二世共同完成。这一创意的灵感来源于TECO宏编辑器TECMAC和TMACS，它们是由盖伊·史提尔二世、Dave Moon、Richard Greenblatt、Charles Frankston等人编写的宏文本编辑器。
+
+自诞生以来，Emacs演化出了众多分支，其中使用最广泛的两种分别是：1984年由理查·斯托曼发起并由他维护至2008年的GNU Emacs，以及1991年发起的XEmacs。XEmacs是GNU Emacs的分支，至今仍保持着相当的兼容性。它们都使用了Emacs Lisp这种有着极强扩展性的编程语言，从而实现了包括编程、编译乃至网络浏览等等功能的扩展。
+
+在Unix文化里，Emacs是黑客们关于编辑器之战的两大主角之一，它的对手是vi、Vim。
 -----
 gcc.gnu.org
 
@@ -358,4 +366,232 @@ GnuPG是自由软件基金会的GNU计划的一部分，目前受德国政府资
 torproject.org
 
 Tor（The Onion Router，洋葱路由器）是实现匿名通信的自由软件。Tor是第二代洋葱路由的一种实现，用户通过Tor可以在因特网上进行匿名交流。最初该项目由美国海军研究实验室赞助。2004年后期，Tor成为电子前哨基金会（EFF）的一个项目。2005年后期，EFF不再赞助Tor项目，但他们继续维持Tor的官方网站。
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+keepass.info
+
+KeePass是一款密码管理器
+#+END_EXAMPLE
+
+-----
+virtualbox.org
+
+Oracle VirtualBox是由德国InnoTek软件公司出品的虚拟机软件，现在则由甲骨文公司进行开发，是甲骨文公司xVM虚拟化平台技术的一部分。它提供用户在32位或64位的Windows、Solaris及Linux 操作系统上虚拟其它x86的操作系统。用户可以在VirtualBox上安装并且运行Solaris、Windows、DOS、Linux、OS/2 Warp、OpenBSD及FreeBSD等系统作为客户端操作系统。
+-----
+dosbox.com
+
+DOSBox是一种模拟器软件，主要是在IBM PC兼容机下，模拟旧时的操作系统：MS-DOS，支持许多IBM PC兼容的显卡和声卡，为本地的DOS程序提供执行环境，使这些程序可以正常运行于大多数现代计算机上的不同操作系统。DOSBox特别是为运行早期的计算机游戏所设计，主要以C++编写，是以GNU通用公共许可证许可发布的自由软件。
+
+DOSBox可以运行那些在现代计算机上不能运行的MS-DOS软件，这些软件通常与现在的主流硬件和操作系统有一些不兼容。DOSBox在模拟MS-DOS同时，还增加了一些可用特性，包括虚拟磁盘、点对点网络、对模拟画面截图和录像。有些非官方的DOSBox变体，如DOSBox SVN Daum和DOSBox SVN-lfn提供了更多的功能，比如存档、长文件名支持等。有些游戏开发商重新发行早期的DOS游戏时，也会使用DOSBox，使其可以在现代计算机上运行。
+-----
+openvz.org
+
+OpenVZ是基于Linux内核和操作系统的操作系统级虚拟化技术。OpenVZ允许物理服务器运行多个操作系统，被称虚拟专用服务器（VPS，Virtual Private Server）或虚拟环境（VE，Virtual Environment）。
+
+与VMware这种虚拟机和Xen这种硬件辅助虚拟化技术相比，OpenVZ的主机与客户系统都必须是Linux（虽然在不同的虚拟环境里可以用不同的Linux发行版）。但是，OpenVZ声称这样做有性能上的优势。根据OpenVZ网站的说法，使用OpenVZ与使用独立的实体服务器相比，性能只会有1-3%的损失。
+
+OpenVZ的Linux客户系统其实是共用OpenVZ主机Linux系统的内核，也就意味着OpenVZ的Linux客户系统不能升级内核。
+
+OpenVZ是SWsoft, Inc.公司开发的专有软件Virtuozzo（Virtuozzo虚拟机还支持Windows客户系统）的基础。OpenVZ的授权为GPLv2。
+
+OpenVZ由两部分组成，一个经修改过的操作系统核心与一套用户工具。
+
+但是，基于OpenVZ的Linux虚拟机/Linux VPS可能配置起来不如基于KVM的Linux虚拟机/Linux VPS灵活。例如，OpenVZ虚拟机/VPS无法更新内核，这可能会导致部分要求高版本内核的软件（如Docker）无法使用；不支持部分软件；其不能升级内核的限制也可能会给Linux的发行版升级（比如，从Debian 7升级到Debian 8；从CentOS 6升级到CentOS 7）带来麻烦。
+------
+linux-kvm.org
+
+基于内核的虚拟机（英语：Kernel-based Virtual Machine，缩写为 KVM），是一种用于Linux内核中的虚拟化基础设施，可以将Linux内核转化为一个hypervisor。KVM在2007年2月被导入Linux 2.6.20核心中，以可加载核心模块的方式被移植到FreeBSD及illumos上。
+
+KVM在具备Intel VT或AMD-V功能的x86平台上运行。它也被移植到S/390，PowerPC与IA-64平台上。在Linux内核3.9版中，加入ARM架构的支持。
+
+KVM目前由Red Hat等厂商开发，对CentOS/Fedora/RHEL等Red Hat系发行版支持极佳。
+-----
+xenproject.org
+
+Xen是一个开放源代码虚拟机监视器，由XenProject开发。它打算在单个计算机上运行多达128个有完全功能的操作系统。
+
+在旧（无虚拟硬件）的处理器上执行Xen，操作系统必须进行显式地修改（“移植”）以在Xen上运行（但是提供对用户应用的兼容性）。这使得Xen无需特殊硬件支持，就能达到高性能的虚拟化。
+
+2013年4月,Linux基金会宣布Xen成为Linux基金会合作项目。
+-----
+git.kernel.org/cgit/editors/uemacs/uemacs.git/
+
+emacs变种
+-----
+jasspa.com
+
+microemacs
+-----
+wiki.gnome.org/Apps/Gedit
+
+gedit是一个GNOME桌面环境下兼容UTF-8的文本编辑器。它简单易用，有良好的语法高亮，对中文支持很好，支持包括GB2312、GBK在内的多种字符编码。
+-----
+eclipse.org
+
+Eclipse是著名的跨平台开源集成开发环境（IDE）。Eclipse的本身只是一个框架平台，但是众多插件的支持，使得Eclipse拥有较佳的灵活性，所以许多软件开发商以Eclipse为框架开发自己的IDE。
+-----
+ifixit.com
+
+iFixit是一家设于美国加州圣路易斯-奥比斯保（San Luis Obispo）的公司，创立于2003年。该公司设立的同名网站以类似wiki网站的方式刊登电子产品等的DIY维修、拆解指南，并接受读者投稿。拆解指南会根据拆解难易度以分数评定（满分10分为最容易拆解）。
+-----
+msdn.microsoft.com/powershell
+
+Windows PowerShell是微软公司为Windows环境所开发的壳程序（shell）及脚本语言技术，采用的是命令行界面。这项全新的技术提供了丰富的控制与自动化的系统管理能力。
+
+之前的开发代号是Monad，程序另一个名称叫Microsoft Shell（MSH）。
+
+2016年8月18日，微软宣布将PowerShell开放源代码，并将支持Linux和OS X系统。
+-----
+gnome.org
+
+GNOME（英语发音：/ɡˈnoʊm/或英语发音：/ˈnoʊm/）是一个完全由自由软件组成的桌面环境。它的目标操作系统是Linux，但是大部分的BSD系统亦支持GNOME。
+
+GNOME是由志愿贡献者和受雇贡献者组成的GNOME计划开发，其最大的公司贡献者为红帽公司。它是一个为开发软件框架、基于这些框架来开发客户端软件及协调软件翻译和开发无障碍软件的项目。
+
+GNOME是GNU计划的一部分。
+-----
+kde.org
+
+KDE（英语发音：/ˌkeɪdiːˈiː/），是一个国际性的自由软件社区，开发运行在Linux、BSD、Solaris、Microsoft Windows与Mac OS X等平台上的一系列跨平台应用程序。它最著名的产品是Plasma桌面，是许多Linux发行版的默认桌面环境，例如openSUSE、Mandriva Linux、Linux Mint、Kubuntu、与 Chakra GNU/Linux。
+
+社区的目标是开发基本的桌面功能和日常必需的应用程序，以及提供开发者编写独立的应用程序的工具和文档。许多独立应用程序和规模较小的项目是基于KDE的技术，这些软件包括Calligra Suite、digiKam、Rekonq、K3b和许多其他应用程序。KDE软件是基于Qt框架所开发。
+
+多个国家的政府部门也使用KDE软件，兴建位于瑞士的大型强子对撞机也使用KDE软件。
+-----
+gnu.org/software/gdb/
+
+GNU侦错器（GNU Debugger，缩写：GDB），是GNU软件系统中的标准侦错器，此外GDB也是个具有移携性的侦错器，经过移携需求的调修与重新编译，如今许多的类UNIX操作系统上都可以使用GDB，而现有GDB所能支持除错的编程语言有C、C++、Pascal以及FORTRAN。
+-----
+ollydbg.de
+
+动态反汇编分析调试工具
+-----
+x64dbg.com
+
+调试工具
+-----
+chromium.org
+
+Chromium是Google为发展自家的浏览器Google Chrome而打开的项目，所以Chromium相当于Google Chrome的工程版或称实验版（尽管Google Chrome自身也有β版阶段），新功能会率先在Chromium上实现，待验证后才会应用在Google Chrome上，故Google Chrome的功能会相对落后但较稳定。
+
+Chromium的更新速度很快，每隔数小时即有新的开发版本发布，而且可以免安装，下载zip封装版后解压缩即可使用（Windows下也有安装版）。
+-----
+filezilla-project.org
+
+FileZilla是FTP软件，分为客户端版本和服务器版本
+-----
+ffmpeg.org
+
+FFmpeg是一个自由软件，可以运行音频和视频多种格式的录影、转换、流功能，包含了libavcodec——这是一个用于多个项目中音频和视频的解码器库，以及libavformat——一个音频与视频格式转换库。
+
+“FFmpeg”这个单词中的“FF”指的是“Fast Forward”。有些新手写信给“FFmpeg”的项目负责人，询问FF是不是代表“Fast Free”或者“Fast Fourier”等意思，“FFmpeg”的项目负责人回信说：“Just for the record, the original meaning of "FF" in FFmpeg is "Fast Forward"...”
+
+这个项目最初是由Fabrice Bellard发起的，而现在是由Michael Niedermayer在进行维护。许多FFmpeg的开发者同时也是MPlayer项目的成员，FFmpeg在MPlayer项目中是被设计为服务器版本进行开发。
+
+2011年3月13日，FFmpeg部分开发人士决定另组Libav，同时制定了一套关于项目继续发展和维护的规则。
+-----
+mplayerhq.hu
+
+MPlayer是一款开源的多媒体播放器，以GNU通用公共许可证发布。此款软件可在各主流操作系统使用，例如Linux和其他类Unix操作系统、微软的Windows系统及苹果电脑的Mac OS X系统。MPlayer是建基于命令行界面，在各操作系统可选择安装不同的图形界面。
+-----
+mpc-hc.org
+
+Media Player Classic Home Cinema，简称MPC-HC，是一款简洁的媒体播放器，Media Player Classic 的后续版本
+-----
+videolan.org/vlc/
+
+VLC多媒体播放器（英语：VLC media player，最初为VideoLAN Client，是VideoLAN计划的开放源代码多媒体播放器。）支持众多音频与视频解码器及文件格式，并支持DVD影音光盘、VCD影音光盘及各类流协议。它也能作为单播或多播的流服务器在IPv4或IPv6的高速网络连接下使用。调用FFmpeg计划的解码器与libdvdcss程序库使其有播放多媒体文件及加密DVD影碟的功能。
+-----
+nodejs.org
+
+Node.js是一个开放源代码、跨平台的、可用于服务器端和网络应用的运行环境。Node.js应用C++语言写成，在Node.js运行时运行。它支持OS X、Microsoft Windows、Linux、FreeBSD、NonStop、IBM AIX、IBM System z和IBM i。Node.js由Node.js基金会拥有和维护，该基金会与Linux基金会有合作关系。
+
+Node.js提供事件驱动和非阻塞I/O API，可优化应用程序的吞吐量和规模。这些技术通常被用于实时应用程序。
+
+Node.js采用Google的V8引擎来执行代码。Node.js的大部分基本模块都是用JavaScript写成的。Node.js含有一系列内置模块，使得程序可以作为独立服务器运行，从而脱离Apache HTTP Server或IIS运行。
+
+Node.js正在向服务器端平台发展，并已被IBM、Microsoft、Yahoo!、Walmart、Groupon、SAP、LinkedIn、Rakuten、PayPal、Voxer和GoDaddy等采用。
+-----
+golang.org
+
+Go，又称golang，是Google开发的一种静态强类型、编译型，并发型，并具有垃圾回收功能的编程语言。
+
+罗伯特·格瑞史莫，罗勃·派克（Rob Pike）及肯·汤普逊于2007年9月开始设计Go语言，稍后Ian Lance Taylor, Russ Cox加入项目中。Go语言是基于Inferno操作系统所开发的。Go语言于2009年11月正式宣布推出，成为开放源代码项目，并在Linux及Mac OS X平台上进行了实现，后追加Windows系统下的实现。
+-----
+python.org
+
+Python（英国发音：/ˈpaɪθən/ 美国发音：/ˈpaɪθɑːn/），是一种面向对象、直译式的计算机程序语言。它包含了一组功能完备的标准库，能够轻松完成很多常见的任务。它的语法简单，与其它大多数程序设计语言使用大括号不一样，它使用缩进来定义语句块。
+
+与Scheme、Ruby、Perl、Tcl等动态语言一样，Python具备垃圾回收功能，能够自动管理内存使用。它经常被当作脚本语言用于处理系统管理任务和网络程序编写，然而它也非常适合完成各种高级任务。Python虚拟机本身几乎可以在所有的作业系统中运行。使用一些诸如py2exe、PyPy、PyInstaller之类的工具可以将Python源代码转换成可以脱离Python解释器运行的程序。
+
+Python的官方解释器是CPython，该解释器用C语言编写，是一个由社区驱动的自由软件，目前由Python软件基金会管理。
+
+Python支持命令式程序设计、面向对象程序设计、函数式编程、面向侧面的程序设计、泛型编程多种编程范式。
+-----
+ruby-lang.org
+
+Ruby 是一种面向对象、命令式、函数式、动态的通用编程语言。在20世纪90年代中期由日本人松本行弘（Matz）设计并开发。
+
+遵守BSD许可证和Ruby License。它的灵感与特性来自于Perl、Smalltalk、Eiffel、Ada以及Lisp语言。由Ruby语言本身还发展出了JRuby（Java平台）、IronRuby（.NET平台）等其他平台的Ruby语言替代品。
+lua.org
+
+Lua（英语发音：/ˈluːə/）程序设计语言是一个简洁、轻量、可扩展的脚本语言，是葡萄牙语中“Lua”（月亮）的意思。 
+-----
+perl.org
+
+Perl是高级、通用、直译式、动态的程序语言家族。最初设计者拉里·沃尔（Larry Wall）为了让在UNIX上进行报表处理的工作变得更方便，决定开发一个通用的脚本语言，而在1987年12月18日发表。目前，Perl语言家族包含两个分支Perl 5以及Perl 6（开发中）。
+
+Perl借用了C、sed、awk、shell脚本以及很多其他编程语言的特性。其中最重要的特性是Perl内部集成了正则表达式的功能，以及巨大的第三方代码库CPAN。
+
+2000年开始，目前拉里·沃尔开始开发Perl 6，来作为Perl的后继；不过，Perl 6语言的语法有很多转变，所以Perl 6被视为Perl家族中的另一个语言。
+
+Perl语言的应用范围很广，除CGI以外，Perl被用于图形编程、系统管理、网络编程、金融、生物以及其他领域。由于其灵活性，Perl被称为脚本语言中的瑞士军刀。
+-----
+java.com
+
+Java是一种计算机编程语言，拥有跨平台、面向对象、泛型编程的特性，广泛应用于企业级Web应用开发和移动应用开发。
+
+任职于太阳微系统的詹姆斯·高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak，目标设置在家用电器等小型系统的程序语言，应用在电视机、电话、闹钟、烤面包机等家用电器的控制和通信。由于这些智能化家电的市场需求没有预期的高，Sun公司放弃了该项计划。随着1990年代互联网的发展，Sun公司看见Oak在互联网上应用的前景，于是改造了Oak，于1995年5月以Java的名称正式发布。Java伴随着互联网的迅猛发展而发展，逐渐成为重要的网络编程语言。
+
+Java编程语言的风格十分接近C++语言。继承了C++语言面向对象技术的核心，Java舍弃了C++语言中容易引起错误的指针，改以引用替换，同时移除原C++与原来运算符重载，也移除多重继承特性，改用接口替换，增加垃圾回收器功能。在Java SE 1.5版本中引入了泛型编程、类型安全的枚举、不定长参数和自动装/拆箱特性。太阳微系统对Java语言的解释是：“Java编程语言是个简单、面向对象、分布式、解释性、健壮、安全与系统无关、可移植、高性能、多线程和动态的语言”
+
+Java不同于一般的编译语言或直译语言。它首先将源代码编译成字节码，然后依赖各种不同平台上的虚拟机来解释执行字节码，从而实现了“一次编写，到处运行”的跨平台特性。在早期JVM中，这在一定程度上降低了Java程序的运行效率。但在J2SE1.4.2发布后，Java的运行速度有了大幅提升。
+
+与传统类型不同，Sun公司在推出Java时就将其作为开放的技术。全球数以万计的Java开发公司被要求所设计的Java软件必须相互兼容。“Java语言靠群体的力量而非公司的力量”是 Sun公司的口号之一，并获得了广大软件开发商的认同。这与微软公司所倡导的注重精英和封闭式的模式完全不同，此外，微软公司后来推出了与之竞争的.NET平台以及模仿Java的C#语言。后来Sun公司被甲骨文公司并购，Java也随之成为甲骨文公司的产品。
+-----
+openjdk.java.net
+
+OpenJDK原是Sun Microsystems公司为Java平台构建的Java开发环境（JDK）的开源版本，完全自由，开放源码。Sun Microsystems公司在2006年的JavaOne大会上称将对Java开放源代码，于2009年4月15日正式发布OpenJDK。甲骨文在2010年收购Sun Microsystem之后接管了这个项目。
+-----
+postgresql.org
+
+PostgreSQL是自由的对象-关系型数据库服务器（数据库管理系统），在灵活的BSD-风格许可证下发行。它在其他开放源代码数据库系统（比如MySQL和Firebird），和专有系统比如Oracle、Sybase、IBM的DB2和Microsoft SQL Server之外，为用户又提供了一种选择。
+
+PostgreSQL不寻常的名字导致一些读者停下来尝试拼读它，特别是那些把SQL拼读为"sequel"的人。PostgreSQL开发者把它拼读为"post-gress-Q-L"。它也经常被简略念为"postgres"。
+-----
+privoxy.org
+
+Privoxy是一款带过滤功能的代理服务器，针对HTTP、HTTPS协议。通过Privoxy的过滤功能，用户可以保护隐私、对网页内容进行过滤、管理cookies，以及拦阻各种广告等。Privoxy可以用作单机，也可以应用到多用户的网络。
+
+Privoxy基于Internet Junkbuster，按照GNU General Public License进行发布。可以在Linux、Windows、OS X、AmigaOS、BeOS，以及各种Unix上运行。
+-----
+area.sinaapp.com/bingImg/
+
+必应背景图片
+
+bing.com/gallery
+
+必应背景图片档案(有水印)
+
+#+BEGIN_EXAMPLE
+github.com/rshipp/awesome-malware-analysis#malware-collection
+
+恶意软件分析工具列表
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+github.com/hytd/wiki.secmobi.com
+
+移动安全资源整合
 #+END_EXAMPLE
