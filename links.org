@@ -595,3 +595,59 @@ github.com/hytd/wiki.secmobi.com
 
 移动安全资源整合
 #+END_EXAMPLE
+
+code.visualstudio.com
+
+Visual Studio Code（VS Code）是一个由微软开发的，同时支持Windows、Linux和OS X操作系统的开源文本编辑器。它支持调试（调试功能仅限于 ASP.NET 和 Node.js 项目），内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全（类似于 IntelliSense）、代码片段等。该编辑器支持用户自定义配置，例如改变主题颜色、键盘快捷方式、编辑器属性和其他参数。
+
+从0.10.1版开始，Code团队宣布将支持扩展程序并在编辑器中内置了扩展程序管理的功能。不过，虽然Code扩展程序的扩展名和Visual Studio一样，但二者的扩展程序并不能通用。
+-----
+code.google.com/p/v8/
+
+V8是一个由美国Google开发的开源JavaScript引擎。
+
+V8在运行之前将JavaScript编译成了机器码，而非字节码或是解释执行它，以此提升性能。更进一步，使用了如内联缓存（inline caching）等方法来提高性能。有了这些功能，JavaScript程序与V8引擎的速度媲美二进制编译。
+
+传统的Javascript是动态语言，又可称之为Prototype-based Language，JavaScript继承方法是使用prototype，通过指定prototype属性，便可以指定要继承的目标。属性可以在运行时添加到或从对象中删除，引擎会为运行中的对象创建一个属性字典，新的属性都要通过字典查找属性在内存中的位置。V8为object新增属性的时候，就以上次的hidden class为父类别，创建新属性的hidden class的子类别，如此一来属性访问不再需要动态字典查找了。
+
+为了缩短由垃圾收集造成的停顿，V8使用stop-the-world, generational, accurate的垃圾收集器。在执行回收之时会暂时中断程序的执行，而且只处理对象堆栈。还会收集内存内所有对象的指针，可以避免内存溢出的情况。V8汇编器是基于Strongtalk汇编器。
+
+#+BEGIN_EXAMPLE
+curl.haxx.se
+
+cURL是一个利用URL语法在命令行下工作的文件传输工具，1997年首次发行。它支持文件上传和下载，所以是综合传输工具，但按传统，习惯称cURL为下载工具。cURL还包含了用于程序开发的libcurl。
+
+cURL支持的通信协议有FTP、FTPS、HTTP、HTTPS、TFTP、SFTP、Gopher、SCP、Telnet、DICT、FILE、LDAP、LDAPS、IMAP、POP3、SMTP和RTSP。
+
+libcurl支持的平台有Solaris、NetBSD、FreeBSD、OpenBSD、Darwin、HP-UX、IRIX、AIX、Tru64、Linux、UnixWare、HURD、Windows、Symbian、Amiga、OS/2、BeOS、Mac OS X、Ultrix、QNX、BlackBerry Tablet OS、OpenVMS、RISC OS、Novell NetWare、DOS等。
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+openssl.org
+
+在电脑网络上，OpenSSL是一个开放源代码的软件库包，应用程序可以使用这个包来进行安全通信，避免窃听，同时确认另一端连接者的身份。这个包广泛被应用在互联网的网页服务器上。
+
+其主要库是以C语言所写成，实现了基本的加密功能，实现了SSL与TLS协议。OpenSSL可以运行在绝大多数类Unix操作系统上（包括Solaris，Linux，Mac OS X与各种版本的开放源代码BSD操作系统），OpenVMS与 Microsoft Windows。它也提供了一个移植版本，可以在IBM i（OS/400）上运作。
+
+虽然此软件是开放源代码的，但其授权书条款与GPL有冲突之处，故GPL软件使用OpenSSL时（如Wget）必须对OpenSSL给予例外。
+
+目录
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+libressl.org
+
+LibreSSL是OpenSSL加密软件库的一个分支，为一个安全套接层（SSL）和传输层安全（TLS）协议的开源实现。在OpenSSL爆出心脏出血安全漏洞之后，一些OpenBSD开发者于2014年4月创立了LibreSSL，目标是重构OpenSSL的代码，以提供一个更安全的替代品。LibreSSL复刻自OpenSSL库的1.0.1g分支，它将遵循其他OpenBSD项目所使用的安全指导原则。
+#+END_EXAMPLE
+
+zsh.org
+
+Z Shell(Zsh) 是一种Unix shell，它可以用作为交互式的登录shell，也是一种强大的shell脚本命令解释器。Zsh可以认为是一种Bourne shell的扩展，带有数量庞大的改进，包括一些bash、ksh、tcsh的功能。
+-----
+ohmyz.sh
+
+Oh-my-zsh是一个Zsh配置管理框架，自带上百个插件和主题。
+-----
+tmux.github.io
+
+tmux 是一个优秀的终端复用器类自由软件，功能类似 GNU Screen，但使用 BSD 许可发布。用户可以通过 tmux 在一个终端内管理多个分离的会话，窗口及面板，对于同时使用多个命令行，或多个任务时非常方便。
