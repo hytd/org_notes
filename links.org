@@ -857,3 +857,100 @@ github.com/jobbole/awesome-sysadmin-cn
 
 系统管理员资源大全汉语版
 -----
+github.com/wg/wrk
+
+wrk 是一个很简单的 http 性能测试工具. 也可以叫做 http benchmark 工具. 只有一个命令行, 就能做很多基本的 http 性能测试.
+-----
+github.com/wklken/k-vim
+
+k-vim,vim配置
+-----
+github.com/wklken/k-tmux
+
+k-tmux,tmux配置
+-----
+blueimp.github.io/jQuery-File-Upload
+
+github.com/blueimp/jQuery-File-Upload
+
+文件上传处理插件，支持多文件上传，拖拽上传，进度条，文件验证及图片音视频预览，跨域上传等等
+-----
+github.com/PHPMailer/PHPMailer
+
+PHPMailer 是一个强大的PHP 编写的邮件发送类，使用它可以更加便捷的发送邮件，并且还能发送附件和HTML 格式的邮件，同时还能使用SMTP 服务器来发送邮件
+-----
+postgres.cn/document
+
+github.com/postgres-cn/pgdoc-cn
+
+PostgreSQL中文手册翻译计划
+-----
+github.com/gfwlist/gfwlist
+
+防火长城列表
+-----
+thinkphp.cn
+
+github.com/top-think/thinkphp
+
+ThinkPHP 是一个免费开源的，快速、简单的面向对象的 轻量级PHP开发框架 ，创立于2006年初，遵循Apache2开源协议发布，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。ThinkPHP从诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简的代码的同时，也注重易用性。并且拥有众多的原创功能和特性，在社区团队的积极参与下，在易用性、扩展性和性能方面不断优化和改进，已经成长为国内最领先和最具影响力的WEB应用开发框架，众多的典型案例确保可以稳定用于商业以及门户级的开发。
+-----
+netkiller.github.io
+
+github.com/netkiller/netkiller.github.io
+
+《Netkiller 系列 手札》是一套免费系列电子书，netkiller 是nickname 从1999 开使用至今，“手札” 是札记，手册的含义。
+
+2003年之前我还是以文章形式在BBS上发表各类技术文章，后来发现文章不够系统，便尝试写长篇技术文章加上章节目录等等。随着内容增加，不断修订，开始发布第一版，第二版......
+
+IT知识变化非常快，而且具有时效性，这样发布非常混乱，经常有读者发现第一版例子已经过时，但他不知道我已经发布第二版。
+
+我便有一种想法，始终维护一个文档，不断更新，使他保持较新的版本不过时。
+
+第一部电子书是《PostgreSQL 实用实例参考》开始我使用 Microsoft Office Word 慢慢随着文档尺寸增加 Word 开始表现出力不从心。
+
+我看到PostgreSQL 中文手册使用SGML编写文档，便开始学习Docbook SGML。使用Docbook写的第一部电子书是《Netkiller Postfix Integrated Solution》这是Netkiller 系列手札的原型。
+
+至于“手札”一词的来历，是因为我爱好摄影，经常去一个台湾摄影网站，名字就叫“摄影家手札”。
+
+由于硬盘损坏数据丢失 《Netkiller Postfix Integrated Solution》 的 SGML文件已经不存在; Docbook SGML存在很多缺陷UTF-8支持不好，转而使用Docbook XML
+-----
+redis.io
+
+github.com/antirez/redis-io
+
+Redis是一个开源、支持网络、基于内存、键值对存储数据库，使用ANSI C编写。从 2015 年 6 月开始，Redis 的开发由Redis Labs赞助，在 2013 年 5 月至 2015 年 6 月期间，其开发由Pivotal赞助。在2013年5月之前，其开发由VMware赞助。根据月度排行网站DB-Engines.com的数据显示，Redis是最流行的键值对存储数据库。
+-----
+github.com/vim-airline/vim-airline
+
+vim状态栏增强插件
+-----
+getbootstrap.com
+
+github.com/twbs/bootstrap
+
+Bootstrap是一组用于网站和网络应用程序开发的开源前端（所谓“前端”，指的是展现给最终用户的界面。与之对应的“后端”是在服务器上面运行的代码）框架，包括HTML、CSS及JavaScript的框架，提供字体排印、窗体、按钮、导航及其他各种组件及Javascript扩展，旨在使动态网页和Web应用的开发更加容易。
+
+Bootstrap是GitHub上面被标记为“Starred”次数排名第二最多的项目。Starred次数超过96,000，而分支次数超过了42,000次。
+-----
+freecodecamp.com
+
+github.com/FreeCodeCamp/FreeCodeCamp
+
+FreeCodeCamp 是一个基于MEAN 架构的开源社区，它可以帮助人们学习编程以及构建他们的非盈利项目，内容以前端为主。
+-----
+ckeditor.com
+
+CKEditor，旧称FCKeditor，是一个专门使用在网页上属于开放源代码的所见即所得文字编辑器。它志于轻量化，不需要太复杂的安装步骤即可使用。它可和PHP、JavaScript、ASP、ASP.NET、ColdFusion、Java、以及ABAP等不同的编程语言相结合。“FCKeditor”名称中的“FCK” 是这个编辑器的作者的名字Frederico Caldeira Knabben的缩写。
+-----
+github.com/vhf/free-programming-books
+
+编程书籍列表
+-----
+memcached.org
+
+memcached是一套分布式的高速缓存系统，由LiveJournal的Brad Fitzpatrick开发，但目前被许多网站使用。这是一套开放源代码软件，以BSD license授权发布。
+
+memcached缺乏认证以及安全管制，这代表应该将memcached服务器放置在防火墙后。
+
+memcached的API使用三十二比特的循环冗余校验（CRC-32）计算键值后，将数据分散在不同的机器上。当表格满了以后，接下来新增的数据会以LRU机制替换掉。由于memcached通常只是当作缓存系统使用，所以使用memcached的应用程序在写回较慢的系统时（像是后端的数据库）需要额外的代码更新memcached内的数据。
