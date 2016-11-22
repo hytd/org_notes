@@ -954,3 +954,328 @@ memcached是一套分布式的高速缓存系统，由LiveJournal的Brad Fitzpat
 memcached缺乏认证以及安全管制，这代表应该将memcached服务器放置在防火墙后。
 
 memcached的API使用三十二比特的循环冗余校验（CRC-32）计算键值后，将数据分散在不同的机器上。当表格满了以后，接下来新增的数据会以LRU机制替换掉。由于memcached通常只是当作缓存系统使用，所以使用memcached的应用程序在写回较慢的系统时（像是后端的数据库）需要额外的代码更新memcached内的数据。
+-----
+rubygems.org
+
+github.com/rubygems/rubygems.org
+
+RubyGems.org 是 Ruby 社区的 Gem 托管服务。
+让你能便捷、快速的发布、管理你的 Gem 以及安装它们。提供 API 查阅可用 Gem 的详细资料。
+-----
+mongodb.com
+
+github.com/mongodb/mongo
+
+MongoDB是一种文档导向数据库管理系统，由C++撰写而成，以此来解决应用程序开发社区中的大量现实问题。2007年10月，MongoDB由10gen团队所发展。2009年2月首度推出。
+-----
+blog.microdba.com/Qix
+
+github.com/ty4z2008/Qix
+
+这个里面有很多干货,差不多每天都在更新。第一是方便自己，第二个可以分享给大家一同进步。
+-----
+github.com/purcell/emacs.d
+
+我的emacs配置树
+-----
+atom.io
+
+github.com/atom/atom
+
+Atom是由GitHub开发的自由及开放源代码的文字与代码编辑器，支持OS X、Windows和Linux操作系统，支持Node.js所写的插件，并内置Git版本控制系统。多数的延伸包皆为开放源代码授权，并由社区建置与维护。Atom基于Chromium并使用CoffeeScript撰写。Atom也可当作IDE使用。
+
+自2014年5月6日起，Atom的核心程序、包管理器、以及Atom基于Chromium的桌面程序框架皆使用MIT授权条款发布。
+-----
+ninja-build.org
+
+github.com/ninja-build/ninja
+
+小型构建系统,专注于速度
+-----
+github.com/OpenVPN/openvpn-gui
+
+OpenVPN GUI是在Windows XP / Vista / 7/8上运行的OpenVPN的图形前端
+-----
+roundcube.net
+
+webmail套件
+-----
+freebsd.org/doc
+
+freebsd doc
+-----
+book.emacs-china.org
+
+github.com/emacs-china/Spacemacs-rocks
+
+21 天学习 Emacs 以及 Spacemacs
+-----
+github.com/ashfinal/vimrc-config
+
+我的.vimrc配置文件
+-----
+www.minix3.org
+
+Minix，是一个迷你版本的类Unix操作系统，由塔能鲍姆教授为了教学之用而创作，采用微核心设计。它启发了Linux核心的创作。
+
+它的名称取自英语：Mini UNIX的缩写。与Xinu、Idris、Coherent和Uniflex等类Unix操作系统类似，派生自Version 7 Unix，但并没有使用任何AT&T的代码。第一版于1987年发布，只需要购买它的磁片，就提供完整的源代码给大学系所与学生，做为授课及学习之用。2000年4月，重新以BSD许可协议发布，成为开放源代码软件。
+-----
+opserver.org
+
+github.com/opserver/Opserver
+
+Opserver提供详细的面板，用来快速展示被监控系统的总体情况
+-----
+github.com/dofy/learn-vim
+
+vim 实操教程
+-----
+vim.spf13.com
+
+github.com/spf13/spf13-vim
+
+spf13-vim是一个vim配置
+-----
+github.com/chrislgarry/Apollo-11
+
+阿波罗11号制导计算机（AGC）中指令模块（Comanche055）和登月模块（Luminary099）原始代码。由虚拟 AGC 和 MIT 科学博物馆 的伙计们完成电子化。
+-----
+github.com/jceb/vim-orgmode
+
+vim-orgmode旨在为Vim提供相同的org-mode
+-----
+vimwiki.github.io
+
+github.com/vimwiki/vimwiki
+
+VimWiki 官方称之 a personal wiki for Vim ，一个基于 Vim 的 Wiki 系统，对于 Vim 控来说，这是一个非常不错的用于个人知识管理的利器，并且还支持输出到网页。之前我一直用 dokuwiki ，现在也逐渐转向用这个。
+-----
+github.com/antirez/kilo
+
+Kilo是一个小于1K行代码的小文本编辑器，具有语法高亮和搜索。
+-----
+sparkleshare.org
+
+Dropbox 可以方便的在Linux、Windows、Mac甚至手机上存储、同步、分享数据。但 Sparkleshare 的开发者认为，Dropbox 同样有缺点: 不能使用自己的服务器，不是开源产品，另外在许可证上有些琐碎的问题。
+
+Sparkleshare 不但提供了 Dropbox 几乎所有的特性，还有一些独特优点，如：更好的 Gnome 集成，能使用自设服务器，更多的实时特性和更少的许可证问题。 与 Dropbox 一样它在 Win/Lin/Mac 平台下都可用。
+-----
+laravel.com
+
+php框架
+-----
+mono-project.com
+
+github.com/mono/mono
+
+Mono是一个由Xamarin公司（先前是Novell，最早为Ximian）所主持的自由开放源代码项目。该项目的目标是创建一系列匹配ECMA标准（Ecma-334和Ecma-335）的.NET工具，包括C#编译器和通用语言架构。与微软的.NET Framework（共通语言运行平台）不同，Mono项目不仅可以运行于Windows系统上，还可以运行于Linux，FreeBSD，Unix，OS X和Solaris，甚至一些游戏平台，例如：Playstation 3，Wii或XBox 360。Mono的标志是一个猴子格式的脸。
+
+Mono现由Novell持有双重许可，这和Qt和Mozilla Application Suite的情况相似。Mono的C#编译器及其相关工具发布于GNU通用公共许可证（GPL）之下，其运行时库发布于GNU宽通用公共许可证（LGPL）之下，其类库发布于MIT许可证之下。这些均是开源协议因此Mono是一个开源软件。
+
+微软开发了一个称为通用语言架构（Shared Source Common Language Infrastructure，Shared Source CLI；即今ECMA—通用语言架构）的可用于FreeBSD，Windows和Mac OS X的.NET实现版本。微软的共享源代码协议并不是开源软件协议，且可能对于社区来说也是不足够的（它明文禁止了对软件的商业用途）。另外，GNU也有一个.NET实现版本Portable.NET项目，该项目与Mono项目有着很多相同的目标。
+
+Mono虚拟机包含一个即时编译引擎，该引擎可用于如下处理器：x86，SPARC，PowerPC，ARM，S390（32位模式和64位模式），x86-64，IA-64和64位模式的SPARC。该虚拟机可以将代码编译为本机代码。
+-----
+spacemacs.org
+
+github.com/syl20bnr/spacemacs
+
+Spacemacs 是一份 emacs 的配置文件，可以从vim无缝的迁移到emacs并且可以提供一整套插件解决方案
+-----
+mooz.github.io/org-js
+
+github.com/mooz/org-js
+
+用JavaScript编写的org-mode解析器和转换器
+-----
+github.com/yeasy/docker_practice
+
+Docker — 从入门到实践
+-----
+#+BEGIN_EXAMPLE
+github.com/google/keyczar
+
+Google推出的Java/Python加密工具包KeyCzar，来帮助开发者在他们的应用软件内使用加密技术。 
+#+END_EXAMPLE
+-----
+tsung.erlang-projects.org
+
+github.com/processone/tsung
+
+tsung是erlang开发的一个开源的多协议分布式负载测试工具，它能用来压力测试HTTP, WebDAV, SOAP, PostgreSQL, MySQL, LDAP 和 Jabber/XMPP的服务器。它可以分布在多个客户机，并能轻松够模拟成千上万的虚拟用户数并发。
+-----
+#+BEGIN_EXAMPLE
+pentestbox.org
+
+PentestBox是一款Windows平台下预配置的便携式开源渗透测试环境
+#+END_EXAMPLE
+
+w3school.com.cn
+
+在 w3school，你可以找到你所需要的所有的网站建设教程。
+
+从基础的 HTML 到 CSS，乃至进阶的XML、SQL、JS、PHP 和 ASP.NET。
+-----
+github.com/jobbole/awesome-css-cn
+
+CSS资源大全汉语版
+-----
+hexo.io
+
+github.com/hexojs/hexo
+
+Hexo 是一个快速、简洁且高效的博客框架。 Hexo 使用Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+-----
+github.com/session-replay-tools/tcpcopy
+
+Tcpcopy是一个分布式在线压力测试工具，可以将线上流量拷贝到测试机器，实时的模拟线上环境，达到在程序不上线的情况下实时承担线上流量的效果，尽早发现bug，增加上线信心。
+-----
+github.com/jobbole/awesome-mysql-cn
+
+MySQL资源大全汉语版
+-----
+libevent.org
+
+libevent是一个异步事件处理软件函式库，以BSD许可证发布。
+
+libevent提供了一组应用程序编程接口（API），让程序员可以设定某些事件发生时所执行的函式，也就是说，libevent可以用来取代网络服务器所使用的事件循环检查框架。
+
+由于可以省去对网络的处理，且拥有不错的效能，有些软件使用libevent作为网络底层的函式库，如：memcached、Tor。
+-----
+goreplay.org
+
+github.com/buger/gor
+
+Gor 是用 Golang 写的一个 HTTP 实时流量复制工具。只需要在 LB 或者 Varnish 入口服务器上执行一个进程，就可以把生产环境的流量复制到任何地方，比如 Staging 环境、Dev 环境。完美解决了 HTTP 层实时流量复制和压力测试的问题。
+
+#+BEGIN_EXAMPLE
+github.com/jedisct1/libsodium
+
+libsodium 是一个先进而且易用的加密库。主要用于加密、解密、签名和生成密码哈希等等。这是一个可移植的、跨编译器支持、可安装的，基于 NaCI 开发，提供一个兼容 API。
+#+END_EXAMPLE
+
+etcher.io
+
+github.com/resin-io/etcher
+
+刻录工具(usb)
+-----
+rufus.akeo.ie
+
+github.com/pbatard/rufus
+
+Rufus 是一个可以帮助格式化和创建可引导USB闪存盘的工具，比如 USB 随身碟，记忆棒等等。
+-----
+github.com/jobbole/awesome-cpp-cn
+
+C++ 资源大全汉语版
+-----
+github.com/jobbole/awesome-c-cn
+
+C 语言资源大全汉语版
+
+#+BEGIN_EXAMPLE
+virustotal.github.io/yara
+
+github.com/VirusTotal/yara
+
+YARA是一款识别和分类恶意软件样本的开源扫描引擎，yara本身不提供杀毒软件的其他功能（比如自动更新、守护进程等），也没有维护自己的特征库
+#+END_EXAMPLE
+
+github.com/jobbole/awesome-programming-books
+
+编程书籍大全
+-----
+github.com/shadowsocks/shadowsocks-android
+
+Android的shadowsocks客户端
+-----
+github.com/phalcon/zephir
+
+php的扩展是用c语言编写，Zend是语言引擎，PHP内核。在实际编写php扩展的时候，需要使用大量的Zend Api，虽然运行效率高，但是其实难度也比较大。
+
+Zephir提供了一种类似php的高级语言语法的方式，来自动生成扩展的c语言代码，使编写php扩展变得非常的简单。
+-----
+github.com/reyk/httpd
+
+openbsd httpd
+-----
+github.com/jobbole/awesome-php-cn
+
+PHP 资源大全汉语版
+-----
+github.com/Trinea/android-open-project
+
+Android 开源项目分类汇总
+-----
+github.com/Microsoft/Windows-driver-samples
+
+windows驱动程序样本
+-----
+phalconphp.com
+
+Phalcon是一套实现MVC架构的高性能PHP应用程序框架。初始版本发布于2012年11月，开放源代码并基于BSD授权条款。与其他大部分的PHP框架不同，Phalcon是以扩充的方式以C语言所编写，因此Phalcon的运行速度高过其他PHP框架，并且消耗更少的资源
+-----
+magit.vc
+
+github.com/magit/magit
+
+Magit 是 Emacs 用 Github 的接口，做出来一个的 Mode。它能实现 Git 绝大部分的功能。
+-----
+lichess.org
+
+github.com/ornicar/lila
+
+Lila是一个免费的在线棋牌游戏服务器
+-----
+bitcoin.org
+
+比特币入门指南
+-----
+github.com/Sigil-Ebook/Sigil
+
+Sigil是一款EPUB电子书制作软件及开源EPUB电子书编辑器，支援Windows、Linux和Mac系统。Sigil使用CSS和HTML格式，拥有所见即所得界面，并有自动生成目录、自动修正等功能。
+
+#+BEGIN_EXAMPLE
+zmap.io
+
+github.com/zmap/zmap
+
+ZMap是一个网络扫描器，使研究人员能够轻松地执行互联网范围的网络研究。
+#+END_EXAMPLE
+
+cheatengine.org
+
+Cheat Engine，一般简称CE，是一个开放源代码的软件，作者为Eric Heijnen ("Dark Byte")，功能包括：内存扫描、十六进制编辑器、除错工具，目前仅供Windows操作系统运行。[3]Cheat Engine最常在电脑游戏中当做游戏外挂，有时会更新以避免被其他软件检测到。这个程序类似于L. Spiro的 "Memory Hacking Software"、TSearch、以及ArtMoney。通过Cheat Engine，用户可以查找与修改电脑的内存。
+-----
+adblockplus.org
+
+github.com/adblockplus/adblockplus
+
+广告已成往事
+
+#+BEGIN_EXAMPLE
+onionshare.org
+
+github.com/micahflee/onionshare
+
+匿名共享文件，它能绕过第三方，文件会通过完全匿名的Tor网络直接由一方传送到另一方
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+www.metasploit.com
+
+github.com/rapid7/metasploit-framework
+
+Metasploit项目是一个旨在提供安全漏洞信息计算机安全项目，可以协助安全工程师进行渗透测试（penetration testing）及入侵检测系统签名开发。
+
+Metasploit项目最为知名的子项目是开源的Metasploit框架，一套针对远程主机进行开发和执行“exploit代码”的工具。其他重要的子项目包括Opcode数据库、shellcode档案、安全研究等内容。
+
+Metasploit项目知名的功能还包括反取证与规避工具，其中的某些工具已经内置在Metasploit Framework里面。
+#+END_EXAMPLE
+
+fcitx-im.org
+
+github.com/fcitx/fcitx
+
+小企鹅输入法，是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
