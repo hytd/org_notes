@@ -52,11 +52,11 @@ CVS(Concurrent Versions System)并发版本系统
 git-scm.com
 
 版本控制器
-------
+-----
 subversion.apache.org
 
 SVN(subversion)版本控制器
-----
+-----
 wireshark.org
 
 网络数据包分析软件,网络数据包分析软件的功能是截取网络数据包,并尽可能显示出最为详细的网络数据包数据
@@ -1279,3 +1279,46 @@ fcitx-im.org
 github.com/fcitx/fcitx
 
 小企鹅输入法，是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
+
+#+BEGIN_EXAMPLE
+srm.sourceforge.net
+
+安全删除
+#+END_EXAMPLE
+
+mediawiki.org
+
+MediaWiki是一套基于网络的Wiki引擎，维基媒体基金会的所有项目乃至众多wiki网站皆采用了这一软件。MediaWiki软件最初是为自由内容百科全书维基百科所开发的，今日已被一些公司机构部署为内部的知识管理和内容管理系统。Novell甚而还在多个高流量的网站中使用了该软件。
+
+MediaWiki采用PHP编程语言写成，并可使用MySQL、MariaDB、PostgreSQL或SQLite之一作为其关系数据库管理系统。MediaWiki在GNU通用公共许可证第2版及其后续版本的条款下分发，其文档则按知识共享-署名-相同方式共享3.0版协议释出，部分文档还被释入了公有领域，这使其成为了自由软件。
+
+出于服务维基百科的需求，软件的第一个版本于2002年被部署，后来，维基百科和其他维基项目继续定义了MediaWiki的大部分功能。为了有效地处理大型项目，MediaWiki得到了很好的优化，使其可以承载万亿字节的内容和每秒数十万次的访问请求。因为维基百科是全球最大的网站之一，需要MediaWiki能为开发者实现通过多层次的实现可伸缩性缓存和数据库响应，对开发者来说，这一直是一个让他们很头疼的大问题，而MediaWiki很好的解决了这一问题。
+
+MediaWiki有700多个配置设置和超过1800个扩展，可以使各种特性被添加或更改。在维基百科上，超过1000个自动化和半自动化的机器人和其他工具用于协助编辑。
+
+它也被一些公司部署为一个内部知识管理系统，一些教育机构也让学生使用MediaWiki来进行小组项目的管理和维护。
+
+#+BEGIN_EXAMPLE
+riseup.net
+
+Riseup为那些致力于解放、自由和社会变革的组织或个人提供在线交流工具。本项目旨在提供一个自由、可控、安全的网络交流平台。
+#+END_EXAMPLE
+
+paypal.com
+
+ayPal，是一个总部在美国加利福尼亚州圣荷西市的因特网第三方支付服务商，允许在使用电子邮件来标识身份的用户之间转移资金，避免了传统的邮寄支票或者汇款的方法。PayPal也和一些电子商务网站合作，成为它们的货款支付方式之一；但是用这种支付方式转账时，PayPal收取数额比例相当高昂的手续费。
+-----
+
+#+BEGIN_EXAMPLE
+countermail.com
+
+安全电子邮箱
+#+END_EXAMPLE
+
+hushmail.com
+
+一般安全电子邮箱
+-----
+protonmail.com
+
+ProtonMail（在中国被非正式地称为“质子邮箱”）是一个加密的webmail服务，于2013年由欧洲核子研究组织（CERN）成员Jason Stockman、Andy Yen和Wei Sun创建。ProtonMail现由总部设在瑞士日内瓦州的Proton Technologies AG经营。据Andy Yen称，他和公司一半的人都来自麻省理工学院（MIT），ProtonMail的两个服务器分别设在瑞士的Lausanne和Attinghausen。
