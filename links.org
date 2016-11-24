@@ -309,7 +309,7 @@ windows硬件查看工具
 majorgeeks.com
 
 极客少校软件下载站
-
+-----
 #+BEGIN_EXAMPLE
 openvpn.net
 
@@ -319,25 +319,25 @@ OpenVPN是一个用于创建虚拟专用网络加密通道的软件包，最早�
 
 目前OpenVPN能在Solaris、Linux、OpenBSD、FreeBSD、NetBSD、Mac OS X与Microsoft Windows以及Android和iOS上运行，并包含了许多安全性的功能
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 enigmail.net
 
 Enigmail是一个Mozilla Thunderbird和SeaMonkey网络包的数据加密和解密扩展，提供了OpenPGP的电子邮件公钥加密和签名功能。Enigmail可以在Microsoft Windows、类Unix和Mac OS X操作系统下运行。它的加密功能由GNU Privacy Guard负责处理
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 onionshare.org
 
 匿名共享文件
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 tails.boum.org
 
 Tails（英语：The Amnesic Incognito Live System）是一个侧重安全，基于Debian着眼于个人隐私和匿名性，并将非匿名通信进行封锁的操作系统。 这个系统所有的外部通信均强制通过Tor进行传送， 此系统设计为使用Live DVD或者Live USB进行引导，且不让计算机在非显式行为下留下数据痕迹。另外，Tor Project对于此项开发提供经济支持
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 whonix.org
 
@@ -345,13 +345,13 @@ Whonix是一个基于Virtual Box、Debian GNU/Linux和Tor的匿名通用操作�
 
 据项目开发者adrelanos声称：Whonix的设计可以完全避免使用者IP地址和DNS的泄露，即使是有root管理权限的恶意软件也不能发现用户本地真实的IP地址信息。因为Whonix是由两个虚拟机构成的，其中一个虚拟机只运行Tor，充当网关，称之为Whonix-Gateway；另一个虚拟机，称之为Whonix-Workstation，工作在一个完全隔离的网络上，两个虚拟机之间传输的数据全部通过Tor（网关）中转
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 qubes-os.org
 
 Qubes OS是一个面向安全的桌面操作系统，旨在通过隔离提供安全保障。通过Xen来执行虚拟化，用户环境可以基于Fedora，Debian，Whonix，和 Microsoft Windows，或其他操作系统。
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 gnupg.org
 
@@ -361,19 +361,18 @@ IETF正在为PGP协议进行标准化，标准化的PGP称为OpenPGP。当前版
 
 GnuPG是自由软件基金会的GNU计划的一部分，目前受德国政府资助。以GNU通用公共许可证第三版授权
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 torproject.org
 
 Tor（The Onion Router，洋葱路由器）是实现匿名通信的自由软件。Tor是第二代洋葱路由的一种实现，用户通过Tor可以在因特网上进行匿名交流。最初该项目由美国海军研究实验室赞助。2004年后期，Tor成为电子前哨基金会（EFF）的一个项目。2005年后期，EFF不再赞助Tor项目，但他们继续维持Tor的官方网站。
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 keepass.info
 
 KeePass是一款密码管理器
 #+END_EXAMPLE
-
 -----
 virtualbox.org
 
@@ -583,19 +582,19 @@ area.sinaapp.com/bingImg/
 bing.com/gallery
 
 必应背景图片档案(有水印)
-
+-----
 #+BEGIN_EXAMPLE
 github.com/rshipp/awesome-malware-analysis#malware-collection
 
 恶意软件分析工具列表
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 github.com/secmobi/wiki.secmobi.com
 
 移动安全资源整合
 #+END_EXAMPLE
-
+-----
 code.visualstudio.com
 
 Visual Studio Code（VS Code）是一个由微软开发的，同时支持Windows、Linux和OS X操作系统的开源文本编辑器。它支持调试（调试功能仅限于 ASP.NET 和 Node.js 项目），内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全（类似于 IntelliSense）、代码片段等。该编辑器支持用户自定义配置，例如改变主题颜色、键盘快捷方式、编辑器属性和其他参数。
@@ -611,8 +610,8 @@ V8在运行之前将JavaScript编译成了机器码，而非字节码或是解�
 传统的Javascript是动态语言，又可称之为Prototype-based Language，JavaScript继承方法是使用prototype，通过指定prototype属性，便可以指定要继承的目标。属性可以在运行时添加到或从对象中删除，引擎会为运行中的对象创建一个属性字典，新的属性都要通过字典查找属性在内存中的位置。V8为object新增属性的时候，就以上次的hidden class为父类别，创建新属性的hidden class的子类别，如此一来属性访问不再需要动态字典查找了。
 
 为了缩短由垃圾收集造成的停顿，V8使用stop-the-world, generational, accurate的垃圾收集器。在执行回收之时会暂时中断程序的执行，而且只处理对象堆栈。还会收集内存内所有对象的指针，可以避免内存溢出的情况。V8汇编器是基于Strongtalk汇编器。
-
 #+BEGIN_EXAMPLE
+-----
 curl.haxx.se
 
 cURL是一个利用URL语法在命令行下工作的文件传输工具，1997年首次发行。它支持文件上传和下载，所以是综合传输工具，但按传统，习惯称cURL为下载工具。cURL还包含了用于程序开发的libcurl。
@@ -621,7 +620,7 @@ cURL支持的通信协议有FTP、FTPS、HTTP、HTTPS、TFTP、SFTP、Gopher、S
 
 libcurl支持的平台有Solaris、NetBSD、FreeBSD、OpenBSD、Darwin、HP-UX、IRIX、AIX、Tru64、Linux、UnixWare、HURD、Windows、Symbian、Amiga、OS/2、BeOS、Mac OS X、Ultrix、QNX、BlackBerry Tablet OS、OpenVMS、RISC OS、Novell NetWare、DOS等。
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 openssl.org
 
@@ -633,13 +632,13 @@ openssl.org
 
 目录
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 libressl.org
 
 LibreSSL是OpenSSL加密软件库的一个分支，为一个安全套接层（SSL）和传输层安全（TLS）协议的开源实现。在OpenSSL爆出心脏出血安全漏洞之后，一些OpenBSD开发者于2014年4月创立了LibreSSL，目标是重构OpenSSL的代码，以提供一个更安全的替代品。LibreSSL复刻自OpenSSL库的1.0.1g分支，它将遵循其他OpenBSD项目所使用的安全指导原则。
 #+END_EXAMPLE
-
+-----
 zsh.org
 
 Z Shell(Zsh) 是一种Unix shell，它可以用作为交互式的登录shell，也是一种强大的shell脚本命令解释器。Zsh可以认为是一种Bourne shell的扩展，带有数量庞大的改进，包括一些bash、ksh、tcsh的功能。
@@ -651,13 +650,13 @@ Oh-my-zsh是一个Zsh配置管理框架，自带上百个插件和主题。
 tmux.github.io
 
 tmux 是一个优秀的终端复用器类自由软件，功能类似 GNU Screen，但使用 BSD 许可发布。用户可以通过 tmux 在一个终端内管理多个分离的会话，窗口及面板，对于同时使用多个命令行，或多个任务时非常方便。
-
+-----
 #+BEGIN_EXAMPLE
 routerpwn.com
 
 路由器漏洞攻击
 #+END_EXAMPLE
-
+-----
 neovim.io
 
 Bram Moolenaar 在写 Vim 时还是 90 年代初，至今已经 20 多年 过去了。其中，不仅包含了大量的遗留代码，而且程序的维护、Bug 的 修复、以及新特性的添加都变得越来越困难。为了解决这些问题，Neovim 项目应运而生。Neo 即“新”之意，它是 Vim 在这个新时代的重生。
@@ -674,13 +673,13 @@ Neovim是Vim的一个重构版本，致力于成为Vim的超集（superset）。
 Neovim项目从2014年发起，有许多来自Vim社区的开源开发者为其提供早期支持，包括更好的脚本支持、插件以及和更好地融合图形界面等。Neovim项目在2014年3月23号成功获得捐款，足够支持一名全职开发者。还有很多其他发挥Neovim功能的前端正在开发中。
 
 相比于Vim，Neovim的主要改进在于其支持异步加载插件。此外，Neovim的插件可以用任意语言编写，而Vim的插件仅能使用Vimscript进行编写。Neovim在Ubuntu发行版中可以用PPA源进行安装，同时也支持采用其他包管理器进行安装，因此在各种Linux发行版中都可以顺利安装。
-
 #+BEGIN_EXAMPLE
+-----
 lambda-diode.com/software/wipe/
 
 安全删除工具
 #+END_EXAMPLE
-
+-----
 ethanschoonover.com/solarized
 
 保护眼睛配色方案
@@ -728,7 +727,7 @@ hurlex 项目的文档
 github.com/Mzzopublic/C
 
 c语言示例
-
+-----
 #+BEGIN_EXAMPLE
 shadowsocks.org
 
@@ -736,7 +735,7 @@ github.com/shadowsocks/shadowsocks
 
 科学上网
 #+END_EXAMPLE
-
+-----
 arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel
 
 github.com/arjun024/mkernel
@@ -1109,7 +1108,7 @@ pentestbox.org
 
 PentestBox是一款Windows平台下预配置的便携式开源渗透测试环境
 #+END_EXAMPLE
-
+-----
 w3school.com.cn
 
 在 w3school，你可以找到你所需要的所有的网站建设教程。
@@ -1147,13 +1146,13 @@ goreplay.org
 github.com/buger/gor
 
 Gor 是用 Golang 写的一个 HTTP 实时流量复制工具。只需要在 LB 或者 Varnish 入口服务器上执行一个进程，就可以把生产环境的流量复制到任何地方，比如 Staging 环境、Dev 环境。完美解决了 HTTP 层实时流量复制和压力测试的问题。
-
+-----
 #+BEGIN_EXAMPLE
 github.com/jedisct1/libsodium
 
 libsodium 是一个先进而且易用的加密库。主要用于加密、解密、签名和生成密码哈希等等。这是一个可移植的、跨编译器支持、可安装的，基于 NaCI 开发，提供一个兼容 API。
 #+END_EXAMPLE
-
+-----
 etcher.io
 
 github.com/resin-io/etcher
@@ -1173,7 +1172,7 @@ C++ 资源大全汉语版
 github.com/jobbole/awesome-c-cn
 
 C 语言资源大全汉语版
-
+-----
 #+BEGIN_EXAMPLE
 virustotal.github.io/yara
 
@@ -1181,7 +1180,7 @@ github.com/VirusTotal/yara
 
 YARA是一款识别和分类恶意软件样本的开源扫描引擎，yara本身不提供杀毒软件的其他功能（比如自动更新、守护进程等），也没有维护自己的特征库
 #+END_EXAMPLE
-
+-----
 github.com/jobbole/awesome-programming-books
 
 编程书籍大全
@@ -1235,7 +1234,7 @@ bitcoin.org
 github.com/Sigil-Ebook/Sigil
 
 Sigil是一款EPUB电子书制作软件及开源EPUB电子书编辑器，支援Windows、Linux和Mac系统。Sigil使用CSS和HTML格式，拥有所见即所得界面，并有自动生成目录、自动修正等功能。
-
+-----
 #+BEGIN_EXAMPLE
 zmap.io
 
@@ -1243,7 +1242,7 @@ github.com/zmap/zmap
 
 ZMap是一个网络扫描器，使研究人员能够轻松地执行互联网范围的网络研究。
 #+END_EXAMPLE
-
+-----
 cheatengine.org
 
 Cheat Engine，一般简称CE，是一个开放源代码的软件，作者为Eric Heijnen ("Dark Byte")，功能包括：内存扫描、十六进制编辑器、除错工具，目前仅供Windows操作系统运行。[3]Cheat Engine最常在电脑游戏中当做游戏外挂，有时会更新以避免被其他软件检测到。这个程序类似于L. Spiro的 "Memory Hacking Software"、TSearch、以及ArtMoney。通过Cheat Engine，用户可以查找与修改电脑的内存。
@@ -1253,7 +1252,7 @@ adblockplus.org
 github.com/adblockplus/adblockplus
 
 广告已成往事
-
+-----
 #+BEGIN_EXAMPLE
 onionshare.org
 
@@ -1261,7 +1260,7 @@ github.com/micahflee/onionshare
 
 匿名共享文件，它能绕过第三方，文件会通过完全匿名的Tor网络直接由一方传送到另一方
 #+END_EXAMPLE
-
+-----
 #+BEGIN_EXAMPLE
 www.metasploit.com
 
@@ -1273,19 +1272,19 @@ Metasploit项目最为知名的子项目是开源的Metasploit框架，一套针
 
 Metasploit项目知名的功能还包括反取证与规避工具，其中的某些工具已经内置在Metasploit Framework里面。
 #+END_EXAMPLE
-
+-----
 fcitx-im.org
 
 github.com/fcitx/fcitx
 
 小企鹅输入法，是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
-
+-----
 #+BEGIN_EXAMPLE
 srm.sourceforge.net
 
 安全删除
 #+END_EXAMPLE
-
+-----
 mediawiki.org
 
 MediaWiki是一套基于网络的Wiki引擎，维基媒体基金会的所有项目乃至众多wiki网站皆采用了这一软件。MediaWiki软件最初是为自由内容百科全书维基百科所开发的，今日已被一些公司机构部署为内部的知识管理和内容管理系统。Novell甚而还在多个高流量的网站中使用了该软件。
@@ -1297,23 +1296,19 @@ MediaWiki采用PHP编程语言写成，并可使用MySQL、MariaDB、PostgreSQL�
 MediaWiki有700多个配置设置和超过1800个扩展，可以使各种特性被添加或更改。在维基百科上，超过1000个自动化和半自动化的机器人和其他工具用于协助编辑。
 
 它也被一些公司部署为一个内部知识管理系统，一些教育机构也让学生使用MediaWiki来进行小组项目的管理和维护。
-
+-----
 #+BEGIN_EXAMPLE
 riseup.net
 
 Riseup为那些致力于解放、自由和社会变革的组织或个人提供在线交流工具。本项目旨在提供一个自由、可控、安全的网络交流平台。
 #+END_EXAMPLE
-
-paypal.com
-
-ayPal，是一个总部在美国加利福尼亚州圣荷西市的因特网第三方支付服务商，允许在使用电子邮件来标识身份的用户之间转移资金，避免了传统的邮寄支票或者汇款的方法。PayPal也和一些电子商务网站合作，成为它们的货款支付方式之一；但是用这种支付方式转账时，PayPal收取数额比例相当高昂的手续费。
-
+-----
 #+BEGIN_EXAMPLE
 countermail.com
 
 安全电子邮箱
 #+END_EXAMPLE
-
+-----
 hushmail.com
 
 一般安全电子邮箱
@@ -1357,7 +1352,7 @@ www.alexa.com
 Alexa Internet公司是亚马逊公司的一家子公司，总部位于加利福尼亚州旧金山。于1996年由布鲁斯特·卡勒及布鲁斯·吉里亚特创立。作为互联网档案馆的分支，受到杰奎琳·萨福拉的埃托勒投资支持。1999年，Alexa被亚马逊公司以约价值两亿五千万美元的股票买下。
 
 Alexa分析提供各种网站的相关信息与网页访问量，以其Alexa.com网站闻名。通过收集用户的上网信息，以便统计网站流量及相关信息。Alexa为Alexadex.com提供搜索引擎，并为A9.com搜索引擎提供“网站信息”服务。
-
+-----
 #+BEGIN_EXAMPLE
 cacert.org
 
@@ -1367,27 +1362,27 @@ CAcert.org 是一个社群推动的公共认证机构。它可以对个人发放
 
 CAcert是一个非盈利性组织，2003年7月成立于澳洲，其成员分布在世界各地。目前，董事会成员有7人。
 #+END_EXAMPLE
-
+-----
 he.net
 
 Hurricane Electric 是一家位于美国的全球互联网服务提供商。该公司提供IPv4和IPv6接入（dns）以及位于美国圣荷西（公司总部地址）的数据中心服务。
-
+-----
 #+BEGIN_EXAMPLE
 duckduckgo.com
 
 DuckDuckGo是一个互联网搜索引擎，其总部位于美国宾州保利市。DuckDuckGo着重在传统搜索引擎的基础上引入各大Web 2.0网站（如维基百科）的内容，主张维护用户的隐私权，并承诺不监控、不记录用户的搜索内容。
 #+END_EXAMPLE
-
+-----
 ipinfo.io
 
 根据ip查询地址
-
+-----
 #+BEGIN_EXAMPLE
 virscan.org
 
 VirSCAN.org 是一个非盈利性的免费为广大网友服务的网站，它通过多种不同厂家提供的最新版本的病毒检测引擎对您上传的可疑文件进行在线扫描，并可以立刻将检测结果显示出来，从而提供给您可疑程度的建议。
 #+END_EXAMPLE
-
+-----
 www.namesilo.com
 
 域名注册
@@ -1401,3 +1396,15 @@ GoDaddy是从事互联网域名注册及网站托管的上市公司。 截至201
 www.textnow.com
 
 虚拟美国电话号码
+-----
+#+BEGIN_EXAMPLE
+intodns.com
+
+提供DNS报告和邮件服务器报告。
+#+END_EXAMPLE
+-----
+#+BEGIN_EXAMPLE
+netcraft.com
+
+提供服务器信息
+#+END_EXAMPLE
