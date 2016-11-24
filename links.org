@@ -1321,3 +1321,87 @@ hushmail.com
 protonmail.com
 
 ProtonMail（在中国被非正式地称为“质子邮箱”）是一个加密的webmail服务，于2013年由欧洲核子研究组织（CERN）成员Jason Stockman、Andy Yen和Wei Sun创建。ProtonMail现由总部设在瑞士日内瓦州的Proton Technologies AG经营。据Andy Yen称，他和公司一半的人都来自麻省理工学院（MIT），ProtonMail的两个服务器分别设在瑞士的Lausanne和Attinghausen。
+-----
+vultr.com
+
+vps提供商
+-----
+www.digitalocean.com
+
+DigitalOcean是一家建立于美国的云基础架构提供商，面向软件开发人员提供虚拟专用服务器（VPS）
+-----
+bandwagonhost.com
+
+bwh1.net
+
+廉价vps
+-----
+linode.com
+
+Linode是一个建立于美国新泽西州加洛伟的虚拟专用服务器（VPS）提供商。它的名字是由英文中Linux中的Li和node（即“节点”一词）构成的混成词。它的服务一向以稳定著称。
+-----
+phpbb.com
+
+phpBB是网络论坛系统，使用PHP作为程序语言，并支持如MySQL、PostgreSQL、MSSQL、SQLite、Microsoft Access与Oracle等的数据库。
+-----
+github.com
+
+GitHub是一个通过Git进行版本控制的软件源代码托管服务，由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、PJ Hyett和Tom Preston-Werner使用Ruby on Rails编写而成。
+
+GitHub同时提供付费账户和免费账户。这两种账户都可以创建公开的代码仓库，但是付费账户还可以创建私有的代码仓库。根据在2009年的Git用户调查，GitHub是最流行的Git访问站点。除了允许个人和组织创建和访问保管中的代码以外，它也提供了一些方便社会化共同软件开发的功能，即一般人口中的社区功能，包括允许用户追踪其他用户、组织、软件库的动态，对软件代码的改动和bug提出评论等。GitHub也提供了图表功能，用于概观显示开发者们怎样在代码库上工作以及软件的开发活跃程度。
+
+截止到2015年，GitHub已经有超过九百万注册用户和2110万代码库。事实上已经成为了世界上最大的代码存放网站和开源社区。
+-----
+www.alexa.com
+
+Alexa Internet公司是亚马逊公司的一家子公司，总部位于加利福尼亚州旧金山。于1996年由布鲁斯特·卡勒及布鲁斯·吉里亚特创立。作为互联网档案馆的分支，受到杰奎琳·萨福拉的埃托勒投资支持。1999年，Alexa被亚马逊公司以约价值两亿五千万美元的股票买下。
+
+Alexa分析提供各种网站的相关信息与网页访问量，以其Alexa.com网站闻名。通过收集用户的上网信息，以便统计网站流量及相关信息。Alexa为Alexadex.com提供搜索引擎，并为A9.com搜索引擎提供“网站信息”服务。
+
+#+BEGIN_EXAMPLE
+cacert.org
+
+CAcert.org 是一个社群推动的公共认证机构。它可以对个人发放免费公钥证书(其他证书颁发机构需要收费)。该机构目前已经有 200,000 名认证用户，以及接近800,000（截至2012年1月）份证书。
+
+该机构的证书支持SSL，以及X.509协议
+
+CAcert是一个非盈利性组织，2003年7月成立于澳洲，其成员分布在世界各地。目前，董事会成员有7人。
+#+END_EXAMPLE
+
+he.net
+
+Hurricane Electric 是一家位于美国的全球互联网服务提供商。该公司提供IPv4和IPv6接入（dns）以及位于美国圣荷西（公司总部地址）的数据中心服务。
+
+#+BEGIN_EXAMPLE
+duckduckgo.com
+
+DuckDuckGo是一个互联网搜索引擎，其总部位于美国宾州保利市。DuckDuckGo着重在传统搜索引擎的基础上引入各大Web 2.0网站（如维基百科）的内容，主张维护用户的隐私权，并承诺不监控、不记录用户的搜索内容。
+#+END_EXAMPLE
+
+ipinfo.io
+
+根据ip查询地址
+
+#+BEGIN_EXAMPLE
+virscan.org
+
+VirSCAN.org 是一个非盈利性的免费为广大网友服务的网站，它通过多种不同厂家提供的最新版本的病毒检测引擎对您上传的可疑文件进行在线扫描，并可以立刻将检测结果显示出来，从而提供给您可疑程度的建议。
+#+END_EXAMPLE
+
+www.namesilo.com
+
+域名注册
+-----
+godaddy.com
+
+GoDaddy是从事互联网域名注册及网站托管的上市公司。 截至2016年1月，据称GoDaddy管理的域名超过6,100万个，成为获得ICANN认证的全球最大注册商，服务逾1,300万客户，员工总数超过4,000。GoDaddy在多方面均享负盛名，当中包括其星级代言人、美国超级碗广告，以及专为小型企业服务的网上服务供应商。除了赞助大学美式足球季后赛，GoDaddy也曾赞助NASCAR赛车，并曾牵涉多项网络安全和隐私的争议事件中。
+
+除了从事域名注册及托管业务，GoDaddy也发售电子商务软件及服务，当中包括域名服务 (域名转移及隐私保障)、域名拍卖、域名投资工具、网站、网站托管及云端服务器、 网站安全（SSL数码证书、恶意软件删除服务及程式码签署凭证）、网上推广、专业电邮及Microsoft Office办公室应用。  
+-----
+www.textnow.com
+
+虚拟美国电话号码
+-----
+www.yahei.net
+
+雅黑PHP探针可以实时查看服务器硬盘资源、内存占用、网卡流量、系统负载、服务器时间等信息，1秒钟刷新一次。以及包括服务器IP地址，Web服务器环境监测，php等信息。
