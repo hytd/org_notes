@@ -29,6 +29,34 @@ sectools.org
 黑客常用的,125个网络安全工具排名
 #+END_EXAMPLE
 -----
+netbsd.org
+
+NetBSD是一份免费，安全的具有高度可定制性的类Unix操作系统，适于多种平台，从64位AMD Athlon服务器和桌面系统到手持设备和嵌入式设备。它设计简洁，代码规范，拥有众多先进特性，使得它在业界和学术界广受好评，用户可以通过完整的源代码获得支持。许多程序都可以很容易地通过NetBSD Packages Collection获得。
+-----
+freebsd.org
+
+FreeBSD是一种自由的类Unix操作系统，它起源于AT&T Unix，是经过BSD、386BSD和4.4BSD发展而来的类Unix的一个重要分支。虽然出于法律原因FreeBSD不能称为Unix，但它是BSD的直接后裔，而BSD历史上被称为BSD Unix或Berkeley Unix。FreeBSD拥有超过200名活跃开发者和上千名贡献者。
+
+FreeBSD被认为是自由操作系统中的不知名的巨人。它不是Unix，但如Unix一样运行，兼容POSIX。作为一个作业系统，FreeBSD被认为相当稳健可靠。
+
+FreeBSD是以一个完善的操作系统的定位来做开发。其核心、驱动程序以及所有的用户层（Userland）应用程序（比方说是Shell）均由同一原始码版本控制系统保存（目前使用Subversion）。相较于另一知名的类Unix作业系统GNU/Linux，其核心Linux为一组开发人员开发设计，而其它组件则是来自他人开发的程序（如GNU计划），最后再由另外的团队集成并包装成Linux包。
+
+FreeBSD默认是无桌面环境的命令行界面，想要使用桌面环境必须自行安装，或是使用PC-BSD之类的桌面发行版。
+-----
+debian.org
+
+Debian（英语发音：/ˈdɛbiən/）是由GPL和其他自由软件许可协议授权的自由软件组成的操作系统，由Debian项目（Debian Project）组织维护。Debian项目是一个独立的、分散的组织，由3000人志愿者组成，接受世界多个非盈利组织的资金支持，Software in the Public Interest提供支持并持有商标作为保护机构。
+
+Debian以其坚守Unix和自由软件的精神，以及其给予用户的众多选择而闻名。现时Debian包括了超过37,500个软件包并支持12个计算机系统结构。
+
+Debian是一个大的系统组织框架，在这个框架下有多种不同操作系统核心的分支计划，主要为采用Linux核心的Debian GNU/Linux系统，其他还有采用GNU Hurd核心的Debian GNU/Hurd系统、采用FreeBSD核心的Debian GNU/kFreeBSD系统，以及采用NetBSD核心的Debian GNU/NetBSD系统。甚至还有应用Debian的系统架构和工具，采用OpenSolaris核心构建而成的Nexenta OS系统。在这些Debian系统中，以采用Linux核心的Debian GNU/Linux最为著名。众多的Linux发行版，例如Ubuntu、Knoppix和Linspire及Xandros等，都建基于Debian GNU/Linux。
+-----
+centos.org
+
+CentOS（Community Enterprise Operating System）是Linux发行版之一，它是来自于Red Hat Enterprise Linux依照开放源代码规定发布的源代码所编译而成。由于出自同样的源代码，因此有些要求高度稳定性的服务器以CentOS替代商业版的Red Hat Enterprise Linux使用。两者的不同，在于CentOS并不包含封闭源代码软件。CentOS 对上游代码的主要修改是为了移除不能自由使用的商标。2014年，CentOS宣布与Red Hat合作，但CentOS将会在新的委员会下继续运作，并不受RHEL的影响。
+
+CentOS和RHEL一样，都可以使用Fedora EPEL来补足软件。
+-----
 freebuf.org
 
 关注黑客与极客
@@ -1397,14 +1425,226 @@ www.textnow.com
 
 虚拟美国电话号码
 -----
-#+BEGIN_EXAMPLE
 intodns.com
 
 提供DNS报告和邮件服务器报告。
-#+END_EXAMPLE
 -----
-#+BEGIN_EXAMPLE
 netcraft.com
 
 提供服务器信息
+-----
+trashmail.com
+
+邮箱中转站
+-----
+lnmp.org
+
+LNMP一键安装包是一个用Linux Shell编写的可以为CentOS/RadHat/Fedora、Debian/Ubuntu/Raspbian/Deepin VPS或独立主机安装LNMP(Nginx/MySQL/PHP)、LNMPA(Nginx/MySQL/PHP/Apache)、LAMP(Apache/MySQL/PHP)生产环境的Shell程序。同时提供一些实用的辅助工具如：虚拟主机管理、FTP用户管理、Nginx、MySQL/MariaDB、PHP的升级、常用缓存组件Redis、Xcache等的安装、重置MySQL root密码、502自动重启、日志切割、SSH防护DenyHosts/Fail2Ban、备份等许多实用脚本。
+-----
+lighttpd.net
+
+lighttpd（发音为lighty）是一套开放源代码的网页服务器，以BSD许可证发布。相较于其他的网页服务器，lighttpd仅需少量的内存及CPU资源即可达到同样的性能。
+-----
+limesurvery.org
+
+LimeSurvey（前身为PHPSurveyor）是一款开源的在线问卷调查程序，它用PHP语言编写并可以使用MySQL，PostgreSQL或者MSSQL等多种数据库，它集成了调查程序开发、调查问卷的发布以及数据收集等功能，使用它，用户不必了解这些功能的编程细节。
+-----
+imagemagick.org
+
+ImageMagick是一个用于查看、编辑位图文件以及进行图像格式转换的软件套装。它可以读取、编辑超过100种图象格式。ImageMagick以ImageMagick许可证（一个类似BSD的许可证）发布。
+
+ImageMagick主要由大量的命令行程序组成，而不提供像Adobe Photoshop、GIMP这样的图形界面。但是，ImageMagick也提供了一个基于X Window的简易GUI：IMDisplay。它还为很多程序语言提供了API库。Imagemagick使用特征签名识别文件类型。
+
+很多程序使用ImageMagick创建缩略图，如MediaWiki、phpBB和vBulletin，还有其它一些程序如LyX使用ImageMagick转换图片格式。
+
+在Perl语言中，ImageMagick还有一个API叫PerlMagick.
+-----
+joomla.org
+
+oomla!是一套自由、开放源代码的内容管理系统，以PHP撰写，用于发布内容在万维网与内部网，通常被用来搭建商业网站、个人部落格、资讯管理系统、Web 服务等，还可以进行二次开发以扩充使用范围。其功能包含可提高效能的页面快取、RSS馈送、页面的可打印版本、新闻摘要、部落格、投票、网站搜寻、与语言国际化。Joomla!是一套自由的开源软件，使用GPL授权，任何人随时都能下载 Joomla! 并立即使用它。
+-----
+twister.net.co
+
+Twister 是一款测试性的P2P微型博客自由软件。它是完全分散式的，所以没有什么单独的位置可以攻击，进而无人可以让它停止工作。这个软件系统使用端对端加密以保护信息交互安全。本软件基于 BitTorrent 和 比特币，并且意图建立一个分散式的 Twitter 克隆。
+-----
+wxwidgets.org
+
+wxWidgets（Windows and X widgets，最早命名为wxWindows）是一个开放源代码且跨平台的对象工具集（widget toolkit），其库可用来创建基本的图形用户界面（GUI）。wxWidgets由Julian Smart于1992年首先开发。
+
+wxWidgets标榜使用其库所开发的软件只需要对源代码做少量更改（或者完全不用更改），就能在各种不同的作业平台上编译并运行。目前可支持Windows、Apple Macintosh、Linux／Unix（转译成X11、GTK+、Motif等库）、OpenVMS、以及OS/2。嵌入式的版本也正在开发中。
+
+库本身使用C++语言开发，但也有其它不同编程语言的绑扎，例如：Python（wxPython）、Lua(wxlua)、Perl（wxPerl）、Ruby（wxRuby）、Smalltalk（wxSmalltalk）、Java（wx4j）、甚至是JavaScript（wxjs）等。
+
+使用wxWidgets开发的软件不需经过诸如虚拟机的技术就能运行，虽然在不同平台可使用相近甚至相同的源代码，但其最终转译并生成的可执行文件是完全基于作业平台的。
+
+另外，wxWidgets不只可以用来创建GUI，它也内置了基于ODBC的数据库函数、进程间通信以及网络socket函数等的支持。
+
+wxWidgets的授权许可证是经过开放源代码促进会认证，其本质等同于GNU宽通用公共许可证（LGPL）。然而一个例外是wxWidgets授权允许修改者以自己的许可证发布。
+-----
+spideroak.com
+
+SpiderOak 是一款云端存储服务。功能包括：备份、同步、分享。跟 Dropbox、Google Drive、OneDrive 等其他云端储存服务不同的是，SpiderOak 会在档桉上传到云端前进行加密，因此 SpiderOak 声称其内部人员均无法访问妳的云端档桉，确保妳的资料不会被偷窥或利用。
+-----
+owncloud.org
+
+ownCloud是一个自由且开源的个人云存储解决方案，包括两个部分：服务器和客户端。ownCloud 最早由KDE开发者Frank Karlitschek于2010年一月创建，目标是成为商业云服务提供商的替代。与商业云存储服务不同，ownCloud可以自由获取无需付费，但相应地，用户必须自行架设 ownCloud的服务器，这需要一点技术。不过也是有商业云存储服务提供商使用 ownCloud 作为服务器，例如奥地利商的 OwnCube。
+
+ownCloud在客户端可通过网页界面，或者安装专用的客户端软件来使用。网页界面当然就是任何能开网页的平台都支持，而客户端软件也支持相当多平台，Windows、Linux、iOS、Android皆有。
+
+除了云存储之外，ownCloud也可用于同步日历、电子邮件联系人、网页浏览器的书签；此外还有多人在线文件同步协作的功能（类似google documents或Duddle等等）。
+-----
+ipmsg.org
+
+FastCopy 是一款快速的文件拷贝计算机软件，是遵循BSD许可证的免费开源软件。它运行于Microsoft Windows平台，是一款绿色软件。
+
+FastCopy的特点是速度快，并且能保持拷贝文件或文件夹的原始时间。
+-----
+webluker.com
+
+便宜cdn
+-----
+gtmetrix.com
+
+GTmetrix可让您深入了解网站的载入情况，并提供如何优化网站的可操作建议。
+-----
+webkaka.com
+
+网站测速
+-----
+piwik.org
+
+本地网站流量分析工具
+-----
+www.incapsula.com
+
+免费cdn服务
+-----
+adminer.org
+
+Adminer是一个类似于phpMyAdmin的MySQL管理客户端。 整个程序只有一个PHP文件，易于使用和安装。 Adminer支持多语言（已自带11种翻译语言文件，可以按自己的需求翻译相应的语言）。
+-----
+c9.io
+
+在线ide
+-----
+dnsever.com
+
+Dnsever.com是一家韩国网站，该网站在韩国是数一数二的著名免费DNS服务商，提供的服务很稳定
+-----
+cloudflare.com
+
+CloudFlare是一间美国的跨国IT企业，总部位于旧金山，在伦敦和英美外亦设有办事处。
+
+CloudFlare以向客户提供网站安全管理、性能优化及相关的技术支持为主要业务。通过基于反向代理的内容传递网络（Content Delivery Network,CDN）及分布式域名解析服务（Distributed Domain Name Server），CloudFlare可以帮助受保护站点抵御包括拒绝服务攻击（Denial of Service）在内的大多数网络攻击，确保该网站长期在线，同时提升网站的性能、加载速度以改善访客体验。
+-----
+varnish-cache.org
+
+Varnish cache，或称Varnish，是一套高性能的反向网站缓存服务器（reverse proxy server）。
+-----
+ioncube.com
+
+ionCube 一款类似zend的PHP加密/解密工具
+-----
+whois.net
+
+whois信息查询
+-----
+whois.domaintools.com
+
+whois信息查询
+-----
+#+BEGIN_EXAMPLE
+openssh.com
+
+OpenSSH（OpenBSD Secure Shell）是使用SSH通过计算机网络加密通信的实现。它是替换由SSH Communications Security所提供的商用版本的开放源代码方案。目前OpenSSH是OpenBSD的子项目。
+
+OpenSSH常常被误认以为与OpenSSL有关系，但实际上这两个项目的有不同的目的，不同的发展团队，名称相近只是因为两者有同样的软件发展目标──提供开放源代码的加密通信软件。
+#+END_EXAMPLE
+-----
+#+BEGIN_EXAMPLE
+cgsecurity.org/wiki/TestDisk
+
+TestDisk是一款自由开源的数据恢复工具，主要设计用来帮助恢复丢失的磁盘分区，修复无法引导的磁盘中的软件问题，以及特定种类的病毒或人类过失（例如不慎抹除分区表）。 TestDisk也可用来收集关于某个损坏磁盘的详细信息，可以用来送给技师进一步分析。
+#+END_EXAMPLE
+-----
+ipdeny.com/ipblocks/
+
+全球ip数据
+-----
+pgp.mit.edu
+
+pgp公钥数据库
+-----
+memtest.org
+
+内存检测
+-----
+codepad.org
+
+在线解析器
+-----
+#+BEGIN_EXAMPLE
+check.torproject.org
+
+检查是否通过tor连接已经是否开始javascript
+#+END_EXAMPLE
+-----
+#+BEGIN_EXAMPLE
+virustotal.com
+
+分析可疑文件和URL，并有助于快速检测病毒，蠕虫，木马和各种恶意软件。
+#+END_EXAMPLE
+-----
+clipconverter.cc
+
+youtube视频下载
+-----
+guerrillamail.com
+
+临时邮箱
+-----
+virtualphoneline.com
+
+virtualphone提供一个有效期为24天美国虚拟号给注册用户免费体验，当然还有很多其它国家的虚拟号，该号码可以呼转或者配置到Sip(phone)、IAX、 FWD、Yahoo、MSN、Skype甚至普通的电话上面去接听。
+-----
+openmediavault.org
+
+OpenMediaVault是基于Debian GNU/Linux的网络连接存储（NAS）解决方案。它包含SSH、(S)FTP、SMB/CIFS、DAAP媒体服务器、rsync、 BitTorrent等很多种服务。得益于模块化的设计，它可以通过插件来扩展。OpenMediaVault主要被设计用于家用环境或小型家庭办公室， 但却不局限于此类。它是一份简单和易于使用的、开箱即用的解决方案，能让所有人无需很深的知识就能安装并管理一套网络连接存储。
+-----
+docker.com
+
+Docker是一个开放源代码软件专案，让应用程序布署在软件容器下的工作可以自动化进行，借此在Linux操作系统上，提供一个额外的软件抽象层，以及操作系统层虚拟化的自动管理机制。Docker利用Linux核心中的资源分离机制，例如cgroups，以及Linux核心命名空间（name space），来建立独立的软件容器（containers）。这可以在单一Linux实体下运作，避免启动一个虚拟机器造成的额外负担。Linux核心对命名空间的支援完全隔离了工作环境中应用程序的视野，包括行程树、网络、用户ID与挂载档案系统，而核心的cgroup提供资源隔离，包括CPU、内存、block I/O与网络。从0.9版本起，Dockers在使用抽象虚拟是经由libvirt的 LXC与systemd - nspawn提供界面的基础上，开始包括libcontainer函式库做为以自己的方式开始直接使用由Linux核心提供的虚拟化的设施，
+
+依据行业分析公司“451研究”：“Dockers是有能力打包应用程序及其虚拟容器，可以在任何Linux服务器上执行的依赖性工具，这有助于实现灵活性和便携性，应用程序在任何地方都可以执行，无论是公有云、私有云、单机等。” 。
+-----
+man.linuxde.net
+
+man.linuxde.net 是一个 Linux 系统指令查询的网站，你可以在这里查询需要的指令教程和相关实例！
+-----
+creativecommons.org
+
+知识共享（Creative Commons）是一个非营利组织，该组织提供同名的一系列著作权许可方式。知识共享组织的主要宗旨是使得著作物能更广为流通与改作，作为其他人据以创作及共享，并以所提供的许可方式确保上述理念。
+-----
+#+BEGIN_EXAMPLE
+kali.org
+
+Kali Linux是基于Debian的Linux发行版， 设计用于数字鉴识和渗透测试。由Offensive Security Ltd维护和资助。最先由Offensive Security的Mati Aharoni和Devon Kearns通过重写BackTrack来完成，BackTrack是他们之前写的用于取证的Linux发行版 。
+
+Kali Linux预装了许多渗透测试软件，包括nmap（端口扫描工具）、Wireshark（数据包分析器）、John the Ripper（密码破解器）以及Aircrack-NG（一套用于对无线局域网进行渗透测试的软件）。 用户可通过硬盘、live CD或live USB运行Kali Linux。Metasploit的Metasploit Framework支持Kali Linux，Metasploit一套针对远程主机进行开发和执行Exploit代码的工具。
+
+Kali Linux既有32位和64位的映像。可用于x86 指令集。同时还有基于ARM架构的映像，可用于树莓派和三星的ARM Chromebook.
+#+END_EXAMPLE
+-----
+#+BEGIN_EXAMPLE
+openbsd.org
+
+OpenBSD是一个类Unix计算机操作系统，是加州大学伯克利分校所开发的Unix派生系统伯克利软件套件（BSD）的一个后继者。它是在1995年尾由项目领导者西奥·德·若特从NetBSD分支而出。除了操作系统，OpenBSD项目已为众多子系统编写了可移植版本，其中最值得注意的是PF、OpenSSH和OpenNTPD，作为软件包，它们在其他操作系统中随处可见。
+
+该计划以其对开放源代码的坚持、高质量的文档、坚定的软件许可证和专注于系统安全及代码质量而闻名。该项目由德·若特在加拿大阿尔伯塔省卡尔加里的家中所协调。它的标志和吉祥物是一只河豚，名为普菲（Puffy）。
+
+OpenBSD包含了一些在其他操作系统缺少或是列为选择性的安全特性，至今开发者仍然保有审计源代码以发现程序错误和安全问题的传统。该项目对软件许可证有严格限制，并倾向于使用开源的BSD许可证或其变种——过去还曾对许可证进行了全面的审计，并移除或替换掉以难以接受的许可证发布的代码。
+
+与大多数基于BSD的操作系统一样，OpenBSD的内核和用户空间程序，如shell和cat及ps之类的通用工具，都在同一个源代码库共同开发。第三方软件可从port树中以二进制包的形式得到，或自源代码中编译。亦像大多数的现代BSD操作系统，在兼容的计算机架构中，它能以兼容模式完美运行为Linux编译的二进制代码。
+
+OpenBSD计划维护着20种不同硬件平台的移植版，包括DEC Alpha、英特尔i386、惠普PA-RISC、x86-64及摩托罗拉 68000处理器、苹果PowerPC、Sun SPARC和SPARC64计算机和Sharp Zaurus[1]。OpenBSD基金会被接纳为2014年Google编程之夏的指导组织。
 #+END_EXAMPLE
