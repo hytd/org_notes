@@ -1,4 +1,4 @@
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 nmap.org
 
 Nmap（网络映射器）是一款用于网络发现和安全审计的网络安全工具，它是自由软件。软件名字Nmap是Network Mapper的简称。通常情况下，Nmap用于：
@@ -15,19 +15,19 @@ Nmap 是不少黑客及脚本小孩爱用的工具 。系统管理员可以利�
 Nmap通常用在信息搜集阶段，用于搜集目标机主机的基本状态信息。扫描结果可以作为漏洞扫描、漏洞利用和权限提升阶段的输入。例如，业界流行的漏洞扫描工具Nessus与漏洞利用工具Metasploit都支持导入Nmap的XML格式结果，而Metasploit框架内也集成了Nmap工具（支持Metasploit直接扫描）。
 
 Nmap不仅可以用于扫描单个主机，也可以适用于扫描大规模的计算机网络（例如，扫描英特网上数万台计算机，从中找出感兴趣的主机和服务）。
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 exploit-db.com
 
 漏洞利用数据库,可以下载指定漏洞攻击文件
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 sectools.org
 
 黑客常用的,125个网络安全工具排名
-#+END_EXAMPLE
+#+END_SRC
 -----
 netbsd.org
 
@@ -338,7 +338,7 @@ majorgeeks.com
 
 极客少校软件下载站
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 openvpn.net
 
 OpenVPN是一个用于创建虚拟专用网络加密通道的软件包，最早由James Yonan编写。OpenVPN允许创建的VPN使用公开密钥、电子证书、或者用户名／密码来进行身份验证。
@@ -346,41 +346,41 @@ OpenVPN是一个用于创建虚拟专用网络加密通道的软件包，最早�
 它大量使用了OpenSSL加密库中的SSLv3/TLSv1协议函数库。
 
 目前OpenVPN能在Solaris、Linux、OpenBSD、FreeBSD、NetBSD、Mac OS X与Microsoft Windows以及Android和iOS上运行，并包含了许多安全性的功能
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 enigmail.net
 
 Enigmail是一个Mozilla Thunderbird和SeaMonkey网络包的数据加密和解密扩展，提供了OpenPGP的电子邮件公钥加密和签名功能。Enigmail可以在Microsoft Windows、类Unix和Mac OS X操作系统下运行。它的加密功能由GNU Privacy Guard负责处理
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 onionshare.org
 
 匿名共享文件
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 tails.boum.org
 
 Tails（英语：The Amnesic Incognito Live System）是一个侧重安全，基于Debian着眼于个人隐私和匿名性，并将非匿名通信进行封锁的操作系统。 这个系统所有的外部通信均强制通过Tor进行传送， 此系统设计为使用Live DVD或者Live USB进行引导，且不让计算机在非显式行为下留下数据痕迹。另外，Tor Project对于此项开发提供经济支持
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 whonix.org
 
 Whonix是一个基于Virtual Box、Debian GNU/Linux和Tor的匿名通用操作系统
 
 据项目开发者adrelanos声称：Whonix的设计可以完全避免使用者IP地址和DNS的泄露，即使是有root管理权限的恶意软件也不能发现用户本地真实的IP地址信息。因为Whonix是由两个虚拟机构成的，其中一个虚拟机只运行Tor，充当网关，称之为Whonix-Gateway；另一个虚拟机，称之为Whonix-Workstation，工作在一个完全隔离的网络上，两个虚拟机之间传输的数据全部通过Tor（网关）中转
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 qubes-os.org
 
 Qubes OS是一个面向安全的桌面操作系统，旨在通过隔离提供安全保障。通过Xen来执行虚拟化，用户环境可以基于Fedora，Debian，Whonix，和 Microsoft Windows，或其他操作系统。
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 gnupg.org
 
 GNU Privacy Guard（GnuPG或GPG）是一种加密软件，它是PGP加密软件的满足GPL的替代物。GnuPG依照由IETF订定的OpenPGP技术标准设计。GnuPG用于加密、数字签名及产生非对称匙对的软件。
@@ -388,19 +388,19 @@ GNU Privacy Guard（GnuPG或GPG）是一种加密软件，它是PGP加密软件�
 IETF正在为PGP协议进行标准化，标准化的PGP称为OpenPGP。当前版本的PGP及Veridis' Filecrypt与GnuPG或其他OpenPGP系统兼容。
 
 GnuPG是自由软件基金会的GNU计划的一部分，目前受德国政府资助。以GNU通用公共许可证第三版授权
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 torproject.org
 
 Tor（The Onion Router，洋葱路由器）是实现匿名通信的自由软件。Tor是第二代洋葱路由的一种实现，用户通过Tor可以在因特网上进行匿名交流。最初该项目由美国海军研究实验室赞助。2004年后期，Tor成为电子前哨基金会（EFF）的一个项目。2005年后期，EFF不再赞助Tor项目，但他们继续维持Tor的官方网站。
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 keepass.info
 
 KeePass是一款密码管理器
-#+END_EXAMPLE
+#+END_SRC
 -----
 virtualbox.org
 
@@ -611,17 +611,17 @@ bing.com/gallery
 
 必应背景图片档案(有水印)
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 github.com/rshipp/awesome-malware-analysis#malware-collection
 
 恶意软件分析工具列表
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 github.com/secmobi/wiki.secmobi.com
 
 移动安全资源整合
-#+END_EXAMPLE
+#+END_SRC
 -----
 code.visualstudio.com
 
@@ -638,7 +638,7 @@ V8在运行之前将JavaScript编译成了机器码，而非字节码或是解�
 传统的Javascript是动态语言，又可称之为Prototype-based Language，JavaScript继承方法是使用prototype，通过指定prototype属性，便可以指定要继承的目标。属性可以在运行时添加到或从对象中删除，引擎会为运行中的对象创建一个属性字典，新的属性都要通过字典查找属性在内存中的位置。V8为object新增属性的时候，就以上次的hidden class为父类别，创建新属性的hidden class的子类别，如此一来属性访问不再需要动态字典查找了。
 
 为了缩短由垃圾收集造成的停顿，V8使用stop-the-world, generational, accurate的垃圾收集器。在执行回收之时会暂时中断程序的执行，而且只处理对象堆栈。还会收集内存内所有对象的指针，可以避免内存溢出的情况。V8汇编器是基于Strongtalk汇编器。
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 -----
 curl.haxx.se
 
@@ -647,9 +647,9 @@ cURL是一个利用URL语法在命令行下工作的文件传输工具，1997年
 cURL支持的通信协议有FTP、FTPS、HTTP、HTTPS、TFTP、SFTP、Gopher、SCP、Telnet、DICT、FILE、LDAP、LDAPS、IMAP、POP3、SMTP和RTSP。
 
 libcurl支持的平台有Solaris、NetBSD、FreeBSD、OpenBSD、Darwin、HP-UX、IRIX、AIX、Tru64、Linux、UnixWare、HURD、Windows、Symbian、Amiga、OS/2、BeOS、Mac OS X、Ultrix、QNX、BlackBerry Tablet OS、OpenVMS、RISC OS、Novell NetWare、DOS等。
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 openssl.org
 
 在电脑网络上，OpenSSL是一个开放源代码的软件库包，应用程序可以使用这个包来进行安全通信，避免窃听，同时确认另一端连接者的身份。这个包广泛被应用在互联网的网页服务器上。
@@ -657,15 +657,13 @@ openssl.org
 其主要库是以C语言所写成，实现了基本的加密功能，实现了SSL与TLS协议。OpenSSL可以运行在绝大多数类Unix操作系统上（包括Solaris，Linux，Mac OS X与各种版本的开放源代码BSD操作系统），OpenVMS与 Microsoft Windows。它也提供了一个移植版本，可以在IBM i（OS/400）上运作。
 
 虽然此软件是开放源代码的，但其授权书条款与GPL有冲突之处，故GPL软件使用OpenSSL时（如Wget）必须对OpenSSL给予例外。
-
-目录
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 libressl.org
 
 LibreSSL是OpenSSL加密软件库的一个分支，为一个安全套接层（SSL）和传输层安全（TLS）协议的开源实现。在OpenSSL爆出心脏出血安全漏洞之后，一些OpenBSD开发者于2014年4月创立了LibreSSL，目标是重构OpenSSL的代码，以提供一个更安全的替代品。LibreSSL复刻自OpenSSL库的1.0.1g分支，它将遵循其他OpenBSD项目所使用的安全指导原则。
-#+END_EXAMPLE
+#+END_SRC
 -----
 zsh.org
 
@@ -679,11 +677,11 @@ tmux.github.io
 
 tmux 是一个优秀的终端复用器类自由软件，功能类似 GNU Screen，但使用 BSD 许可发布。用户可以通过 tmux 在一个终端内管理多个分离的会话，窗口及面板，对于同时使用多个命令行，或多个任务时非常方便。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 routerpwn.com
 
 路由器漏洞攻击
-#+END_EXAMPLE
+#+END_SRC
 -----
 neovim.io
 
@@ -701,12 +699,12 @@ Neovim是Vim的一个重构版本，致力于成为Vim的超集（superset）。
 Neovim项目从2014年发起，有许多来自Vim社区的开源开发者为其提供早期支持，包括更好的脚本支持、插件以及和更好地融合图形界面等。Neovim项目在2014年3月23号成功获得捐款，足够支持一名全职开发者。还有很多其他发挥Neovim功能的前端正在开发中。
 
 相比于Vim，Neovim的主要改进在于其支持异步加载插件。此外，Neovim的插件可以用任意语言编写，而Vim的插件仅能使用Vimscript进行编写。Neovim在Ubuntu发行版中可以用PPA源进行安装，同时也支持采用其他包管理器进行安装，因此在各种Linux发行版中都可以顺利安装。
-#+BEGIN_EXAMPLE
 -----
+#+BEGIN_SRC
 lambda-diode.com/software/wipe/
 
 安全删除工具
-#+END_EXAMPLE
+#+END_SRC
 -----
 ethanschoonover.com/solarized
 
@@ -756,13 +754,13 @@ github.com/Mzzopublic/C
 
 c语言示例
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 shadowsocks.org
 
 github.com/shadowsocks/shadowsocks
 
 科学上网
-#+END_EXAMPLE
+#+END_SRC
 -----
 arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel
 
@@ -1119,11 +1117,11 @@ github.com/yeasy/docker_practice
 
 Docker — 从入门到实践
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 github.com/google/keyczar
 
 Google推出的Java/Python加密工具包KeyCzar，来帮助开发者在他们的应用软件内使用加密技术。 
-#+END_EXAMPLE
+#+END_SRC
 -----
 tsung.erlang-projects.org
 
@@ -1131,11 +1129,11 @@ github.com/processone/tsung
 
 tsung是erlang开发的一个开源的多协议分布式负载测试工具，它能用来压力测试HTTP, WebDAV, SOAP, PostgreSQL, MySQL, LDAP 和 Jabber/XMPP的服务器。它可以分布在多个客户机，并能轻松够模拟成千上万的虚拟用户数并发。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 pentestbox.org
 
 PentestBox是一款Windows平台下预配置的便携式开源渗透测试环境
-#+END_EXAMPLE
+#+END_SRC
 -----
 w3school.com.cn
 
@@ -1175,11 +1173,11 @@ github.com/buger/gor
 
 Gor 是用 Golang 写的一个 HTTP 实时流量复制工具。只需要在 LB 或者 Varnish 入口服务器上执行一个进程，就可以把生产环境的流量复制到任何地方，比如 Staging 环境、Dev 环境。完美解决了 HTTP 层实时流量复制和压力测试的问题。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 github.com/jedisct1/libsodium
 
 libsodium 是一个先进而且易用的加密库。主要用于加密、解密、签名和生成密码哈希等等。这是一个可移植的、跨编译器支持、可安装的，基于 NaCI 开发，提供一个兼容 API。
-#+END_EXAMPLE
+#+END_SRC
 -----
 etcher.io
 
@@ -1201,13 +1199,13 @@ github.com/jobbole/awesome-c-cn
 
 C 语言资源大全汉语版
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 virustotal.github.io/yara
 
 github.com/VirusTotal/yara
 
 YARA是一款识别和分类恶意软件样本的开源扫描引擎，yara本身不提供杀毒软件的其他功能（比如自动更新、守护进程等），也没有维护自己的特征库
-#+END_EXAMPLE
+#+END_SRC
 -----
 github.com/jobbole/awesome-programming-books
 
@@ -1263,13 +1261,13 @@ github.com/Sigil-Ebook/Sigil
 
 Sigil是一款EPUB电子书制作软件及开源EPUB电子书编辑器，支援Windows、Linux和Mac系统。Sigil使用CSS和HTML格式，拥有所见即所得界面，并有自动生成目录、自动修正等功能。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 zmap.io
 
 github.com/zmap/zmap
 
 ZMap是一个网络扫描器，使研究人员能够轻松地执行互联网范围的网络研究。
-#+END_EXAMPLE
+#+END_SRC
 -----
 cheatengine.org
 
@@ -1281,15 +1279,15 @@ github.com/adblockplus/adblockplus
 
 广告已成往事
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 onionshare.org
 
 github.com/micahflee/onionshare
 
 匿名共享文件，它能绕过第三方，文件会通过完全匿名的Tor网络直接由一方传送到另一方
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 www.metasploit.com
 
 github.com/rapid7/metasploit-framework
@@ -1299,7 +1297,7 @@ Metasploit项目是一个旨在提供安全漏洞信息计算机安全项目，�
 Metasploit项目最为知名的子项目是开源的Metasploit框架，一套针对远程主机进行开发和执行“exploit代码”的工具。其他重要的子项目包括Opcode数据库、shellcode档案、安全研究等内容。
 
 Metasploit项目知名的功能还包括反取证与规避工具，其中的某些工具已经内置在Metasploit Framework里面。
-#+END_EXAMPLE
+#+END_SRC
 -----
 fcitx-im.org
 
@@ -1307,11 +1305,11 @@ github.com/fcitx/fcitx
 
 小企鹅输入法，是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 srm.sourceforge.net
 
 安全删除
-#+END_EXAMPLE
+#+END_SRC
 -----
 mediawiki.org
 
@@ -1325,17 +1323,17 @@ MediaWiki有700多个配置设置和超过1800个扩展，可以使各种特性�
 
 它也被一些公司部署为一个内部知识管理系统，一些教育机构也让学生使用MediaWiki来进行小组项目的管理和维护。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 riseup.net
 
 Riseup为那些致力于解放、自由和社会变革的组织或个人提供在线交流工具。本项目旨在提供一个自由、可控、安全的网络交流平台。
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 countermail.com
 
 安全电子邮箱
-#+END_EXAMPLE
+#+END_SRC
 -----
 hushmail.com
 
@@ -1381,7 +1379,7 @@ Alexa Internet公司是亚马逊公司的一家子公司，总部位于加利福
 
 Alexa分析提供各种网站的相关信息与网页访问量，以其Alexa.com网站闻名。通过收集用户的上网信息，以便统计网站流量及相关信息。Alexa为Alexadex.com提供搜索引擎，并为A9.com搜索引擎提供“网站信息”服务。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 cacert.org
 
 CAcert.org 是一个社群推动的公共认证机构。它可以对个人发放免费公钥证书(其他证书颁发机构需要收费)。该机构目前已经有 200,000 名认证用户，以及接近800,000（截至2012年1月）份证书。
@@ -1389,27 +1387,27 @@ CAcert.org 是一个社群推动的公共认证机构。它可以对个人发放
 该机构的证书支持SSL，以及X.509协议
 
 CAcert是一个非盈利性组织，2003年7月成立于澳洲，其成员分布在世界各地。目前，董事会成员有7人。
-#+END_EXAMPLE
+#+END_SRC
 -----
 he.net
 
 Hurricane Electric 是一家位于美国的全球互联网服务提供商。该公司提供IPv4和IPv6接入（dns）以及位于美国圣荷西（公司总部地址）的数据中心服务。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 duckduckgo.com
 
 DuckDuckGo是一个互联网搜索引擎，其总部位于美国宾州保利市。DuckDuckGo着重在传统搜索引擎的基础上引入各大Web 2.0网站（如维基百科）的内容，主张维护用户的隐私权，并承诺不监控、不记录用户的搜索内容。
-#+END_EXAMPLE
+#+END_SRC
 -----
 ipinfo.io
 
 根据ip查询地址
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 virscan.org
 
 VirSCAN.org 是一个非盈利性的免费为广大网友服务的网站，它通过多种不同厂家提供的最新版本的病毒检测引擎对您上传的可疑文件进行在线扫描，并可以立刻将检测结果显示出来，从而提供给您可疑程度的建议。
-#+END_EXAMPLE
+#+END_SRC
 -----
 www.namesilo.com
 
@@ -1553,19 +1551,19 @@ whois.domaintools.com
 
 whois信息查询
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 openssh.com
 
 OpenSSH（OpenBSD Secure Shell）是使用SSH通过计算机网络加密通信的实现。它是替换由SSH Communications Security所提供的商用版本的开放源代码方案。目前OpenSSH是OpenBSD的子项目。
 
 OpenSSH常常被误认以为与OpenSSL有关系，但实际上这两个项目的有不同的目的，不同的发展团队，名称相近只是因为两者有同样的软件发展目标──提供开放源代码的加密通信软件。
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 cgsecurity.org/wiki/TestDisk
 
 TestDisk是一款自由开源的数据恢复工具，主要设计用来帮助恢复丢失的磁盘分区，修复无法引导的磁盘中的软件问题，以及特定种类的病毒或人类过失（例如不慎抹除分区表）。 TestDisk也可用来收集关于某个损坏磁盘的详细信息，可以用来送给技师进一步分析。
-#+END_EXAMPLE
+#+END_SRC
 -----
 ipdeny.com/ipblocks/
 
@@ -1583,17 +1581,17 @@ codepad.org
 
 在线解析器
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 check.torproject.org
 
 检查是否通过tor连接已经是否开始javascript
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 virustotal.com
 
 分析可疑文件和URL，并有助于快速检测病毒，蠕虫，木马和各种恶意软件。
-#+END_EXAMPLE
+#+END_SRC
 -----
 clipconverter.cc
 
@@ -1625,7 +1623,7 @@ creativecommons.org
 
 知识共享（Creative Commons）是一个非营利组织，该组织提供同名的一系列著作权许可方式。知识共享组织的主要宗旨是使得著作物能更广为流通与改作，作为其他人据以创作及共享，并以所提供的许可方式确保上述理念。
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 kali.org
 
 Kali Linux是基于Debian的Linux发行版， 设计用于数字鉴识和渗透测试。由Offensive Security Ltd维护和资助。最先由Offensive Security的Mati Aharoni和Devon Kearns通过重写BackTrack来完成，BackTrack是他们之前写的用于取证的Linux发行版 。
@@ -1633,9 +1631,9 @@ Kali Linux是基于Debian的Linux发行版， 设计用于数字鉴识和渗透�
 Kali Linux预装了许多渗透测试软件，包括nmap（端口扫描工具）、Wireshark（数据包分析器）、John the Ripper（密码破解器）以及Aircrack-NG（一套用于对无线局域网进行渗透测试的软件）。 用户可通过硬盘、live CD或live USB运行Kali Linux。Metasploit的Metasploit Framework支持Kali Linux，Metasploit一套针对远程主机进行开发和执行Exploit代码的工具。
 
 Kali Linux既有32位和64位的映像。可用于x86 指令集。同时还有基于ARM架构的映像，可用于树莓派和三星的ARM Chromebook.
-#+END_EXAMPLE
+#+END_SRC
 -----
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 openbsd.org
 
 OpenBSD是一个类Unix计算机操作系统，是加州大学伯克利分校所开发的Unix派生系统伯克利软件套件（BSD）的一个后继者。它是在1995年尾由项目领导者西奥·德·若特从NetBSD分支而出。除了操作系统，OpenBSD项目已为众多子系统编写了可移植版本，其中最值得注意的是PF、OpenSSH和OpenNTPD，作为软件包，它们在其他操作系统中随处可见。
@@ -1646,5 +1644,9 @@ OpenBSD包含了一些在其他操作系统缺少或是列为选择性的安全�
 
 与大多数基于BSD的操作系统一样，OpenBSD的内核和用户空间程序，如shell和cat及ps之类的通用工具，都在同一个源代码库共同开发。第三方软件可从port树中以二进制包的形式得到，或自源代码中编译。亦像大多数的现代BSD操作系统，在兼容的计算机架构中，它能以兼容模式完美运行为Linux编译的二进制代码。
 
-OpenBSD计划维护着20种不同硬件平台的移植版，包括DEC Alpha、英特尔i386、惠普PA-RISC、x86-64及摩托罗拉 68000处理器、苹果PowerPC、Sun SPARC和SPARC64计算机和Sharp Zaurus[1]。OpenBSD基金会被接纳为2014年Google编程之夏的指导组织。
-#+END_EXAMPLE
+OpenBSD计划维护着20种不同硬件平台的移植版，包括DEC Alpha、英特尔i386、惠普PA-RISC、x86-64及摩托罗拉 68000处理器、苹果PowerPC、Sun SPARC和SPARC64计算机和Sharp Zaurus。OpenBSD基金会被接纳为2014年Google编程之夏的指导组织。
+#+END_SRC
+-----
+pawnmail.com
+
+简单的电子邮件解决方案
