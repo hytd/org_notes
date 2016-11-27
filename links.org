@@ -1665,3 +1665,77 @@ download.java.net/openjdk/jdk7
 download.java.net/openjdk/jdk8
 
 获取openjdk8源代码
+-----
+#+BEGIN_CENTER
+noscript.net
+
+NoScript 是一个免费和开源的，为 Mozilla Firefox 和 Mozilla Application Suite网页浏览器 （诸如Flock、SeaMonkey等） 所开发的扩展（Add-ons）。NoScript 以白名单选择性执行 JavaScript、Java、Flash、Sliverlight 以及其它插件和脚本内容。
+#+END_CENTER
+-----
+getfirebug.com
+
+Firebug是一个自由及开放源代码的Mozilla Firefox网页浏览器扩展，是一个网页开发工具，用户可以利用它除错、编辑、删改任何网站的CSS、HTML、DOM与JavaScript代码。
+-----
+apachefriends.org
+
+XAMPP是一个把Apache网页服务器与PHP、Perl及MariaDB集合在一起的安装包，允许用户可以在自己的电脑上轻易的建立网页服务器。
+-----
+#+BEGIN_CENTER
+dvwa.co.uk
+
+Damn Vulnerable Web App（DVWA）是一个PHP / MySQL Web应用程序，很容易受到攻击。 其主要目标是帮助安全专业人员在法律环境中测试其技能和工具，帮助Web开发人员更好地了解保护Web应用程序的过程，并帮助教师/学生在课堂环境中教授/学习Web应用程序安全性 。
+#+END_CENTER
+-----
+github.com/fredericopissarra/t50
+
+网站压力测试
+-----
+#+BEGIN_CENTER
+owasp.org
+
+www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+
+github.com/zaproxy/zaproxy
+
+github.com/zaproxy/zap-extensions
+
+
+OWASP ZAP（Zed Attack Proxy的缩写）是一个开源的Web应用程序安全扫描器。 它旨在被新的应用程序安全以及专业渗透测试人员使用。
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+sqlmap.org
+
+github.com/sqlmapproject/sqlmap
+
+sqlmap是一个开源的渗透测试工具，可以自动化检测和利用SQL注入漏洞
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+cirt.net/Nikto2
+
+github.com/sullo/nikto
+
+Nikto是一个Web服务器漏洞扫描器。它检测未更新的软件和配置，潜在的危险文件和CGI等。他也有创建报告的功能。
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+github.com/enaqx/awesome-pentest
+
+渗透资源列表
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+openwall.com/john/
+
+John the Ripper-它是一个密码爆破工具，常被用来执行基于字典的爆破攻击。
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+thc.org/thc-hydra/
+
+github.com/vanhauser-thc/thc-hydra
+
+Hydra是一个快速密码破解工具，网络登录破解器。它可以针对超过50个协议快速字典攻击，包括telnet, ftp, http, https, smb，若干数据库以及其它更多协议。
+#+END_CENTER
+
