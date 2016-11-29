@@ -1000,7 +1000,7 @@ github.com/ty4z2008/Qix
 -----
 github.com/purcell/emacs.d
 
-我的emacs配置树
+emacs配置树,主要针对web开发员
 -----
 atom.io
 
@@ -1738,4 +1738,27 @@ github.com/vanhauser-thc/thc-hydra
 
 Hydra是一个快速密码破解工具，网络登录破解器。它可以针对超过50个协议快速字典攻击，包括telnet, ftp, http, https, smb，若干数据库以及其它更多协议。
 #+END_CENTER
+-----
+#+BEGIN_CENTER
+hackforums.net
 
+流行黑客论坛
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+bugcrowd.com
+
+白帽论坛
+#+END_CENTER
+-----
+melpa.org
+
+ELPA(Emacs Lisp Package Archive)
+-----
+stable.melpa.org
+
+稳定的elpa
+-----
+elpa.gnu.org
+
+GNU Emacs Lisp Package Archive
