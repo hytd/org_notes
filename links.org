@@ -1762,3 +1762,21 @@ stable.melpa.org
 elpa.gnu.org
 
 GNU Emacs Lisp Package Archive
+-----
+#+BEGIN_CENTER
+booter.xyz
+
+ddos流量
+#+END_CENTER
+-----
+critical-boot.com
+
+ddos流量
+-----
+coin.space
+
+web比特币钱包
+-----
+github.com/khalilbijjou/WAFNinja
+
+WAFNinja 是一款采用 Python 编写的命令行工具。它通过自动化步骤来帮助渗透测试者来绕过WAF
