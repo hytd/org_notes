@@ -1780,3 +1780,7 @@ web比特币钱包
 github.com/khalilbijjou/WAFNinja
 
 WAFNinja 是一款采用 Python 编写的命令行工具。它通过自动化步骤来帮助渗透测试者来绕过WAF
+-----
+mplayerhq.hu
+
+MPlayer是一款开源的多媒体播放器，以GNU通用公共许可证发布。此款软件可在各主流操作系统使用，例如Linux和其他类Unix操作系统、微软的Windows系统及苹果电脑的Mac OS X系统。MPlayer是建基于命令行界面，在各操作系统可选择安装不同的图形界面。
