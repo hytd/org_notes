@@ -1766,12 +1766,12 @@ GNU Emacs Lisp Package Archive
 #+BEGIN_CENTER
 booter.xyz
 
-ddos流量
+付费ddos流量
 #+END_CENTER
 -----
 critical-boot.com
 
-ddos流量
+付费ddos流量
 -----
 coin.space
 
@@ -1790,3 +1790,19 @@ copperhead.co
 
 安全Android系统
 #+END_CENTER
+-----
+getlantern.org
+
+蓝灯,免费科学上网
+-----
+whatismyipaddress.com
+
+提供ip信息(isp)
+-----
+goldenfrog.com/vyprvpn
+
+付费vpn
+-----
+giganews.com
+
+最大的usenet提供商
