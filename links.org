@@ -1799,7 +1799,7 @@ whatismyipaddress.com
 -----
 goldenfrog.com/vyprvpn
 
-快速vpn
+快速vpn(保存用户数据30天,如:源IP地址，用户使用的VyprVPN IP地址，连接开始和停止时间以及使用的总字节数。)
 -----
 giganews.com
 
