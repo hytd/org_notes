@@ -182,10 +182,6 @@ opendns.com/about/innovations/dnscrypt/
 
 防止DNS污染
 -----
-fcitx-im.org
-
-X Window中使用的输入法框架,支持拼音,五笔,可以输入UTF-8编码中的汉语文字
------
 winehq.org
 
 Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多种 POSIX-compliant 操作系统（诸如 
@@ -1298,11 +1294,13 @@ Metasploit项目最为知名的子项目是开源的Metasploit框架，一套针
 Metasploit项目知名的功能还包括反取证与规避工具，其中的某些工具已经内置在Metasploit Framework里面。
 #+END_CENTER
 -----
+#+BEGIN_CENTER
 fcitx-im.org
 
 github.com/fcitx/fcitx
 
 小企鹅输入法，是一个在X Window中使用的输入法框架，在源码包内包含了拼音，五笔字型以及区位、二笔的支持。可以输入UTF-8编码中的文字。可以在Linux、FreeBSD中运行。采用GPL授权。支持XIM、GTK（版本2和3）和QT的输入法模块。
+#+END_CENTER
 -----
 #+BEGIN_CENTER
 srm.sourceforge.net
@@ -1801,7 +1799,7 @@ whatismyipaddress.com
 -----
 goldenfrog.com/vyprvpn
 
-付费vpn
+快速vpn
 -----
 giganews.com
 
@@ -1810,3 +1808,18 @@ giganews.com
 conemu.github.io
 
 ConEmu-Maximus5是一个带有选项卡的Windows控制台仿真器
+-----
+#+BEGIN_CENTER
+rime.im
+
+RIME／中州韵输入法引擎，是一个跨平台的输入法算法框架。
+基于这一框架，Rime 开发者与其他开源社区的参与者在 Windows、Mac OS X、Linux、Android 平台上创造了不同的输入法前端实现。
+#+END_CENTER
+-----
+freenode.net
+
+到2010年为止，它是世界上最大的IRC网络
+-----
+expressvpn.com
+
+付费vpn
