@@ -1,0 +1,126 @@
+* keys
+
+| key | function                                  | effect               |
+|-----+-------------------------------------------+----------------------|
+| C-f | [[C-f][(forward-char &optional N)]]                | 光标向前移动一个字符 |
+| C-b | [[C-b][(backward-char &optional N)]]               | 光标向后移动一个字符 |
+| C-n | [[C-n][(next-line &optional ARG TRY-VSCROLL)]]     | 光标向下移动一行     |
+| C-p | [[C-p][(previous-line &optional ARG TRY-VSCROLL)]] | 光标向上移动一行     |
+
+* functions
+
+#+BEGIN_QUOTE
+C-f <<C-f>> runs the command forward-char, which is an interactive built-in
+function in `cmds.c'.
+
+It is bound to C-f.
+
+(forward-char &optional N)
+
+Move point N characters forward (backward if N is negative).
+On reaching end or beginning of buffer, stop and signal error.
+Interactively, N is the numeric prefix argument.
+If N is omitted or nil, move point 1 character forward.
+
+Depending on the bidirectional context, the movement may be to the
+right or to the left on the screen.  This is in contrast with
+<right>, which see.
+#+END_QUOTE
+-----
+#+BEGIN_QUOTE
+C-b <<C-b>> runs the command backward-char, which is an interactive built-in
+function in `cmds.c'.
+
+It is bound to C-b.
+
+(backward-char &optional N)
+
+Move point N characters backward (forward if N is negative).
+On attempt to pass beginning or end of buffer, stop and signal error.
+Interactively, N is the numeric prefix argument.
+If N is omitted or nil, move point 1 character backward.
+
+Depending on the bidirectional context, the movement may be to the
+right or to the left on the screen.  This is in contrast with
+<left>, which see.
+#+END_QUOTE
+-----
+#+BEGIN_QUOTE
+C-n <<C-n>> runs the command next-line, which is an interactive compiled Lisp
+function.
+
+It is bound to C-n, <down>.
+
+(next-line &optional ARG TRY-VSCROLL)
+
+Move cursor vertically down ARG lines.
+Interactively, vscroll tall lines if `auto-window-vscroll' is enabled.
+Non-interactively, use TRY-VSCROLL to control whether to vscroll tall
+lines: if either `auto-window-vscroll' or TRY-VSCROLL is nil, this
+function will not vscroll.
+
+ARG defaults to 1.
+
+If there is no character in the target line exactly under the current column,
+the cursor is positioned after the character in that line which spans this
+column, or at the end of the line if it is not long enough.
+If there is no line in the buffer after this one, behavior depends on the
+value of `next-line-add-newlines'.  If non-nil, it inserts a newline character
+to create a line, and moves the cursor to that line.  Otherwise it moves the
+cursor to the end of the buffer.
+
+If the variable `line-move-visual' is non-nil, this command moves
+by display lines.  Otherwise, it moves by buffer lines, without
+taking variable-width characters or continued lines into account.
+
+The command C-x C-n can be used to create
+a semipermanent goal column for this command.
+Then instead of trying to move exactly vertically (or as close as possible),
+this command moves to the specified goal column (or as close as possible).
+The goal column is stored in the variable `goal-column', which is nil
+when there is no goal column.  Note that setting `goal-column'
+overrides `line-move-visual' and causes this command to move by buffer
+lines rather than by display lines.
+
+If you are thinking of using this in a Lisp program, consider
+using `forward-line' instead.  It is usually easier to use
+and more reliable (no dependence on goal column, etc.).
+#+END_QUOTE
+-----
+#+BEGIN_QUOTE
+C-p <<C-p>> runs the command previous-line, which is an interactive compiled
+Lisp function.
+
+It is bound to C-p, <up>.
+
+(previous-line &optional ARG TRY-VSCROLL)
+
+Move cursor vertically up ARG lines.
+Interactively, vscroll tall lines if `auto-window-vscroll' is enabled.
+Non-interactively, use TRY-VSCROLL to control whether to vscroll tall
+lines: if either `auto-window-vscroll' or TRY-VSCROLL is nil, this
+function will not vscroll.
+
+ARG defaults to 1.
+
+If there is no character in the target line exactly over the current column,
+the cursor is positioned after the character in that line which spans this
+column, or at the end of the line if it is not long enough.
+
+If the variable `line-move-visual' is non-nil, this command moves
+by display lines.  Otherwise, it moves by buffer lines, without
+taking variable-width characters or continued lines into account.
+
+The command C-x C-n can be used to create
+a semipermanent goal column for this command.
+Then instead of trying to move exactly vertically (or as close as possible),
+this command moves to the specified goal column (or as close as possible).
+The goal column is stored in the variable `goal-column', which is nil
+when there is no goal column.  Note that setting `goal-column'
+overrides `line-move-visual' and causes this command to move by buffer
+lines rather than by display lines.
+
+If you are thinking of using this in a Lisp program, consider using
+`forward-line' with a negative argument instead.  It is usually easier
+to use and more reliable (no dependence on goal column, etc.).
+#+END_QUOTE
