@@ -1827,3 +1827,19 @@ expressvpn.com
 zh.wikipedia.org/wiki/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD
 
 维基百科-数据库下载
+-----
+#+BEGIN_CENTER
+dban.org
+
+DBAN 全名为 Darik's Boot and Nuke，是一个独立的启动盘，可支持多种文件系统，包括 Linux 的 Ext3 和 Windows 的 NTFS 。其安全性很高，它会自动并彻底的删除任何它能够检测到的硬盘中的内容。它可以自动探测硬盘，这使得它成为批量或紧急销毁数据的理想实用程序。美国太空总署亦在内部指定，硬盘在弃置前必须要经过它来处理。注:它不能擦除SSD
+#+END_CENTER
+-----
+runoob.com
+
+菜鸟教程提供了较多的基础编程技术教程
+-----
+android-x86.org
+-----
+youtube.com
+
+YouTube是设立在美国的一个视频分享网站，让用户上传、观看及分享及评论视频。
