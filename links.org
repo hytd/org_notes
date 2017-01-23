@@ -1843,3 +1843,21 @@ android-x86.org
 youtube.com
 
 YouTube是设立在美国的一个视频分享网站，让用户上传、观看及分享及评论视频。
+-----
+#+BEGIN_CENTER
+letsencrypt.org
+
+免费SSL证书
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+mozilla.github.io/server-side-tls/ssl-config-generator
+
+HTTPS 配置文件自动生成器，支持 Apache，Nginx 等多种服务器
+#+END_CENTER
+-----
+#+BEGIN_CENTER
+www.ssllabs.com
+
+SSL安全测试
+#+END_CENTER
