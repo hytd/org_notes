@@ -1861,3 +1861,9 @@ www.ssllabs.com
 
 SSL安全测试
 #+END_CENTER
+-----
+marc.info
+
+mailing list archives
+-----
+man.openbsd.org
