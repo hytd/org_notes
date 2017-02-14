@@ -1820,10 +1820,6 @@ freenode.net
 
 到2010年为止，它是世界上最大的IRC网络
 -----
-expressvpn.com
-
-付费vpn,有香港节点,不保存用户日志
------
 zh.wikipedia.org/wiki/Wikipedia:%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%8B%E8%BD%BD
 
 维基百科-数据库下载
