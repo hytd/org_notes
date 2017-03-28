@@ -1863,3 +1863,17 @@ marc.info
 mailing list archives
 -----
 man.openbsd.org
+-----
+wikipedia.org
+zh.wikipedia.org
+
+一个自由内容、公开编辑且多语言的网络百科全书协作项目
+-----
+wikihow.com
+zh.wikihow.com
+
+能让所有人学做任何事的平台
+-----
+www.ibm.com/support/knowledgecenter/zh/ssw_aix_72/com.ibm.aix.cmds.navigation/alphabeticallistofcommands.htm
+
+本节包含关于 AIX® 命令的信息，（包括语法说明、标记描述和用法示例）。命令按字母顺序列出。
