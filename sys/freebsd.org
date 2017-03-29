@@ -1,0 +1,3 @@
+#+BEGIN_CENTER
+[[../img/Freebsd_logo.svg]]
+#+END_CENTER
