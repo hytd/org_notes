@@ -1,0 +1,3 @@
+#+BEGIN_CENTER
+[[../img/Debian-OpenLogo.svg]]
+#+END_CENTER
