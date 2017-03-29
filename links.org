@@ -154,10 +154,6 @@ heidisql.com
 
 SQL管理工具
 -----
-justgetflux.com
-
-自动调整色温,保护眼睛
------
 translate.google.com(cn)
 
 google翻译
