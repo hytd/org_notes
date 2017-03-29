@@ -1,0 +1,3 @@
+#+BEGIN_CENTER
+[[../img/OpenBSD_Logo_-_Cartoon_Puffy_with_textual_logo_below.svg]]
+#+END_CENTER
