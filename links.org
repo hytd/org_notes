@@ -492,10 +492,6 @@ Chromium是Google为发展自家的浏览器Google Chrome而打开的项目，�
 
 Chromium的更新速度很快，每隔数小时即有新的开发版本发布，而且可以免安装，下载zip封装版后解压缩即可使用（Windows下也有安装版）。
 -----
-filezilla-project.org
-
-FileZilla是FTP软件，分为客户端版本和服务器版本
------
 ffmpeg.org
 
 FFmpeg是一个自由软件，可以运行音频和视频多种格式的录影、转换、流功能，包含了libavcodec——这是一个用于多个项目中音频和视频的解码器库，以及libavformat——一个音频与视频格式转换库。
