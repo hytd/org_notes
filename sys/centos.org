@@ -1,0 +1,3 @@
+#+BEGIN_CENTER
+[[../img/Centos-logo-light.svg]]
+#+END_CENTER
