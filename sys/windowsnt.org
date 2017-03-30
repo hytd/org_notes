@@ -60,8 +60,14 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | autohotkey.com                                       | 自动化软件工具，它让用户能够快捷或自动执行重复性任务                                                                       |
 | www.diskgenius.cn                                    | 硬盘修复、分区工具                                                                                                         |
 | opendns.com/about/innovations/dnscrypt               | 防止DNS污染                                                                                                                |
-| www.libreoffice.org/                                 | 办公室套件,包含文字处理器,电子电子表格,演示文稿程序,向量图形编辑器和图表工具,数据库管理程序及创 建和编辑数学公式的应用程序 |
+| www.libreoffice.org                                  | 办公室套件,包含文字处理器,电子电子表格,演示文稿程序,向量图形编辑器和图表工具,数据库管理程序及创 建和编辑数学公式的应用程序 |
 | keepass.info                                         | KeePass是一款密码管理器                                                                                                    |
 | www.vmware.com/cn/products/workstation.html          | VMware Workstation允许一台真实的电脑在一个操作系统中同时打开并运行数个操作系统                                             |
 | www.dosbox.com                                       | DOSBox是一种模拟器软件，主要是在IBM PC兼容机下，模拟旧时的操作系统：MS-DOS                                                 |
 | www.jasspa.com                                       | microemacs                                                                                                                 |
+| ipmsg.org/tools/fastcopy.html                        | FastCopy 是一款快速的文件拷贝计算机软件                                                                                    |
+| rh-software.com                                      | windows硬件查看工具                                                                                                        |
+| ollydbg.de                                           | 动态反汇编分析调试工具                                                                                                     |
+| x64dbg.com                                           | 调试工具                                                                                                                   |
+| download-chromium.appspot.com                        | chromium binary                                                                                                            |
+| www.videolan.org                                     | VLC多媒体播放器                                                                                                            |
