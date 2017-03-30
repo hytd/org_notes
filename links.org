@@ -1827,3 +1827,5 @@ zh.wikihow.com
 www.ibm.com/support/knowledgecenter/zh/ssw_aix_72/com.ibm.aix.cmds.navigation/alphabeticallistofcommands.htm
 
 本节包含关于 AIX® 命令的信息，（包括语法说明、标记描述和用法示例）。命令按字母顺序列出。
+-----
+qemu-project.org
