@@ -71,3 +71,11 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | x64dbg.com                                           | 调试工具                                                                                                                   |
 | download-chromium.appspot.com                        | chromium binary                                                                                                            |
 | www.videolan.org                                     | VLC多媒体播放器                                                                                                            |
+| www.mozilla.org/zh-CN/thunderbird                    | 电子邮箱客户端                                                                                                             |
+| 7-zip.org                                            | 数据压缩解压工具                                                                                                           |
+| www.mozilla.org/en-US/firefox/all                    | 纯净firefox下载                                                                                                            |
+| msdn.microsoft.com/en-us/powershell                  | Windows PowerShell是微软公司为Windows环境所开发的壳程序（shell）及脚本语言技术，采用的是命令行界面                         |
+| pentestbox.org                                       | PentestBox是一款Windows平台下预配置的便携式开源渗透测试环境                                                                |
+| etcher.io                                            | 刻录工具(usb)                                                                                                              |
+| rufus.akeo.ie                                        | Rufus 是一个可以帮助格式化和创建可引导USB闪存盘的工具                                                                      |
+| getlantern.org                                       | 蓝灯,免费科学上网                                                                                                                           |
