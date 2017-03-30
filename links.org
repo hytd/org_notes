@@ -158,18 +158,6 @@ translate.google.com(cn)
 
 google翻译
 -----
-www.chiark.greenend.org.uk/~sgtatham/putty/
-
-Telnet, SSH, rlogin, 纯TCP以及串行端口连接软件
------
-winscp.net
-
-sftp客户端,还支持ssh,scp
------
-cheatengine.org
-
-查找与修改内存地址
------
 opendns.com/about/innovations/dnscrypt/
 
 防止DNS污染
@@ -505,10 +493,6 @@ FFmpeg是一个自由软件，可以运行音频和视频多种格式的录影�
 mplayerhq.hu
 
 MPlayer是一款开源的多媒体播放器，以GNU通用公共许可证发布。此款软件可在各主流操作系统使用，例如Linux和其他类Unix操作系统、微软的Windows系统及苹果电脑的Mac OS X系统。MPlayer是建基于命令行界面，在各操作系统可选择安装不同的图形界面。
------
-mpc-hc.org
-
-Media Player Classic Home Cinema，简称MPC-HC，是一款简洁的媒体播放器，Media Player Classic 的后续版本
 -----
 videolan.org/vlc/
 
