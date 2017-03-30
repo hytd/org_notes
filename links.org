@@ -293,10 +293,6 @@ jemalloc.net
 内存管理,Jemalloc的创始人Jason Evans也是在FreeBSD很有名的开发人员,在2006年为提高低性能的malloc而
 写的jemalloc,Jemalloc是从2007年开始以FreeBSD标准引进来
 -----
-rh-software.com
-
-windows硬件查看工具
------
 majorgeeks.com
 
 极客少校软件下载站
@@ -443,14 +439,6 @@ gnu.org/software/gdb/
 
 GNU侦错器（GNU Debugger，缩写：GDB），是GNU软件系统中的标准侦错器，此外GDB也是个具有移携性的侦错器，经过移携需求的调修与重新编译，如今许多的类UNIX操作系统上都可以使用GDB，而现有GDB所能支持除错的编程语言有C、C++、Pascal以及FORTRAN。
 -----
-ollydbg.de
-
-动态反汇编分析调试工具
------
-x64dbg.com
-
-调试工具
------
 chromium.org
 
 Chromium是Google为发展自家的浏览器Google Chrome而打开的项目，所以Chromium相当于Google Chrome的工程版或称实验版（尽管Google Chrome自身也有β版阶段），新功能会率先在Chromium上实现，待验证后才会应用在Google Chrome上，故Google Chrome的功能会相对落后但较稳定。
@@ -470,10 +458,6 @@ FFmpeg是一个自由软件，可以运行音频和视频多种格式的录影�
 mplayerhq.hu
 
 MPlayer是一款开源的多媒体播放器，以GNU通用公共许可证发布。此款软件可在各主流操作系统使用，例如Linux和其他类Unix操作系统、微软的Windows系统及苹果电脑的Mac OS X系统。MPlayer是建基于命令行界面，在各操作系统可选择安装不同的图形界面。
------
-videolan.org/vlc/
-
-VLC多媒体播放器（英语：VLC media player，最初为VideoLAN Client，是VideoLAN计划的开放源代码多媒体播放器。）支持众多音频与视频解码器及文件格式，并支持DVD影音光盘、VCD影音光盘及各类流协议。它也能作为单播或多播的流服务器在IPv4或IPv6的高速网络连接下使用。调用FFmpeg计划的解码器与libdvdcss程序库使其有播放多媒体文件及加密DVD影碟的功能。
 -----
 nodejs.org
 
@@ -1437,12 +1421,6 @@ ownCloud是一个自由且开源的个人云存储解决方案，包括两个部
 ownCloud在客户端可通过网页界面，或者安装专用的客户端软件来使用。网页界面当然就是任何能开网页的平台都支持，而客户端软件也支持相当多平台，Windows、Linux、iOS、Android皆有。
 
 除了云存储之外，ownCloud也可用于同步日历、电子邮件联系人、网页浏览器的书签；此外还有多人在线文件同步协作的功能（类似google documents或Duddle等等）。
------
-ipmsg.org
-
-FastCopy 是一款快速的文件拷贝计算机软件，是遵循BSD许可证的免费开源软件。它运行于Microsoft Windows平台，是一款绿色软件。
-
-FastCopy的特点是速度快，并且能保持拷贝文件或文件夹的原始时间。
 -----
 webluker.com
 
