@@ -158,25 +158,12 @@ translate.google.com(cn)
 
 google翻译
 -----
-opendns.com/about/innovations/dnscrypt/
-
-防止DNS污染
------
 winehq.org
 
 Wine （“Wine Is Not an Emulator” 的首字母缩写）是一个能够在多种 POSIX-compliant 操作系统（诸如 
 Linux，Mac OSX 及 BSD 等）上运行 Windows 应用的兼容层。 Wine 不是像虚拟机或者模拟器一样模仿内部
 的 Windows 逻辑，而是將 Windows API 调用翻译成为动态的 POSIX 调用，免除了性能和其他一些行为的内
 存占用，让你能够干净地集合 Windows 应用到你的桌面。
------
-libreoffice.org
-
-办公室套件,包含文字处理器,电子电子表格,演示文稿程序,向量图形编辑器和图表工具,数据库管理程序及创
-建和编辑数学公式的应用程序
------
-hosts.huhamhire.com
-
-添加host记录,科学上网
 -----
 archive.org
 
@@ -382,12 +369,6 @@ virtualbox.org
 
 Oracle VirtualBox是由德国InnoTek软件公司出品的虚拟机软件，现在则由甲骨文公司进行开发，是甲骨文公司xVM虚拟化平台技术的一部分。它提供用户在32位或64位的Windows、Solaris及Linux 操作系统上虚拟其它x86的操作系统。用户可以在VirtualBox上安装并且运行Solaris、Windows、DOS、Linux、OS/2 Warp、OpenBSD及FreeBSD等系统作为客户端操作系统。
 -----
-dosbox.com
-
-DOSBox是一种模拟器软件，主要是在IBM PC兼容机下，模拟旧时的操作系统：MS-DOS，支持许多IBM PC兼容的显卡和声卡，为本地的DOS程序提供执行环境，使这些程序可以正常运行于大多数现代计算机上的不同操作系统。DOSBox特别是为运行早期的计算机游戏所设计，主要以C++编写，是以GNU通用公共许可证许可发布的自由软件。
-
-DOSBox可以运行那些在现代计算机上不能运行的MS-DOS软件，这些软件通常与现在的主流硬件和操作系统有一些不兼容。DOSBox在模拟MS-DOS同时，还增加了一些可用特性，包括虚拟磁盘、点对点网络、对模拟画面截图和录像。有些非官方的DOSBox变体，如DOSBox SVN Daum和DOSBox SVN-lfn提供了更多的功能，比如存档、长文件名支持等。有些游戏开发商重新发行早期的DOS游戏时，也会使用DOSBox，使其可以在现代计算机上运行。
------
 openvz.org
 
 OpenVZ是基于Linux内核和操作系统的操作系统级虚拟化技术。OpenVZ允许物理服务器运行多个操作系统，被称虚拟专用服务器（VPS，Virtual Private Server）或虚拟环境（VE，Virtual Environment）。
@@ -421,10 +402,6 @@ Xen是一个开放源代码虚拟机监视器，由XenProject开发。它打算�
 git.kernel.org/cgit/editors/uemacs/uemacs.git/
 
 emacs变种
------
-jasspa.com
-
-microemacs
 -----
 wiki.gnome.org/Apps/Gedit
 
@@ -607,6 +584,7 @@ V8在运行之前将JavaScript编译成了机器码，而非字节码或是解�
 
 为了缩短由垃圾收集造成的停顿，V8使用stop-the-world, generational, accurate的垃圾收集器。在执行回收之时会暂时中断程序的执行，而且只处理对象堆栈。还会收集内存内所有对象的指针，可以避免内存溢出的情况。V8汇编器是基于Strongtalk汇编器。
 #+BEGIN_CENTER
+-----
 curl.haxx.se
 
 cURL是一个利用URL语法在命令行下工作的文件传输工具，1997年首次发行。它支持文件上传和下载，所以是综合传输工具，但按传统，习惯称cURL为下载工具。cURL还包含了用于程序开发的libcurl。
