@@ -35,17 +35,24 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | NT 10.0 | Windows 10             | 家庭版、专业版、企业版、Mobile、IoT                                                     | 10240(TH1) 10586(TH2) 14393(RS1) | 2015/7/29                    | [[../img/Windows_10_Logo.svg.png]]                      |
 * Links
 
-| Link                                    | Explanation                                                 |
-|-----------------------------------------+-------------------------------------------------------------|
-| www.easyuefi.com/wintousb/index-cn.html | WinToUSB(轻松将Windows/WinPE安装到USB移动硬盘或者U盘)       |
-| www.ezbsystems.com/ultraiso/index.html  | 软碟通(创建、修改和转换ISO文件)                             |
-| www.editplus.com                        | EditPlus(文本编辑器，支持语法高亮，自动完成等功能)          |
-| www.sublimetext.com                     | Sublime Text(文本编辑器，支持基于Python的插件)              |
-| www.bitvise.com/ssh-server              | Bitvise SSH Server                                          |
-| www.mactype.net/                        | mactype(MacType是基于一个GDI++的开源项目开发的字体渲染软件) |
-| justgetflux.com                         | f.lux(自动调节色温,保护眼睛)                                |
-| github.com/vim/vim-win32-installer      | vim(win32 and win64)                                        |
-| emacsbinw64.sourceforge.net/            | emacs 64-bit                                                |
-| www.cpuid.com/softwares/cpu-z.html      | cpu-z                                                       |
-| www.techpowerup.com/gpuz/               | gpu-z                                                       |
-| filezilla-project.org                   | FileZilla是FTP软件，分为客户端版本和服务器版本              |
+| Link                                                 | Explanation                                                                                           |
+|------------------------------------------------------+-------------------------------------------------------------------------------------------------------|
+| www.easyuefi.com/wintousb/index-cn.html              | WinToUSB(轻松将Windows/WinPE安装到USB移动硬盘或者U盘)                                                 |
+| www.ezbsystems.com/ultraiso/index.html               | 软碟通(创建、修改和转换ISO文件)                                                                       |
+| www.editplus.com                                     | EditPlus(文本编辑器，支持语法高亮，自动完成等功能)                                                    |
+| www.sublimetext.com                                  | Sublime Text(文本编辑器，支持基于Python的插件)                                                        |
+| www.bitvise.com/ssh-server                           | Bitvise SSH Server                                                                                    |
+| www.mactype.net                                      | mactype(MacType是基于一个GDI++的开源项目开发的字体渲染软件)                                           |
+| justgetflux.com                                      | f.lux(自动调节色温,保护眼睛)                                                                          |
+| github.com/vim/vim-win32-installer                   | vim(win32 and win64)                                                                                  |
+| emacsbinw64.sourceforge.net                          | emacs 64-bit                                                                                          |
+| www.cpuid.com/softwares/cpu-z.html                   | cpu-z                                                                                                 |
+| www.techpowerup.com/gpuz                             | gpu-z                                                                                                 |
+| filezilla-project.org                                | FileZilla是FTP软件，分为客户端版本和服务器版本                                                        |
+| mpc-hc.org                                           | Media Player Classic Home Cinema，简称MPC-HC，是一款简洁的媒体播放器，Media Player Classic 的后续版本 |
+| www.chiark.greenend.org.uk/~sgtatham/putty           | Telnet, SSH, rlogin, 纯TCP以及串行端口连接软件                                                        |
+| www.piriform.com/CCLEANER                            | 保护隐私,清理不必要的垃圾,找出及修正Windows登录中的问题包括不再使用的扩展名及程序路径的问题等         |
+| winscp.net/eng/docs/lang:chs                         | WinSCP除了SFTP，还支持SSH、SCP                                                                        |
+| cheatengine.org                                      | 查找与修改内存地址                                                                                    |
+| www.ultraedit.com                                    | UltraEdit有很强大的编程功能，支持宏、语法高亮度显示和正则表达式等功能                                 |
+| www.hex-rays.com/products/ida/support/download.shtml | ida(反组译与除错工具的产品，常用于逆向工程)                                                           |
