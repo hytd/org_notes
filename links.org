@@ -117,14 +117,6 @@ mysql.com
 
 关系数据库管理系统
 -----
-mozilla.org/zh-CN/thunderbird/
-
-电子邮箱客户端
------
-7-zip.org
-
-数据压缩程序
------
 phpmyadmin.net
 
 以Web-Base方式架构在网站主机上的MySQL的数据库管理工具,让管理者可用Web接口管理MySQL数据库
@@ -136,10 +128,6 @@ typecho.org
 github.com/phuslu/goproxy
 
 通过Google Appengine科学上网
------
-mozilla.org/en-US/firefox/all/
-
-纯净firefox下载
 -----
 gimp.org
 
@@ -355,12 +343,6 @@ torproject.org
 Tor（The Onion Router，洋葱路由器）是实现匿名通信的自由软件。Tor是第二代洋葱路由的一种实现，用户通过Tor可以在因特网上进行匿名交流。最初该项目由美国海军研究实验室赞助。2004年后期，Tor成为电子前哨基金会（EFF）的一个项目。2005年后期，EFF不再赞助Tor项目，但他们继续维持Tor的官方网站。
 #+END_CENTER
 -----
-#+BEGIN_CENTER
-keepass.info
-
-KeePass是一款密码管理器
-#+END_CENTER
------
 virtualbox.org
 
 Oracle VirtualBox是由德国InnoTek软件公司出品的虚拟机软件，现在则由甲骨文公司进行开发，是甲骨文公司xVM虚拟化平台技术的一部分。它提供用户在32位或64位的Windows、Solaris及Linux 操作系统上虚拟其它x86的操作系统。用户可以在VirtualBox上安装并且运行Solaris、Windows、DOS、Linux、OS/2 Warp、OpenBSD及FreeBSD等系统作为客户端操作系统。
@@ -410,14 +392,6 @@ Eclipse是著名的跨平台开源集成开发环境（IDE）。Eclipse的本身
 ifixit.com
 
 iFixit是一家设于美国加州圣路易斯-奥比斯保（San Luis Obispo）的公司，创立于2003年。该公司设立的同名网站以类似wiki网站的方式刊登电子产品等的DIY维修、拆解指南，并接受读者投稿。拆解指南会根据拆解难易度以分数评定（满分10分为最容易拆解）。
------
-msdn.microsoft.com/powershell
-
-Windows PowerShell是微软公司为Windows环境所开发的壳程序（shell）及脚本语言技术，采用的是命令行界面。这项全新的技术提供了丰富的控制与自动化的系统管理能力。
-
-之前的开发代号是Monad，程序另一个名称叫Microsoft Shell（MSH）。
-
-2016年8月18日，微软宣布将PowerShell开放源代码，并将支持Linux和OS X系统。
 -----
 gnome.org
 
@@ -1058,12 +1032,6 @@ github.com/processone/tsung
 
 tsung是erlang开发的一个开源的多协议分布式负载测试工具，它能用来压力测试HTTP, WebDAV, SOAP, PostgreSQL, MySQL, LDAP 和 Jabber/XMPP的服务器。它可以分布在多个客户机，并能轻松够模拟成千上万的虚拟用户数并发。
 -----
-#+BEGIN_CENTER
-pentestbox.org
-
-PentestBox是一款Windows平台下预配置的便携式开源渗透测试环境
-#+END_CENTER
------
 w3school.com.cn
 
 在 w3school，你可以找到你所需要的所有的网站建设教程。
@@ -1107,18 +1075,6 @@ github.com/jedisct1/libsodium
 
 libsodium 是一个先进而且易用的加密库。主要用于加密、解密、签名和生成密码哈希等等。这是一个可移植的、跨编译器支持、可安装的，基于 NaCI 开发，提供一个兼容 API。
 #+END_CENTER
------
-etcher.io
-
-github.com/resin-io/etcher
-
-刻录工具(usb)
------
-rufus.akeo.ie
-
-github.com/pbatard/rufus
-
-Rufus 是一个可以帮助格式化和创建可引导USB闪存盘的工具，比如 USB 随身碟，记忆棒等等。
 -----
 github.com/jobbole/awesome-cpp-cn
 
@@ -1197,10 +1153,6 @@ github.com/zmap/zmap
 
 ZMap是一个网络扫描器，使研究人员能够轻松地执行互联网范围的网络研究。
 #+END_CENTER
------
-cheatengine.org
-
-Cheat Engine，一般简称CE，是一个开放源代码的软件，作者为Eric Heijnen ("Dark Byte")，功能包括：内存扫描、十六进制编辑器、除错工具，目前仅供Windows操作系统运行。Cheat Engine最常在电脑游戏中当做游戏外挂，有时会更新以避免被其他软件检测到。这个程序类似于L. Spiro的 "Memory Hacking Software"、TSearch、以及ArtMoney。通过Cheat Engine，用户可以查找与修改电脑的内存。
 -----
 adblockplus.org
 
@@ -1716,10 +1668,6 @@ copperhead.co
 
 安全Android系统
 #+END_CENTER
------
-getlantern.org
-
-蓝灯,免费科学上网
 -----
 whatismyipaddress.com
 
