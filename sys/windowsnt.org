@@ -78,4 +78,6 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | pentestbox.org                                       | PentestBox是一款Windows平台下预配置的便携式开源渗透测试环境                                                                |
 | etcher.io                                            | 刻录工具(usb)                                                                                                              |
 | rufus.akeo.ie                                        | Rufus 是一个可以帮助格式化和创建可引导USB闪存盘的工具                                                                      |
-| getlantern.org                                       | 蓝灯,免费科学上网                                                                                                                           |
+| getlantern.org                                       | 蓝灯,免费科学上网                                                                                                          |
+| conemu.github.io                                     | 一个带有选项卡的Windows控制台仿真器                                                                                        |
+| rime.im                                              | 中州韵输入法引擎                                                                                                           |
