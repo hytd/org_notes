@@ -1748,3 +1748,7 @@ qemu-project.org
 lilyterm.luna.com.tw
 
 一个轻便但功能齐全的终端仿真器
+-----
+slackware.com
+
+它力图成为“UNIX风格”的Linux发行版本。它的方针是只吸收稳定版本的应用程序，并且缺少其他Linux版本中那些为发行版本定制的配置工具
