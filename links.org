@@ -1756,3 +1756,7 @@ slackware.com
 busybox.net
 
 Busybox在单一的可执行文件中提供了精简的Unix工具集，可运行于多款POSIX环境的操作系统
+-----
+mozilla.org/en-US/firefox/organizations/all
+
+firefox esr(长期支持版本)
