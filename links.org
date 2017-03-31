@@ -1681,17 +1681,6 @@ giganews.com
 
 最大的usenet提供商
 -----
-conemu.github.io
-
-ConEmu-Maximus5是一个带有选项卡的Windows控制台仿真器
------
-#+BEGIN_CENTER
-rime.im
-
-RIME／中州韵输入法引擎，是一个跨平台的输入法算法框架。
-基于这一框架，Rime 开发者与其他开源社区的参与者在 Windows、Mac OS X、Linux、Android 平台上创造了不同的输入法前端实现。
-#+END_CENTER
------
 freenode.net
 
 到2010年为止，它是世界上最大的IRC网络
