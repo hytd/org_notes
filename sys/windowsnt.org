@@ -84,3 +84,4 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | tinycorelinux.net/downloads.html                     | Tiny Core Linux 是一个极度简约但是也高度可扩展的 GNU/Linux 发行版                                                          |
 | www.apachehaus.com/cgi-bin/download.plx              | apache binary                                                                                                              |
 | www.wampserver.com/en                                | wamp                                                                                                                       |
+| msdn.itellyou.cn                                     | ed2k 微软资源                                                                                                                      |
