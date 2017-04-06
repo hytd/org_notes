@@ -1,3 +1,7 @@
 #+BEGIN_CENTER
 [[../img/OpenBSD_Logo_-_Cartoon_Puffy_with_textual_logo_below.svg]]
 #+END_CENTER
+
+* Links
+
+| prism-break.org | 让我们退出所有类似于棱镜计划、XKeyscore 和时代计划的全球信息监控项目 |
