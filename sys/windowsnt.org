@@ -89,3 +89,4 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | www.drivergenius.com                                 | 驱动精灵                                                                                                                   |
 | www.microsoft.com/zh-cn/software-download/windows10  | win10 官方下载链接                                                                                                         |
 | sourceforge.net/projects/win32diskimager             | 将文件写入到磁盘                                                                                                           |
+| neosmart.net/EasyBCD                                 | 启动菜单管理                                                                                                                           |
