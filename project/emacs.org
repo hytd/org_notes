@@ -1058,7 +1058,7 @@ using, writing, and sharing free software!
 | C-n | [[C-n][(next-line &optional ARG TRY-VSCROLL)]]     | 光标向下移动一行     |
 | C-p | [[C-p][(previous-line &optional ARG TRY-VSCROLL)]] | 光标向上移动一行     |
 
-* functions
+* function
 
 #+BEGIN_QUOTE
 C-f <<C-f>> runs the command forward-char, which is an interactive built-in
