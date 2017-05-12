@@ -94,3 +94,36 @@ ucwords() 将字符串中每个单词的首字母转换为大写 uc word s
 #+BEGIN_QUOTE
 mb_convert_case() 对字符串进行大小写转换,转换模式由mode指定
 #+END_QUOTE
+
+*session和cookie的区别*
+
+- cookie 数据保存在客户的浏览器上，session 数据保存在服务器上
+- cookie 不是很安全，别人可能进行 cookie 欺骗，考虑到安全应当使用 session
+- session 会在一定时间内保存在服务器上，当访问增多，会比较占用服务器性能，考虑到减轻服务器性能方面应当使用 cookie
+- 重要的资料用 session 不重要的用 cookie
+- 单个 cookie 体积限制是4k session 可以通过设置修改
+
+*如果禁用了cookie 可不可以用session*
+
+#+BEGIN_QUOTE
+可以，通常情况下 cookie 中记录了 session 的id 所以 cookie 被禁用了也就意味着 session 失效了。不过 session-id 还有另外一种传递方式，就是在url查询中携带 session-id
+
+ session 不一定必须依赖 cookie cookie 被禁用或者出现问题时，php会自动把 session-id 附在url中，但是php.ini中的 =session.use_trans_sid= = 1
+#+END_QUOTE
+
+*session的默认生命周期是多久*
+
+#+BEGIN_QUOTE
+关闭浏览器就失效，因为 session-id 存在于 cookie 而默认情况下 cookie 关闭浏览器即失效
+#+END_QUOTE
+
+*如何设置session生命周期为30分钟*
+
+#+BEGIN_QUOTE
+在php.ini配置文件中 session.cookie_lifetime=1800 单位为秒
+#+END_QUOTE
+
+*get和post提交方法的区别*
+
+- get 和 post 理论上没有大小限制，但是 get 的长度和 url 的长度有直接关系 http协议没有对 url 长度进行限制 ie浏览器最url最大限制为 2083 字节 其他浏览器更多，所以 get 最好限制在 2083 字节
+
