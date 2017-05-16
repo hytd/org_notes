@@ -1,0 +1,3 @@
+#+BEGIN_CENTER
+[[../img/NetBSD.svg]]
+#+END_CENTER
