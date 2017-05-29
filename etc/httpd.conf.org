@@ -1,0 +1,13 @@
+#+BEGIN_SRC 
+ext_if="egress"
+domain="example.com"
+
+chroot "/var/www"
+
+types { include "/usr/share/misc/mime.types" }
+
+server $domain {
+    listen on $ext_if port 80
+    root "/htdocs"
+}
+#+END_SRC
