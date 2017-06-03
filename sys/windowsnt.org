@@ -95,3 +95,419 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | x-ways.net/winhex                                                  | hex数据编辑处理程序                                                                                                        |
 | atom.io                                                            | 文字与代码编辑器                                                                                                           |
 | www.cgsoftlabs.ro/studpe.html                                      | pe综合工具                                                                                                                 |
+* file
+
+*hosts*
+
+#+BEGIN_SRC 
+# 腾讯
+::1    qq.com
+::1    www.qq.com
+# foxmail
+::1    foxmail.com
+::1    www.foxmail.com
+# qq会员
+::1    vip.qq.com
+# qq空间
+::1    qzone.qq.com
+# qq群空间
+::1    qun.qzone.qq.com
+# qq导航
+::1    hao.qq.com
+# qq阅读
+::1    book.qq.com
+::1    chuangshi.qq.com
+# 游戏人生
+::1    igamq.qq.com
+# tgp腾讯游戏平台
+::1    tgp.qq.com
+# 腾讯视频
+::1    v.qq.com
+# 企鹅fm
+::1    fm.qq.com
+# 腾讯游戏
+::1    game.qq.com
+# 财付通
+::1    tenpay.com
+::1    www.tenpay.com
+# 腾讯充值
+::1    pay.qq.com
+# 腾讯举报受理中心
+::1    110.qq.com
+# 腾讯企业产品
+::1    b.qq.com
+::1    store.b.qq.com
+# 应用宝
+::1    sj.qq.com
+
+# 频道
+# 腾讯娱乐
+::1    ent.qq.com
+# 教育频道
+::1    edu.qq.com
+# 数码频道
+::1    digi.tech.qq.com
+# 城事频道
+::1    sh.qq.com
+# 腾讯道学
+::1    dao.qq.com
+# 大渝视频
+::1    cq.qq.com
+
+# pc游戏
+# qq游戏
+::1    qqgame.qq.com
+# 英雄联盟
+::1    lol.qq.com
+# 穿越火线
+::1    cf.qq.com
+# 地下城与勇士
+::1    dnf.qq.com
+# 战地之王
+::1    ava.qq.com
+# 枪神纪
+::1    tps.qq.com
+# 英魂之刃
+::1    cos.qq.com
+# 剑灵
+::1    bns.qq.com
+# 炫舞时代
+::1    5s.qq.com
+# 天涯明月刀
+::1    wuxia.qq.com
+
+# pc软件
+# 腾讯软件中心
+::1    pc.qq.com
+# qq
+::1    im.qq.com
+# qq浏览器
+::1    browser.qq.com
+# qq输入法
+::1    py.qq.com
+::1    qq.pinyin.cn
+# qq影音
+::1    player.qq.com
+# 腾讯电脑管家
+::1    guanjia.qq.com
+# qq旋风
+::1    xf.qq.com
+# tim
+::1    office.qq.com
+# qq影像
+::1    image.qq.com
+# 小q桌面
+::1    qdesk.qq.com
+# 微云
+::1    weiyun.com
+::1    www.weiyun.com
+# 腾讯对战平台
+::1    dz.qq.com
+
+# web游戏
+# qq宠物企鹅
+::1    pet.qq.com
+# tnt
+::1    tnt.qq.com
+# 植物大战僵尸online
+::1    pvz.qq.com
+# 开心消消乐
+::1    xxl.qq.com
+# 魔法花园
+::1    3344.qq.com
+
+# android软件
+# qq同步助手
+::1    pim.qq.com
+# 腾讯手机管家
+::1    m.qq.com
+
+# android游戏
+# 创越火线-枪战王者
+::1    cfm.qq.com
+# 王者荣耀
+::1    pvp.qq.com
+
+# 百度
+::1    baidu.com
+::1    www.baidu.com
+# 百度贴吧
+::1    tieba.baidu.com
+# 百度爸妈搜索
+::1    bama.baidu.com
+# 百度网址大全
+::1    site.baidu.com
+# 百度阅读
+::1    yuedu.baidu.com
+# 百度浏览器
+::1    liulanqi.baidu.com
+# 百度影音
+::1    player.baidu.com
+# 爱奇艺
+::1    iqiyi.com
+::1    www.iqiyi.com
+
+# 网易
+::1    163.com
+::1    www.163.com
+::1    zh.163.com
+::1    game.163.com 
+::1    mail.163.com
+::1    netease.com
+::1    www.netease.com
+# 斩魂论坛
+::1    zh.netease.com
+# 战网-中华人民共和国
+::1    battlenet.com.cn
+::1    www.battlenet.com.cn
+# 风暴英雄
+::1    heroes.blizzard.cn
+# 星际争霸
+::1    sc2.blizzard.cn
+# 守望先锋
+::1    ow.blizzard.cn
+# 爱玩网
+::1    play.163.com
+
+# acfun.tv
+::1    acfun.tv
+::1    www.acfun.tv
+# acfun.cn
+::1    acfun.cn
+::1    www.acfun.cn
+
+# bilibili.com
+::1    bilibili.com
+::1    www.bilibili.com
+
+# 奇虎360
+::1    360.cn
+::1    www.360.cn
+::1    360.com
+::1    www.360.com
+# 奇虎360娱乐
+::1    yule.360.cn
+# 奇虎360影视
+::1    360kan.com
+::1    www.360kan.com
+# 奇虎360快视频
+::1    k.360kan.com
+# 奇虎360加密邮
+::1    jiamiyou.360.cn
+# 奇虎360导航
+::1    hao.360.cn
+# 奇虎360企业安全
+::1    b.360.cn
+# 奇虎360杀毒
+::1    sd.360.cn
+# 奇虎360安全浏览器
+::1    se.360.cn
+# 奇虎360急速浏览器
+::1    chrome.360.cn
+# 奇虎360压缩
+::1    yasuo.360.cn
+# 奇虎360安全桌面
+::1    zhuomian.360.cn
+# 奇虎360儿童桌面
+::1    ertong.zhuomian.360.cn
+# 奇虎360系统重装大师
+::1    renew.360.cn
+# 奇虎360急救盘
+::1    jijiupan.360.cn
+# 奇虎360游戏大厅
+::1    360game.360.cn
+# 鲁大师
+::1    ludashi.com
+::1    www.ludashi.com
+# 奇虎360商城
+::1    i360mall.com
+::1    www.i360mall.com
+# 奇虎360天气
+::1    tq.360.cn
+# 奇虎360搜索
+::1    so.com
+::1    www.so.com
+
+
+# 新浪
+::1    sina.com.cn
+::1    www.sina.com.cn
+
+# 搜狐
+::1    sohu.com
+::1    www.sohu.com
+::1    mail.sohu.com
+# 搜狐视频
+::1    v.sohu.com
+::1    tv.sohu.com
+
+
+# yy.com
+::1    yy.com
+::1    www.yy.com
+
+# 多玩
+::1    duowan.com
+::1    www.duowan.com
+# 多玩论坛
+::1    bbs.duowan.com
+# 娱乐视频
+::1    video.duowan.com
+# 多玩盒子
+::1    box.duowan.com
+# 多玩图库
+::1    tu.duowan.com
+
+# 欢聚时代
+::1    huanju.cn
+
+# 火狐-中华人民共和国
+# 火狐中文网
+::1    firefoxchina.con
+::1    www.firefoxchina.com
+# 火狐搜索起始页
+::1    start.firefoxchina.cn
+# 火狐主页
+::1    i.firefoxchina.cn
+# 火狐浏览器
+::1    firefox.com.cn
+::1    www.firefox.com.cn
+
+# 光明网
+::1    gmw.cn
+::1    www.gmw.cn
+# skype-中华人民共和国
+::1    skype.gmw.cn
+
+# 雅虎邮箱-中华人民共和国
+::1    cn.overview.mail.yahoo.com
+
+# 中华人民共和国互联网络信息中心
+::1    cnnic.net.cn
+::1    www.cnnic.net.cn
+
+# 天涯社区
+::1    tianya.cn
+::1    www.tianya.cn
+
+# 猫扑
+::1    mop.com
+::1    www.mop.com
+
+# 中华人民共和国搜
+::1    zhongsou.com
+::1    www.zhongsou.com
+
+# 中华人民共和国搜索
+::1    chinaso.com
+::1    www.chinaso.com
+
+# hao123
+::1    hao123.com
+::1    www.hao123.com
+
+# 贪玩游戏
+::1    tanwan.com
+::1    www.tanwan.com
+
+# 搜狗搜索
+::1    sogou.com
+::1    www.sogou.com
+# 搜狗新闻
+::1    news.sogou.com
+
+# 2345网址导航
+::1    2345.com
+::1    www.2345.com
+
+# 酷6网
+::1    ku6.com
+::1    www.ku6.com
+
+# 6房间
+::1    6.cn
+::1    www.6.cn
+::1    v.6.cn
+
+# 游迅网
+::1    yxdown.com
+::1    www.yxdown.com
+
+# 爱拍
+::1    aipai.com
+::1    www.aipai.com
+# 用户登录
+::1    home.aipai.com
+
+# 3d坦克
+::1    3dtank.com
+::1    www.3dtank.com
+::1    tankionline.com
+::1    www.tankionline.com
+
+# 迅雷
+::1    xunlei.com
+::1    www.xunlei.com
+# 迅雷产品中心
+::1    dl.xunlei.com
+# 迅雷会员
+::1    vip.xunlei.com
+# 迅雷影音
+::1    video.xunlei.com
+# 迅雷游戏盒子
+::1    gamebox.niu.xunlei.com
+# 迅雷牛x页游
+::1    niu.xunlei.com
+# 迅雷直播
+::1    live.xunlei.com
+# 迅雷快鸟
+::1    k.xunlei.com
+
+# 暴风影音
+::1    baofeng.com
+::1    www.baofeng.com
+
+# 风行网
+::1    fun.tv
+::1    www.fun.tv
+
+# kmplayer
+::1    kmplayer.com
+::1    www.kmplayer.com
+#+END_SRC
+
+* default
+
+** windows10
+
+*** file
+
+*hosts*
+
+#+BEGIN_QUOTE
+%SystemRoot%\System32\drivers\etc\hosts
+#+END_QUOTE
+
+#+BEGIN_SRC 
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+#+END_SRC
