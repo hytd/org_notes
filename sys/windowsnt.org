@@ -405,6 +405,8 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 # hao123
 ::1    hao123.com
 ::1    www.hao123.com
+# hao123下载
+::1    soft.hao123.com
 
 # 贪玩游戏
 ::1    tanwan.com
@@ -474,6 +476,21 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 # kmplayer
 ::1    kmplayer.com
 ::1    www.kmplayer.com
+
+# msn
+::1    msn.com
+::1    www.msn.com
+
+# steam
+::1    steampowered.com
+::1    www.steampowered.com
+# steam商店
+::1    store.steampowered.com
+# steam社区
+::1    steamcommunity.com
+::1    www.steamcommunity.com
+# steam客服
+::1    help.steampowered.com
 #+END_SRC
 
 * default
