@@ -99,6 +99,10 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 
 *hosts*
 
+#+BEGIN_QUOTE
+%SystemRoot%\System32\drivers\etc\hosts
+#+END_QUOTE
+
 #+BEGIN_SRC 
 # 腾讯
 ::1    qq.com
@@ -491,6 +495,28 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    www.steamcommunity.com
 # steam客服
 ::1    help.steampowered.com
+
+# 游民星空
+::1    gamersky.com
+::1    www.gamersky.com
+# 游民星空下载中心
+::1    down.gamersky.com
+# 游民星空电视游戏
+::1    tv.gamersky.com
+# 游民星空手机游戏
+::1    shouyou.gamersky.com
+# 游民星空动漫
+::1    acg.gamersky.com
+# 游民星空页游
+::1    web.gamersky.com
+# 游民星空游戏发售表
+::1    ku.gamersky.com
+# 游民星空动画
+::1    donghua.gamersky.com
+# 游民星空图库
+::1    pic.gamersky.com
+# 游民星空论坛
+::1    bbs.gamersky.com
 #+END_SRC
 
 * default
