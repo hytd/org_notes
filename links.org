@@ -1764,3 +1764,7 @@ firefox esr(长期支持版本)
 clamav.net
 
 ClamAV主要是使用在由Linux、FreeBSD等Unix-like系统架设的邮件服务器上，提供电子邮件的病毒扫描服务
+-----
+geonames.org
+
+GeoNames地理数据库涵盖所有国家，并包含可免费下载的11000多个地名
