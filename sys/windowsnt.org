@@ -94,7 +94,8 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | www.xemacs.org/Download/win32/index.html#InnoSetup-stable-Download | xemacs                                                                                                                     |
 | x-ways.net/winhex                                                  | hex数据编辑处理程序                                                                                                        |
 | atom.io                                                            | 文字与代码编辑器                                                                                                           |
-| www.cgsoftlabs.ro/studpe.html                                      | pe综合工具                                                                                                                 |
+| www.cgsoftlabs.ro/studpe.html                                      | pe综合工具                                                                                                             |
+| www.mwsl.org.cn                                                    | 挂马、色情、赌博、低俗广告等多种类型的hosts                                                                                               |
 * file
 
 *hosts*
@@ -517,6 +518,117 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    pic.gamersky.com
 # 游民星空论坛
 ::1    bbs.gamersky.com
+
+# 飞碟说
+::1    feidieshuo.com
+::1    www.feidieshuo.com
+::1    video.feidieshuo.com
+
+# 斗鱼
+::1    douyu.tv
+::1    www.douyu.tv
+::1    douyu.com
+::1    www.douyu.com
+
+# 熊猫直播
+::1    panda.tv
+::1    www.panda.tv
+
+# 龙珠直播
+::1    longzhu.com
+::1    www.longzhu.com
+::1    star.longzhu.com
+::1    y.longzhu.com
+
+# 4399小游戏
+::1    4399.com
+::1    www.4399.com
+
+# 7k7k小游戏
+::1    7k7k.com
+::1    www.7k7k.com
+
+# op.gg
+::1    op.gg
+::1    www.op.gg
+
+# advertising
+# 中华人民共和国联通
+::1    hndnserror1.wo.com.cn
+::1    hndnserror2.wo.com.cn
+::1    hndnserror3.wo.com.cn
+::1    hndnserror4.wo.com.cn
+::1    hndnserror5.wo.com.cn
+::1    hndnserror6.wo.com.cn
+::1    hndnserror7.wo.com.cn
+::1    hndnserror8.wo.com.cn
+::1    sxdnserror1.wo.com.cn
+::1    sxdnserror2.wo.com.cn
+::1    sxdnserror3.wo.com.cn
+::1    sxdnserror4.wo.com.cn
+::1    sxdnserror5.wo.com.cn
+::1    sxdnserror6.wo.com.cn
+::1    hljdnserror1.wo.com.cn
+::1    hljdnserror2.wo.com.cn
+::1    hljdnserror3.wo.com.cn
+::1    hljdnserror4.wo.com.cn
+::1    hljdnserror5.wo.com.cn
+::1    jldnserror1.wo.com.cn
+::1    jldnserror2.wo.com.cn
+::1    jldnserror3.wo.com.cn
+::1    jldnserror4.wo.com.cn
+::1    jldnserror5.wo.com.cn
+::1    jldnserror6.wo.com.cn
+::1    jldnserror7.wo.com.cn
+::1    jldnserror8.wo.com.cn
+::1    lndnserror1.wo.com.cn
+::1    lndnserror2.wo.com.cn
+::1    lndnserror3.wo.com.cn
+::1    lndnserror4.wo.com.cn
+::1    lndnserror5.wo.com.cn
+::1    lndnserror6.wo.com.cn
+::1    lndnserror7.wo.com.cn
+::1    lndnserror8.wo.com.cn
+::1    bjdnserror1.wo.com.cn
+::1    bjdnserror2.wo.com.cn
+::1    bjdnserror3.wo.com.cn
+::1    bjdnserror4.wo.com.cn
+::1    bjdnserror5.wo.com.cn
+::1    bjdnserror6.wo.com.cn
+::1    bjdnserror7.wo.com.cn
+::1    bjdnserror8.wo.com.cn
+::1    hbdnserror1.wo.com.cn
+::1    hbdnserror2.wo.com.cn
+::1    hbdnserror3.wo.com.cn
+::1    hbdnserror4.wo.com.cn
+::1    hbdnserror5.wo.com.cn
+::1    hbdnserror6.wo.com.cn
+::1    hbdnserror7.wo.com.cn
+::1    hbdnserror8.wo.com.cn
+::1    sddnserror1.wo.com.cn
+::1    sddnserror2.wo.com.cn
+::1    sddnserror3.wo.com.cn
+::1    sddnserror4.wo.com.cn
+::1    sddnserror5.wo.com.cn
+::1    sddnserror6.wo.com.cn
+::1    sddnserror7.wo.com.cn
+::1    sddnserror8.wo.com.cn
+::1    sddnserror9.wo.com.cn
+::1    nfdnserror1.wo.com.cn
+::1    nfdnserror2.wo.com.cn
+::1    nfdnserror3.wo.com.cn
+::1    nfdnserror4.wo.com.cn
+::1    nfdnserror5.wo.com.cn
+::1    nfdnserror6.wo.com.cn
+::1    nfdnserror7.wo.com.cn
+::1    nfdnserror8.wo.com.cn
+::1    nfdnserror9.wo.com.cn
+::1    nfdnserror10.wo.com.cn
+::1    nfdnserror11.wo.com.cn
+::1    nfdnserror12.wo.com.cn
+::1    nfdnserror13.wo.com.cn
+::1    nfdnserror14.wo.com.cn
+::1    nfdnserror15.wo.com.cn
 #+END_SRC
 
 * default
