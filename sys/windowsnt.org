@@ -94,8 +94,10 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | www.xemacs.org/Download/win32/index.html#InnoSetup-stable-Download | xemacs                                                                                                                     |
 | x-ways.net/winhex                                                  | hex数据编辑处理程序                                                                                                        |
 | atom.io                                                            | 文字与代码编辑器                                                                                                           |
-| www.cgsoftlabs.ro/studpe.html                                      | pe综合工具                                                                                                             |
-| www.mwsl.org.cn                                                    | 挂马、色情、赌博、低俗广告等多种类型的hosts                                                                                               |
+| www.cgsoftlabs.ro/studpe.html                                      | pe综合工具                                                                                                                 |
+| www.mwsl.org.cn                                                    | 挂马、色情、赌博、低俗广告等多种类型的hosts                                                                                |
+| www.piriform.com/recuva                                            | 快速，轻松地恢复已删除的文件                                                                                               |
+| www.piriform.com/recuva                                            | 电脑信息查看软件，允许用户查看在计算机上硬件的信息                                                                                                  |
 * file
 
 *hosts*
