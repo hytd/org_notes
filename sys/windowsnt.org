@@ -113,6 +113,7 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | www.sumatrapdfreader.org                                           | Sumatra PDF，又叫Sumatra，是一款专为Microsoft Windows开发的开放源代码PDF阅读器                                                              |
 | www.diskgenius.cn                                                  | DiskGenius，原名DiskMan，是一款免费的硬盘修复、分区工具软件                                                                                 |
 | www.visualstudio.com                                               | Microsoft Visual Studio（简称VS）是微软公司的开发工具包系列产品。VS是一个基本完整的开发工具集，它包括了整个软件生命周期中所需要的大部分工具 |
+| www.ghisler.com                                                    | Total Commander 是一款应用于 Windows 平台的文件管理器                                                                                                     |
 * file
 
 *hosts*
