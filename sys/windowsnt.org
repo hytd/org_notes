@@ -98,7 +98,8 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | www.mwsl.org.cn                                                    | 挂马、色情、赌博、低俗广告等多种类型的hosts                                                                                |
 | www.piriform.com/recuva                                            | 快速，轻松地恢复已删除的文件                                                                                               |
 | www.piriform.com/recuva                                            | 电脑信息查看软件，允许用户查看在计算机上硬件的信息                                                                         |
-| technet.microsoft.com/en-us/sysinternals/bb842062                  | Sysinternals Suite                                                                                                         |
+| technet.microsoft.com/en-us/sysinternals/bb963902                  | 查看哪些程序配置为在系统引导并登录时自动启动。 Autoruns还显示了应用程序可以配置自动启动设置的注册表和文件位置的完整列表    |
+| technet.microsoft.com/en-us/sysinternals/processexplorer.aspx      | 曾经想过哪个程序有特定的文件或目录打开？现在你可以找出来Process Explorer显示有关哪些句柄和DLL进程已打开或加载的信息        |
 * file
 
 *hosts*
