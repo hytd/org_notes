@@ -125,6 +125,9 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 #+END_QUOTE
 
 #+BEGIN_SRC 
+127.0.0.1    localhost
+# 当同时添加 [127.0.0.1 localhost] and [::1 localhost] ping 命令会 ping ::1
+# ::1    localhost
 # 腾讯
 ::1    qq.com
 ::1    www.qq.com
