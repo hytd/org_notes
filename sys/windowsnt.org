@@ -702,6 +702,25 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    9you.com
 ::1    www.9you.com
 
+# 天极网
+::1    yesky.com
+::1    www.yesky.com
+# 天极下载
+::1    mydown.yesky.com
+
+# 52pk
+::1    52pk.com
+::1    www.52pk.com
+
+# 猴岛论坛
+::1    houdao.com
+::1    www.houdao.com
+::1    bbs.houdao.com
+
+# 快手
+::1    kuaishou.com
+::1    www.kuaishou.com
+
 # advertising
 # 中华人民共和国联通
 ::1    hndnserror1.wo.com.cn
