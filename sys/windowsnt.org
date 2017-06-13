@@ -604,7 +604,7 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    shouyou.com
 ::1    www.shouyou.com
 
-# 中国新闻网
+# 中华人民共和国新闻网
 ::1    chinanews.com
 ::1    www.chinanews.com
 
@@ -645,6 +645,38 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    news.china.com
 # 中华网军事
 ::1    military.china.com
+
+# 环球网
+::1    huanqiu.com
+::1    www.huanqiu.com
+
+# 凤凰网
+::1    ifeng.com
+::1    www.ifeng.com
+
+# 中华人民共和国日报
+::1    chinadaily.com.cn
+::1    www.chinadaily.com.cn
+::1    cn.chinadaily.com.cn
+
+# 中华人民共和国青年报
+::1    cyol.com
+::1    www.cyol.com
+::1    news.cyol.com
+
+# 联合早报
+::1    zaobao.com
+::1    www.zaobao.com
+::1    news.zaobao.com
+
+# 京华网
+::1    jinghua.cn
+::1    www.jinghua.cn
+::1    news.jinghua.cn
+
+# 中华人民共和国共青团
+::1    ccyl.org.cn
+::1    www.ccyl.org.cn
 
 # advertising
 # 中华人民共和国联通
