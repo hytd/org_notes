@@ -742,6 +742,78 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    startcom.org
 ::1    www.startcom.org
 
+# 起点中文网
+::1    qidian.com
+::1    www.qidian.com
+
+# uc书盟
+::1    uctxt.com
+::1    www.uctxt.com
+
+# 17k小说网
+::1    17k.com
+::1    www.17k.com
+
+# 纵横中文网
+::1    zongheng.com
+::1    www.zongheng.com
+
+# 飞卢小说网
+::1    faloo.com
+::1    www.faloo.com
+::1    b.faloo.com
+
+# qc轻小说
+::1    qcacg.com
+::1    www.qcacg.com
+
+# 黑岩网
+::1    heiyan.com
+::1    www.heiyan.com
+
+# 鲸鱼阅读
+::1    jingyu.com
+::1    www.jingyu.com
+
+# 风云小说阅读网
+::1    baoliny.com
+::1    www.baoliny.com
+
+# 逐浪小说网
+::1    zhulang.com
+::1    www.zhulang.com
+
+# 红袖添香小说网
+::1    hongxiu.com
+::1    www.hongxiu.com
+
+# 全本小说网
+::1    quanben.co
+::1    www.quanben.co
+
+# 一本读全本小说网
+::1    quanben.com
+::1    www.quanben.com
+::1    ybdu.com
+::1    www.ybdu.com
+
+# 小说阅读网
+::1    readnovel.com
+::1    www.readnovel.com
+
+# 塔读文学
+::1    tadu.com
+::1    www.tadu.com
+
+# 3g书城
+::1    3gsc.com.cn
+::1    www.3gsc.com.cn
+
+# 凤鸣轩
+::1    fmx.cn
+::1    www.fmx.cn
+
+
 # advertising
 # 中华人民共和国联通
 ::1    hndnserror1.wo.com.cn
