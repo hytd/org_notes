@@ -8,12 +8,23 @@
 ext_if="egress"
 domain="example.com"
 
-chroot "/var/www"
-
 types { include "/usr/share/misc/mime.types" }
 
 server $domain {
     listen on $ext_if port 80
-    root "/htdocs"
 }
 #+END_SRC
+
+egress    是默认路由接口的别名
+
+chroot    设置chroot目录，如果未指定，则默认为 www 用户的主目录 /var/www
+
+types    配置支持的 *多用途互联网邮件扩展(MIME, Multipurpost Internet Mail Extensions)* 
+
+type { includ "$path" }    从外部文件中包含类型定义,其中 $path 是路径
+
+server $domain { }    每个服务器部分以服务器名称的声明开始，使用shell globbing规则匹配服务器名称。 这可以是明确的名称 www.example.com 或包含通配符 *.example.com 的名称 其中 $domain 是指 服务器名称
+
+server $domain { listen on $address [tls] port $number }      设置侦听地址和端口。 此语句可以多次指定。其中 $domain 是指 服务器名称 $address 是指 监听地址 $number 是指 监听地址的 端口号
+
+server $domain { root "/$directory" }    设置服务器的 文档根目录 该目录是以 httpd 的 chroot 设置的目录地址 为 根目录地址 其中 $domain 是指 服务器名称 / 是指 根目录 $directory 是指 目录 *root* 默认为 /htdocs
