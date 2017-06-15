@@ -263,6 +263,12 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    www.baidu.com
 # 百度贴吧
 ::1    tieba.baidu.com
+# 百度知道
+::1    zhidao.baidu.com
+# 百度经验
+::1    jingyan.baidu.com
+# 百度百科
+::1    baike.baidu.com
 # 百度爸妈搜索
 ::1    bama.baidu.com
 # 百度网址大全
@@ -817,6 +823,29 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    antiy.com
 ::1    www.antiy.com
 
+# 99.com
+::1    99.com
+::1    www.99.com
+# 魔域
+::1    my.99.com
+# 投名状online
+::1    tmz.99.com
+# 机战
+::1    jz.99.com
+# 天元
+::1    ty.99.com
+
+# 遨游
+::1    maxthon.cn
+::1    www.maxthon.cn
+
+# 搜狗
+::1    sogou.com
+::1    www.sogou.com
+# 搜狗输入法
+::1    pinyin.sogou.com
+# 搜狗浏览器
+::1    ie.sogou.com
 
 # advertising
 # 中华人民共和国联通
