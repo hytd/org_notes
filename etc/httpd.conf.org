@@ -1,3 +1,9 @@
+* openbsd httpd
+
+#+BEGIN_QUOTE
+/etc/httpd.conf
+#+END_QUOTE
+
 #+BEGIN_SRC 
 ext_if="egress"
 domain="example.com"
