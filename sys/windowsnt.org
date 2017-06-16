@@ -1013,11 +1013,17 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 #+END_SRC
 *** variable
 *变量不区分大小写*
+
 *$user-name 代表 用户名*
+
 *$computer-name 代表 电脑名称*
+
 *$HOMEDRIVE=C: 大写的 c 然后是 冒号 不是 分号*
+
 *$logon-server 代表 登陆服务器*
+
 *$number-of-processors 代表 处理器核心数*
+
 | Name                            | Value                               |
 |---------------------------------+-------------------------------------|
 | ALLUSERSPROFILE                 | C:\ProgramData                      |
