@@ -1,0 +1,9 @@
+* openbsd
+
+#+BEGIN_EXAMPLE
+/etc/rc.conf.local
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
+httpd_flags=
+#+END_EXAMPLE
