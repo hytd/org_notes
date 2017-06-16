@@ -1,7 +1,6 @@
 #+BEGIN_CENTER
 [[../img/Windows_NT_logo.svg]]
 #+END_CENTER
-
 * What is Windows_NT
 
 Windows NT，新技术视窗操作系统（Windows New Technology）的简称，是美国微软公司1993年推出的操作系统核心。
@@ -34,7 +33,6 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 |         | Windows服务器版2012    | Essentials、Standard、Datacenter                                                        |                             9600 | 2013/10/18                   |                                                     |
 | NT 10.0 | Windows 10             | 家庭版、专业版、企业版、Mobile、IoT                                                     | 10240(TH1) 10586(TH2) 14393(RS1) | 2015/7/29                    | [[../img/Windows_10_Logo.svg.png]]                      |
 * link
-
 | Link                                                               | Explanation                                                                                                                                 |
 |--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------|
 | www.easyuefi.com/wintousb/index-cn.html                            | WinToUSB(轻松将Windows/WinPE安装到USB移动硬盘或者U盘)                                                                                       |
@@ -119,14 +117,11 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | technet.microsoft.com/en-us/sysinternals/cc817881                  | 允许您最多在四个虚拟桌面上组织应用程序                                                                                   |
 | github.com/shadowsocks/shadowsocks-qt5                             | 跨平台的shadowsocks GUI客户端                                                                                                   |
 * file
-
 *hosts*
-
 #+BEGIN_QUOTE
 %SystemRoot%\System32\drivers\etc\hosts
 #+END_QUOTE
-
-#+BEGIN_SRC 
+#+BEGIN_EXAMPLE
 127.0.0.1    localhost
 # 当同时添加 [127.0.0.1 localhost] and [::1 localhost] ping 命令会 ping ::1
 # ::1    localhost
@@ -977,20 +972,14 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 # 奇虎360
 ::1    api.so.lianmeng.360.cn
 ::1    s.lianmeng.360.cn
-#+END_SRC
-
+#+END_EXAMPLE
 * default
-
 ** windows10
-
 *** file
-
 *hosts*
-
 #+BEGIN_QUOTE
 %SystemRoot%\System32\drivers\etc\hosts
 #+END_QUOTE
-
 #+BEGIN_SRC 
 # Copyright (c) 1993-2009 Microsoft Corp.
 #
@@ -1014,3 +1003,54 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 #	127.0.0.1       localhost
 #	::1             localhost
 #+END_SRC
+*** variable
+*变量不区分大小写*
+*$user-name 代表 用户名*
+*$computer-name 代表 电脑名称*
+*$HOMEDRIVE=C: 大写的 c 然后是 冒号 不是 分号*
+*$logon-server 代表 登陆服务器*
+*$number-of-processors 代表 处理器核心数*
+| Name                            | Value                               |
+|---------------------------------+-------------------------------------|
+| ALLUSERSPROFILE                 | C:\ProgramData                      |
+| APPDATA                         | C:\Users\$user-name\AppData\Roaming |
+| CommonProgramFiles              | C:\Program Files\Common Files       |
+| CommonProgramFiles(x86)         | C:\Program Files (x86)\Common Files |
+| CommonProgramW6432              | C:\Program Files\Common Files       |
+| COMPUTERNAME                    | $computer-name                      |
+| ComSpec                         | C:\Windows\system32\cmd.exe         |
+| FPS_BROWSER_APP_PROFILE_STRING  | Internet Explorer                   |
+| FPS_BROWSER_USER_PROFILE_STRING | Default                             |
+| HOMEDRIVE                       | C:                                  |
+| HOMEPATH                        | \Users\$username                    |
+| LOCALAPPDATA                    | C:\Users\$username\AppData\Local    |
+| LOGONSERVER                     | \\$logon-server                     |
+| NUMBER_OF_PROCESSORS            | $number-of-processors               |
+| OneDrive                        | C:\Users\$user-name\OneDrive        |
+| OS                              | Windows_NT                          |
+| Path                            |                                     | 
+  
+* powershell
+** example
+*列出所有环境变量*
+#+BEGIN_QUOTE
+#+BEGIN_SRC 
+Get-ChildItemem env: 
+#+END_SRC
+#+END_QUOTE
+
+*列出特定变量的值*
+#+BEGIN_QUOTE
+#+BEGIN_SRC 
+$env:Path
+#+END_SRC
+
+#+BEGIN_SRC 
+$env:OS
+#+END_SRC
+
+#+BEGIN_SRC 
+$env:SystemRoot
+#+END_SRC
+#+END_QUOTE
+
