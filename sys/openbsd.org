@@ -13,3 +13,7 @@
 ** security
 
 ** manual
+
+| link                               | explanation     |
+|------------------------------------+-----------------|
+| openbsd-archive.7691.n7.nabble.com | OpenBSD Archive |
