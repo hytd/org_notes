@@ -6,10 +6,6 @@
 
 * Links
 
-** vim
-
-** emacs
-
 ** anonymous
 
 | prism-break.org | 让我们退出所有类似于棱镜计划、XKeyscore 和时代计划的全球信息监控项目 |
