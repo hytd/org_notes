@@ -1,3 +1,5 @@
+# بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ
+
 #+BEGIN_CENTER
 [[../img/Windows_NT_logo.svg]]
 #+END_CENTER
