@@ -6,16 +6,26 @@
 /etc/httpd.conf
 #+END_QUOTE
 
-#+BEGIN_SRC 
+#+BEGIN_EXAMPLE
 ext_if="egress"
-domain="example.com"
+domain=""
 
 types { include "/usr/share/misc/mime.types" }
 
 server $domain {
     listen on $ext_if port 80
+    block return 301 "https://$SERVER_NAME$REQUEST_URI"
 }
-#+END_SRC
+
+server $domain {
+    listen on $ext_if tls tls port 443
+
+    tls {
+        certificate ""
+        key ""
+    }
+}
+#+END_EXAMPLE
 
 egress    是默认路由接口的别名
 
@@ -30,3 +40,13 @@ server $domain { }    每个服务器部分以服务器名称的声明开始，�
 server $domain { listen on $address [tls] port $number }      设置侦听地址和端口。 此语句可以多次指定。其中 $domain 是指 服务器名称 $address 是指 监听地址 $number 是指 监听地址的 端口号
 
 server $domain { root "/$directory" }    设置服务器的 文档根目录 该目录是以 httpd 的 chroot 设置的目录地址 为 根目录地址 其中 $domain 是指 服务器名称 / 是指 根目录 $directory 是指 目录 *root* 默认为 /htdocs
+
+server > block [return code [uri]]    关闭连接并返回状态码，如果未指定可选的返回码，则 拒绝访问"403 Forbidden" 可选的 uri 参数可以用 3xx 范围内的返回码， 以将重定向的 'Location:' 头 发送到指定的 URI 其中 $SERVER_NAME 是指 服务器的名称 $REQUEST_URI 是指 请求路径 和 可选查询字符串
+
+server > listen on address [tls] port number    设置侦听地址和端口，此语句可以多次指定
+
+server > tls    设置服务器的 TLS 配置，只有通过 listen 指令 启用了 TLS 才可以使用 TLS TLS是指 传输层安全协议(Transport Layer Security)
+
+server > tls > certificate    指定要用于此服务器的证书，该文件应包含 PEM 编码的证书 默认值为 /etc/ssl/server.crt
+
+server > tls > key    指定要用于此服务器的私钥，该文件应包含 PEM 编码的私钥 并且驻留在 httpd 的 chroot 根目录之外。默认值为 /etc/ssl/private/server.key
