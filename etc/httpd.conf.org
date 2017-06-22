@@ -24,6 +24,11 @@ server $domain {
         certificate ""
         key ""
     }
+
+    directory { index index.php }
+    location "/*.php* { fastcgi socket "/run/php-fpm.sock" }
+    location "/*.tar" { block }
+    location "/.*" { block drop }
 }
 #+END_EXAMPLE
 
@@ -50,3 +55,6 @@ server > tls    设置服务器的 TLS 配置，只有通过 listen 指令 启�
 server > tls > certificate    指定要用于此服务器的证书，该文件应包含 PEM 编码的证书 默认值为 /etc/ssl/server.crt
 
 server > tls > key    指定要用于此服务器的私钥，该文件应包含 PEM 编码的私钥 并且驻留在 httpd 的 chroot 根目录之外。默认值为 /etc/ssl/private/server.key
+
+server > directory    提供访问目录时设置指定的选项
+
