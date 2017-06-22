@@ -62,7 +62,7 @@ server > directory > index    设置目录索引文件，如果未指定，则�
 
 server > location    指定特定位置的服务器匹配规则。路径参数将与 shell globbing 规则 与 请求路径进行匹配
 
-server > [*no*] *fastcgi* [*socket* socket]    启用fastcgi,套接字是 httpd 的 chroot 根目录中的本地路径，默认为 /run/slowcgi.sock
+server > [ *no* ] *fastcgi* [ *socket* socket]    启用fastcgi,套接字是 httpd 的 chroot 根目录中的本地路径，默认为 /run/slowcgi.sock
 
 server > location "/*.tar" { block }    拒绝访问特定的文件，返回 403 状态码(403 Forbidden) forbidden 形容词  被禁止
 
