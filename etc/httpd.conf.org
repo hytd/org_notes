@@ -9,8 +9,6 @@
 #+BEGIN_EXAMPLE
 ext_if = "egress"
 domain = ""
-cert = ""
-key = ""
 
 types { include "/usr/share/misc/mime.types" }
 
@@ -23,8 +21,8 @@ server $domain {
     listen on $ext_if tls port 443
 
     tls {
-        certificate "$cert"
-        key "$key"
+        certificate ""
+        key ""
     }
 
     directory { index index.php }
@@ -54,9 +52,18 @@ server > listen on address [tls] port number    设置侦听地址和端口，�
 
 server > tls    设置服务器的 TLS 配置，只有通过 listen 指令 启用了 TLS 才可以使用 TLS TLS是指 传输层安全协议(Transport Layer Security) 这个选项的 *根目录* 不受 chroot 的影响
 
-server > tls > certificate    指定要用于此服务器的证书，该文件应包含 PEM 编码的证书 默认值为 /etc/ssl/server.crt
+server > tls > certificate    指定要用于此服务器的证书，该文件应包含 PEM 编码的证书 默认值为 /etc/ssl/server.crt 这个路径不要用变量表示，因为会提示无法加载加载公钥/私钥(failed to load public/private keys)
 
-server > tls > key    指定要用于此服务器的私钥，该文件应包含 PEM 编码的私钥 并且驻留在 httpd 的 chroot 根目录之外。默认值为 /etc/ssl/private/server.key
+server > tls > key    指定要用于此服务器的私钥，该文件应包含 PEM 编码的私钥 并且驻留在 httpd 的 chroot 根目录之外。默认值为 /etc/ssl/private/server.key 这个路径不要用变量表示，因为会提示无法加载公钥/私钥(failed to load public/private keys)
 
 server > directory    提供访问目录时设置指定的选项
 
+server > directory > index    设置目录索引文件，如果未指定，则默认为 index.html
+
+server > location    指定特定位置的服务器匹配规则。路径参数将与 shell globbing 规则 与 请求路径进行匹配
+
+server > [*no*] *fastcgi* [*socket* socket]    启用fastcgi,套接字是 httpd 的 chroot 根目录中的本地路径，默认为 /run/slowcgi.sock
+
+server > location "/*.tar" { block }    拒绝访问特定的文件，返回 403 状态码(403 Forbidden) forbidden 形容词  被禁止
+
+server > block drop    删除连接而不发送错误页面
