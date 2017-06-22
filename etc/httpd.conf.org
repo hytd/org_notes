@@ -7,8 +7,10 @@
 #+END_QUOTE
 
 #+BEGIN_EXAMPLE
-ext_if="egress"
-domain=""
+ext_if = "egress"
+domain = ""
+cert = ""
+key = ""
 
 types { include "/usr/share/misc/mime.types" }
 
@@ -18,15 +20,15 @@ server $domain {
 }
 
 server $domain {
-    listen on $ext_if tls tls port 443
+    listen on $ext_if tls port 443
 
     tls {
-        certificate ""
-        key ""
+        certificate "$cert"
+        key "$key"
     }
 
     directory { index index.php }
-    location "/*.php* { fastcgi socket "/run/php-fpm.sock" }
+    location "/*.php" { fastcgi socket "/run/php-fpm.sock" }
     location "/*.tar" { block }
     location "/.*" { block drop }
 }
@@ -50,7 +52,7 @@ server > block [return code [uri]]    关闭连接并返回状态码，如果未
 
 server > listen on address [tls] port number    设置侦听地址和端口，此语句可以多次指定
 
-server > tls    设置服务器的 TLS 配置，只有通过 listen 指令 启用了 TLS 才可以使用 TLS TLS是指 传输层安全协议(Transport Layer Security)
+server > tls    设置服务器的 TLS 配置，只有通过 listen 指令 启用了 TLS 才可以使用 TLS TLS是指 传输层安全协议(Transport Layer Security) 这个选项的 *根目录* 不受 chroot 的影响
 
 server > tls > certificate    指定要用于此服务器的证书，该文件应包含 PEM 编码的证书 默认值为 /etc/ssl/server.crt
 
