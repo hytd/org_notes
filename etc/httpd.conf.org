@@ -40,7 +40,7 @@ types    配置支持的 *多用途互联网邮件扩展(MIME, Multipurpost Inte
 
 type { includ "$path" }    从外部文件中包含类型定义,其中 $path 是路径
 
-server $domain { }    每个服务器部分以服务器名称的声明开始，使用shell globbing规则匹配服务器名称。 这可以是明确的名称 www.example.com 或包含通配符 *.example.com 的名称 其中 $domain 是指 服务器名称
+server $domain { }    每个服务器部分以服务器名称的声明开始，使用 shell globbing 规则匹配服务器名称。$domain 是指 服务器名称
 
 server $domain { listen on $address [tls] port $number }      设置侦听地址和端口。 此语句可以多次指定。其中 $domain 是指 服务器名称 $address 是指 监听地址 $number 是指 监听地址的 端口号
 
