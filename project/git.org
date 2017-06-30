@@ -1,3 +1,27 @@
 # بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ
 
 * example
+
+*设置本地用户名和用户名邮箱*
+
+#+BEGIN_QUOTE
+#+BEGIN_SRC 
+git config user.name ""
+#+END_SRC
+
+#+BEGIN_SRC
+git config user.email ""
+#+END_SRC
+#+END_QUOTE
+
+*设置全局用户名和用户邮箱*
+
+#+BEGIN_QUOTE
+#+BEGIN_SRC
+git config --global user.name ""
+#+END_SRC
+
+#+BEGIN_SRC 
+git config --global user.email ""
+#+END_SRC
+#+END_QUOTE
