@@ -120,7 +120,8 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | github.com/shadowsocks/shadowsocks-qt5                             | 跨平台的shadowsocks GUI客户端                                                                                                               |
 | virtualbox.org                                                     | 用户可以在VirtualBox上安装并且运行Solaris、Windows、DOS、Linux、OS/2 Warp、OpenBSD及FreeBSD等系统作为客户端操作系统                         |
 | windows.php.net/download                                           | php for windows                                                                                                                             |
-| downloads.mariadb.org                                              | mysql 替代方案                                                                                                                                  |
+| downloads.mariadb.org                                              | mysql 替代方案                                                                                                                              |
+| desktop.github.com                                                 | github desktop                                                                                                                              |
 * file
 *hosts*
 #+BEGIN_QUOTE
