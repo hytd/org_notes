@@ -1069,7 +1069,7 @@ Get-ChildItemem env:
 #+END_SRC
 #+END_QUOTE
 
-*列出特定变量的值*
+*列出特定环境变量的值*
 #+BEGIN_QUOTE
 #+BEGIN_SRC 
 $env:Path
@@ -1083,4 +1083,3 @@ $env:OS
 $env:SystemRoot
 #+END_SRC
 #+END_QUOTE
-
