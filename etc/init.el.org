@@ -11,7 +11,15 @@
 (setq inhibit-splash-screen 1)
 #+END_EXAMPLE
 
+#+BEGIN_QUOTE
 (menu-bar-mode 0)    关闭菜单栏
+#+END_QUOTE
+#+BEGIN_QUOTE
 (tool-bar-mode 0)    关闭工具栏
+#+END_QUOTE
+#+BEGIN_QUOTE
 (scroll-bar-mode 0)    关闭滚动兰
+#+END_QUOTE
+#+BEGIN_QUOTE
 (setq inhibit-splash-screen 1)    关闭启动帮助画面
+#+END_QUOTE
