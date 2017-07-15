@@ -1064,22 +1064,38 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ** example
 *列出所有环境变量*
 #+BEGIN_QUOTE
-#+BEGIN_SRC 
-Get-ChildItemem env: 
-#+END_SRC
-#+END_QUOTE
-
+#+BEGIN_EXAMPLE
+Get-ChildItem env: 
+#+END_EXAMPLE
+-----
 *列出特定环境变量的值*
 #+BEGIN_QUOTE
-#+BEGIN_SRC 
+#+BEGIN_EXAMPLE
+$env:<variable-name>
+#+END_EXAMPLE
+
+#+BEGIN_EXAMPLE
 $env:Path
-#+END_SRC
+#+END_EXAMPLE
 
-#+BEGIN_SRC 
+#+BEGIN_EXAMPLE
 $env:OS
-#+END_SRC
+#+END_EXAMPLE
+#+END_QUOTE
+-----
+*把指定目录添加到 $env:path (设置环境变量)*
+#+BEGIN_QUOTE
+setx /m path "$env:path;C:\example"
+#+END_QUOTE
+#+BEGIN_QUOTE
+setx 设置用户环境变量,记录在 =HKEY_CURRENT_USER=
 
-#+BEGIN_SRC 
-$env:SystemRoot
-#+END_SRC
+setx /m 设置系统环境中的变量,记录在 =HKEY_LOCAL_MACHINE=
+#+END_QUOTE
+-----
+*set 和 setx 命令的区别*
+#+BEGIN_QUOTE
+set 用于设置临时环境变量,批处理脚本中经常用到
+
+setx 用于设置用户环境变量和系统环境变量
 #+END_QUOTE
