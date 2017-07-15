@@ -15,6 +15,6 @@
 
 (tool-bar-mode 0)    关闭工具栏
 
-(scroll-bar-mode 0)    关闭滚动兰
+(scroll-bar-mode 0)    关闭滚动栏
 
 (setq inhibit-splash-screen 1)    关闭启动帮助画面
