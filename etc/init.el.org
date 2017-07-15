@@ -1,0 +1,17 @@
+# بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ
+
+#+BEGIN_QUOTE
+*~/.emacs.d/init.el*
+#+END_QUOTE
+
+#+BEGIN_EXAMPLE
+(menu-bar-mode 0)
+(tool-bar-mode 0)
+(scroll-bar-mode 0)
+(setq inhibit-splash-screen 1)
+#+END_EXAMPLE
+
+(menu-bar-mode 0)    关闭菜单栏
+(tool-bar-mode 0)    关闭工具栏
+(scroll-bar-mode 0)    关闭滚动兰
+(setq inhibit-splash-screen 1)    关闭启动帮助画面
