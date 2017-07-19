@@ -1060,10 +1060,13 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | OS                              | Windows_NT                          |
 | Path                            |                                     | 
   
+* mmc
+*what is mmc*
+微软管理控制台（英语：Microsoft Management Console，简称MMC）是从Windows 2000开始提供的一个组件，它为系统管理员和高级用户提供一个配置和监控系统的界面。
+-----
 * powershell
 ** example
 *列出所有环境变量*
-#+BEGIN_QUOTE
 #+BEGIN_EXAMPLE
 Get-ChildItem env: 
 #+END_EXAMPLE
@@ -1099,3 +1102,44 @@ set 用于设置临时环境变量,批处理脚本中经常用到
 
 setx 用于设置用户环境变量和系统环境变量
 #+END_QUOTE
+-----
+*定义一个变量*
+#+BEGIN_QUOTE
+#+BEGIN_SRC 
+$a = "abc"
+#+END_SRC
+#+BEGIN_CENTER
+$a_dir = "X:\a"
+#+END_CENTER
+关闭powershell,变量失效
+#+END_QUOTE
+-----
+*卸载mariadb服务*
+#+BEGIN_SRC 
+mysqld --remove
+#+END_SRC
+* example
+
+*apache plus mariadb plus php*
+命令在 *powershell* 中运行
+- 添加环境变量
+#+BEGIN_SRC 
+setx /m path "$env:path;$apache_dir\bin;$mariadb_dir\bin;$php_dir"
+#+END_SRC
+path 变量用 *;* 分隔路径
+
+变量名不要包含 *-* 否则 *powershell* 会以为是 *减号*
+
+- 配置 http.conf
+
+#+BEGIN_EXAMPLE
+Define SRVROOT "$apache_dir"
+#+END_EXAMPLE
+-----
+- 安装服务
+#+BEGIN_SRC 
+httpd -k install
+#+END_SRC
+#+BEGIN_SRC 
+mysqld --install
+#+END_SRC
