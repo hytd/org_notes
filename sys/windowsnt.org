@@ -1060,11 +1060,11 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | OS                              | Windows_NT                          |
 | Path                            |                                     | 
   
-* mmc
+* MMC
 *what is mmc*
 微软管理控制台（英语：Microsoft Management Console，简称MMC）是从Windows 2000开始提供的一个组件，它为系统管理员和高级用户提供一个配置和监控系统的界面。
 -----
-* powershell
+* PowerShell
 ** example
 *列出所有环境变量*
 #+BEGIN_EXAMPLE
@@ -1118,24 +1118,66 @@ $a_dir = "X:\a"
 #+BEGIN_SRC 
 mysqld --remove
 #+END_SRC
+-----
+*停止一个服务*
+#+BEGIN_SRC 
+Stop-Service mysql
+#+END_SRC
 * example
 
 *apache plus mariadb plus php*
-命令在 *powershell* 中运行
+
+命令在 *PowerShell* 中运行
+
+=$apache_dir= 代表apache根目录
+
+=$mariadb_dir= 代表mariadb根目录
+
+=$php_dir= 代表php根目录
+
 - 添加环境变量
 #+BEGIN_SRC 
 setx /m path "$env:path;$apache_dir\bin;$mariadb_dir\bin;$php_dir"
 #+END_SRC
-path 变量用 *;* 分隔路径
+path 变量用 "*;*" 分隔路径
 
-变量名不要包含 *-* 否则 *powershell* 会以为是 *减号*
+变量名不要包含 "*-*" 否则 *PowerShell* 会以为是 *减号*
 
 - 配置 http.conf
 
 #+BEGIN_EXAMPLE
 Define SRVROOT "$apache_dir"
+
+PHPIniDir "$php_dir"
+
+LoadModule php7_module "$php_dir\php7apache2_4.dll"
+
+AddType application/x-httpd-php .php
+
+<IfModule dir_module>
+    DirectoryIndex index.html index.php
+</IfModule>
 #+END_EXAMPLE
------
+#+BEGIN_QUOTE
+ISAPI 运行PHP,选则 Thread Safe(线性安全)
+
+ISAPI执行方式是以DLL动态库的形式使用，可以在被用户请求后执行，在处理完一个用户请求后不会马上消失，所以需要进行线程安全检查，这样来提高程序的执行效率
+#+END_QUOTE
+- 配置 php.ini (PowerShell)
+#+BEGIN_SRC 
+Set-Location X:\$php_dir
+
+Copy-Item .\php.ini-development .\php.ini
+#+END_SRC
+#+BEGIN_QUOTE
+php.ini-development    适合开发模式
+
+php.ini-production    有较高的安全设定适合生产模式
+#+END_QUOTE
+- 配置 php.ini
+#+BEGIN_EXAMPLE
+date.timezone = Asia/Shanghai
+#+END_EXAMPLE
 - 安装服务
 #+BEGIN_SRC 
 httpd -k install
@@ -1143,3 +1185,13 @@ httpd -k install
 #+BEGIN_SRC 
 mysqld --install
 #+END_SRC
+- 启动服务
+#+BEGIN_SRC 
+Start-Service apache2.4
+#+END_SRC
+#+BEGIN_SRC 
+Start-Service mysql
+#+END_SRC
+#+BEGIN_QUOTE
+服务名不区分大小写
+#+END_QUOTE
