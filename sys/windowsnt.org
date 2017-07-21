@@ -1179,6 +1179,10 @@ php.ini-production    有较高的安全设定适合生产模式
 - 配置 php.ini
 #+BEGIN_EXAMPLE
 date.timezone = Asia/Shanghai
+
+extension_dir = "$php_dir\ext"
+
+extension=php_mysqli.dll
 #+END_EXAMPLE
 - 安装服务
 #+BEGIN_SRC 
@@ -1196,4 +1200,17 @@ Start-Service mysql
 #+END_SRC
 #+BEGIN_QUOTE
 服务名不区分大小写
+#+END_QUOTE
+- 修改mariadb root用户密码
+#+BEGIN_SRC 
+mysqladmin -uroot -p password $new-password
+#+END_SRC
+#+BEGIN_QUOTE
+mariadb 默认root密码为空
+
+修改其它用户密码为
+
+#+BEGIN_SRC 
+mysqladmin -u$root -p$password password $new-password
+#+END_SRC
 #+END_QUOTE
