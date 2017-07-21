@@ -13,7 +13,7 @@ git config user.name ""
 git config user.email ""
 #+END_SRC
 #+END_QUOTE
-
+-----
 *设置全局用户名和用户邮箱*
 
 #+BEGIN_QUOTE
@@ -24,4 +24,12 @@ git config --global user.name ""
 #+BEGIN_SRC 
 git config --global user.email ""
 #+END_SRC
+#+END_QUOTE
+-----
+*删除已经add的文件(撤销放入缓存区的文件)*
+#+BEGIN_SRC 
+git rm --cached "$file_path"
+#+END_SRC
+#+BEGIN_QUOTE
+路径不加双引号也可以
 #+END_QUOTE
