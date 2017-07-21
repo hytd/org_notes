@@ -11,7 +11,7 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 
 面世之后的Windows NT是一种纯32位操作系统，采用先进的NT核心技术。“NT”所指的便是“新技术”（New Technology）之意。“NT”除了可以解释为“新技术”之外，有另一个版本指“NT”是来自微软在i860上开发NT时所使用的模拟器“N10”（此处的“10”读作“ten”）。
 
-* version
+* Version
 
 | Version | Marketing name         | Editions                                                                                |                     Build number | Release date                 | Logo                                                |
 |---------+------------------------+-----------------------------------------------------------------------------------------+----------------------------------+------------------------------+-----------------------------------------------------|
@@ -34,7 +34,7 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | NT 6.3  | Windows 8.1            | Windows 8.1、Windows 8.1专业版、Windows 8.1企业版、Windows RT 8.1                       |                             9600 | 2013/10/18                   |                                                     |
 |         | Windows服务器版2012    | Essentials、Standard、Datacenter                                                        |                             9600 | 2013/10/18                   |                                                     |
 | NT 10.0 | Windows 10             | 家庭版、专业版、企业版、Mobile、IoT                                                     | 10240(TH1) 10586(TH2) 14393(RS1) | 2015/7/29                    | [[../img/Windows_10_Logo.svg.png]]                      |
-* link
+* Link
 | Link                                                               | Explanation                                                                                                                                 |
 |--------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------|
 | www.easyuefi.com/wintousb/index-cn.html                            | WinToUSB(轻松将Windows/WinPE安装到USB移动硬盘或者U盘)                                                                                       |
@@ -123,8 +123,8 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | downloads.mariadb.org                                              | mysql 替代方案                                                                                                                              |
 | desktop.github.com                                                 | github desktop                                                                                                                              |
 | www.mozilla.org/en-US/firefox/organizations/all                    | firefox-esr                                                                                                                                 |
-* file
-*hosts*
+* File
+*Hosts*
 #+BEGIN_QUOTE
 %SystemRoot%\System32\drivers\etc\hosts
 #+END_QUOTE
@@ -997,9 +997,14 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 ::1    api.so.lianmeng.360.cn
 ::1    s.lianmeng.360.cn
 #+END_EXAMPLE
-* default
+  
+* MMC
+*what is mmc*
+微软管理控制台（英语：Microsoft Management Console，简称MMC）是从Windows 2000开始提供的一个组件，它为系统管理员和高级用户提供一个配置和监控系统的界面。
+-----
+* Default
 ** windows10
-*** file
+*** File
 *hosts*
 #+BEGIN_QUOTE
 %SystemRoot%\System32\drivers\etc\hosts
@@ -1027,46 +1032,43 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 #	127.0.0.1       localhost
 #	::1             localhost
 #+END_SRC
-*** variable
-*变量不区分大小写*
-
-*$user-name 代表 用户名*
-
-*$computer-name 代表 电脑名称*
-
-*$HOMEDRIVE=C: 大写的 c 然后是 冒号 不是 分号*
-
-*$logon-server 代表 登陆服务器*
-
-*$number-of-processors 代表 处理器核心数*
+*** EnvironmentVariable
 
 | Name                            | Value                               |
 |---------------------------------+-------------------------------------|
 | ALLUSERSPROFILE                 | C:\ProgramData                      |
-| APPDATA                         | C:\Users\$user-name\AppData\Roaming |
+| APPDATA                         | C:\Users\$user_name\AppData\Roaming |
 | CommonProgramFiles              | C:\Program Files\Common Files       |
 | CommonProgramFiles(x86)         | C:\Program Files (x86)\Common Files |
 | CommonProgramW6432              | C:\Program Files\Common Files       |
-| COMPUTERNAME                    | $computer-name                      |
+| COMPUTERNAME                    | $computer_name                      |
 | ComSpec                         | C:\Windows\system32\cmd.exe         |
 | FPS_BROWSER_APP_PROFILE_STRING  | Internet Explorer                   |
 | FPS_BROWSER_USER_PROFILE_STRING | Default                             |
 | HOMEDRIVE                       | C:                                  |
 | HOMEPATH                        | \Users\$username                    |
-| LOCALAPPDATA                    | C:\Users\$username\AppData\Local    |
-| LOGONSERVER                     | \\$logon-server                     |
-| NUMBER_OF_PROCESSORS            | $number-of-processors               |
-| OneDrive                        | C:\Users\$user-name\OneDrive        |
+| LOCALAPPDATA                    | C:\Users\$user_name\AppData\Local   |
+| LOGONSERVER                     | \\$logon_server                     |
+| NUMBER_OF_PROCESSORS            | $number_of_processors               |
+| OneDrive                        | C:\Users\$user_name\OneDrive        |
 | OS                              | Windows_NT                          |
 | Path                            |                                     | 
-  
-* MMC
-*what is mmc*
-微软管理控制台（英语：Microsoft Management Console，简称MMC）是从Windows 2000开始提供的一个组件，它为系统管理员和高级用户提供一个配置和监控系统的界面。
------
+#+BEGIN_QUOTE
+变量不区分大小写
+
+$user_name 代表 用户名
+
+$computer_name 代表 电脑名称
+
+$HOMEDRIVE=C: 大写的 c 然后是 冒号 不是 分号
+
+$logon_server 代表 登陆服务器
+
+$number_of_processors 代表 处理器核心数
+#+END_QUOTE
 * PowerShell
-** example
-*列出所有环境变量*
+** Example
+*列出所有环境变量(环境变量)*
 #+BEGIN_EXAMPLE
 Get-ChildItem env: 
 #+END_EXAMPLE
@@ -1074,7 +1076,7 @@ Get-ChildItem env:
 *列出特定环境变量的值*
 #+BEGIN_QUOTE
 #+BEGIN_EXAMPLE
-$env:<variable-name>
+$env:<variable_name>
 #+END_EXAMPLE
 
 #+BEGIN_EXAMPLE
@@ -1111,7 +1113,7 @@ $a = "abc"
 #+BEGIN_CENTER
 $a_dir = "X:\a"
 #+END_CENTER
-关闭powershell,变量失效
+PowerShell中的变量只存在PowerShell内部会话中,一旦PowerShell关闭,定义的变量将失效
 #+END_QUOTE
 -----
 *卸载mariadb服务*
@@ -1123,7 +1125,7 @@ mysqld --remove
 #+BEGIN_SRC 
 Stop-Service mysql
 #+END_SRC
-* example
+* Example
 
 *apache plus mariadb plus php*
 
