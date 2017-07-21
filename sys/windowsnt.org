@@ -1174,7 +1174,7 @@ Copy-Item .\php.ini-development .\php.ini
 #+BEGIN_QUOTE
 php.ini-development    适合开发模式
 
-php.ini-production    有较高的安全设定适合生产模式
+php.ini-production    有较高的安全设定,适合生产模式
 #+END_QUOTE
 - 配置 php.ini
 #+BEGIN_EXAMPLE
