@@ -1127,6 +1127,11 @@ Stop-Service mysql
 
 *apache plus mariadb plus php*
 
+- 添加环境变量
+#+BEGIN_SRC 
+setx /m path "$env:path;$apache_dir\bin;$mariadb_dir\bin;$php_dir"
+#+END_SRC
+#+BEGIN_QUOTE
 命令在 *PowerShell* 中运行
 
 =$apache_dir= 代表apache根目录
@@ -1135,14 +1140,10 @@ Stop-Service mysql
 
 =$php_dir= 代表php根目录
 
-- 添加环境变量
-#+BEGIN_SRC 
-setx /m path "$env:path;$apache_dir\bin;$mariadb_dir\bin;$php_dir"
-#+END_SRC
 path 变量用 "*;*" 分隔路径
 
 变量名不要包含 "*-*" 否则 *PowerShell* 会以为是 *减号*
-
+#+END_QUOTE
 - 配置 http.conf
 
 #+BEGIN_EXAMPLE
@@ -1166,7 +1167,8 @@ ISAPI执行方式是以DLL动态库的形式使用，可以在被用户请求后
 - 配置 php.ini (PowerShell)
 #+BEGIN_SRC 
 Set-Location X:\$php_dir
-
+#+END_SRC
+#+BEGIN_SRC
 Copy-Item .\php.ini-development .\php.ini
 #+END_SRC
 #+BEGIN_QUOTE
