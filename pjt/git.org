@@ -3,31 +3,23 @@
 * example
 
 *设置本地用户名和用户名邮箱*
-
-#+BEGIN_QUOTE
-#+BEGIN_SRC 
+#+BEGIN_SRC sh
 git config user.name ""
 #+END_SRC
-
-#+BEGIN_SRC
+#+BEGIN_SRC sh
 git config user.email ""
 #+END_SRC
-#+END_QUOTE
 -----
 *设置全局用户名和用户邮箱*
-
-#+BEGIN_QUOTE
-#+BEGIN_SRC
+#+BEGIN_SRC sh
 git config --global user.name ""
 #+END_SRC
-
-#+BEGIN_SRC 
+#+BEGIN_SRC sh
 git config --global user.email ""
 #+END_SRC
-#+END_QUOTE
 -----
 *删除已经add的文件(撤销放入缓存区的文件)*
-#+BEGIN_SRC 
+#+BEGIN_SRC sh
 git rm --cached "$file_path"
 #+END_SRC
 #+BEGIN_QUOTE
