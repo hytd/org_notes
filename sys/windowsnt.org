@@ -1231,7 +1231,7 @@ extension=php_pdo_mysql.dll
 #+END_EXAMPLE
 - 下载 thinkphp
 #+BEGIN_SRC 
-composer create-project topthink/think $webroot\thinkphp
+composer create-project topthink/think $www\thinkphp
 #+END_SRC
 #+BEGIN_QUOTE
 topthink/think 指的是[[https://packagist.org][ packagist]] *包* 地址
