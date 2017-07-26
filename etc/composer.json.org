@@ -1,0 +1,13 @@
+#+BEGIN_SRC
+{
+    "require": {
+        "topthink/think": "~5.0"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
+#+END_SRC
