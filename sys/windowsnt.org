@@ -1216,3 +1216,23 @@ mariadb 默认root密码为空
 mysqladmin -u$root -p$password password $new-password
 #+END_SRC
 #+END_QUOTE
+- with thinkphp
+- 配置 php.ini
+#+BEGIN_EXAMPLE
+extension=php_openssl.dll
+
+extension=php_curl.dll
+
+extension=php_mbstring.dll
+
+extension=php_gd2.dll
+
+extension=php_pdo_mysql.dll
+#+END_EXAMPLE
+- 下载 thinkphp
+#+BEGIN_SRC 
+composer create-project topthink/think $webroot\thinkphp
+#+END_SRC
+#+BEGIN_QUOTE
+topthink/think 指的是[[https://packagist.org][ packagist]] *包* 地址
+#+END_QUOTE
