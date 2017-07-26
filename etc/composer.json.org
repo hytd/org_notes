@@ -11,3 +11,6 @@
     }
 }
 #+END_SRC
+#+BEGIN_QUOTE
+*$www\composer.json*
+#+END_QUOTE
