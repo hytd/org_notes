@@ -1183,8 +1183,35 @@ to use and more reliable (no dependence on goal column, etc.).
 #+BEGIN_QUOTE
 M-x toggle-input-method
 
+or
+
 C-\
 #+END_QUOTE
 -----
+*改变当前 buffer 编码,同unix风格换行符(\n,LF)*
+#+BEGIN_QUOTE
+M-x set-buffer-file-coding-system RET utf-8-unix
 
+or
 
+C-x RET f utf-8-unix
+#+END_QUOTE
+-----
+*以指定编码重读当前 buffer 同unix风格换行符(\n,LF)*
+#+BEGIN_QUOTE
+M-x revert-buffer-with-coding-system RET utf-8-unix
+
+or
+
+C-x RET r utf-8-unix
+#+END_QUOTE
+-----
+*列出所有编码*
+#+BEGIN_QUOTE
+C-x RET r TAB
+#+END_QUOTE
+-----
+*查看当前 buffer 编码*
+#+BEGIN_QUOTE
+M-x describe-coding-system RET RET
+#+END_QUOTE
