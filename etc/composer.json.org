@@ -3,6 +3,7 @@
 #+BEGIN_QUOTE
 *$www/composer.json*
 #+END_QUOTE
+* thinkphp
 #+BEGIN_SRC
 {
     "require": {
