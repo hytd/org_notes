@@ -1,0 +1,11 @@
+# بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ
+
+#+BEGIN_QUOTE
+*$www/.htaccess
+#+END_QUOTE
+#+BEGIN_EXAMPLE
+AuthName "$prompt_info"
+AuthType Basic
+AuthUserFile $www/.htpasswd
+Require valid-user
+#+END_EXAMPLE
