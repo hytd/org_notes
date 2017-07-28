@@ -1,7 +1,6 @@
 # بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ
 
 * default
-** openbsd
 #+BEGIN_QUOTE
 /etc/rc.conf
 #+END_QUOTE
