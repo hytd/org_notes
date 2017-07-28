@@ -1,7 +1,7 @@
 # بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ
 
 #+BEGIN_QUOTE
-*$www/.htaccess
+*$www/.htaccess*
 #+END_QUOTE
 #+BEGIN_EXAMPLE
 AuthName "$prompt_info"
