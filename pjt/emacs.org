@@ -1215,3 +1215,8 @@ C-x RET r TAB
 #+BEGIN_QUOTE
 M-x describe-coding-system RET RET
 #+END_QUOTE
+-----
+*恢复自动保存的文件*
+#+BEGIN_EXAMPLE
+M-x recover-file RET file-name
+#+END_EXAMPLE
