@@ -1033,38 +1033,37 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 #	::1             localhost
 #+END_SRC
 *** EnvironmentVariable
-
-| Name                            | Value                               |
-|---------------------------------+-------------------------------------|
-| ALLUSERSPROFILE                 | C:\ProgramData                      |
-| APPDATA                         | C:\Users\$user_name\AppData\Roaming |
-| CommonProgramFiles              | C:\Program Files\Common Files       |
-| CommonProgramFiles(x86)         | C:\Program Files (x86)\Common Files |
-| CommonProgramW6432              | C:\Program Files\Common Files       |
-| COMPUTERNAME                    | $computer_name                      |
-| ComSpec                         | C:\Windows\system32\cmd.exe         |
-| FPS_BROWSER_APP_PROFILE_STRING  | Internet Explorer                   |
-| FPS_BROWSER_USER_PROFILE_STRING | Default                             |
-| HOMEDRIVE                       | C:                                  |
-| HOMEPATH                        | \Users\$username                    |
-| LOCALAPPDATA                    | C:\Users\$user_name\AppData\Local   |
-| LOGONSERVER                     | \\$logon_server                     |
-| NUMBER_OF_PROCESSORS            | $number_of_processors               |
-| OneDrive                        | C:\Users\$user_name\OneDrive        |
-| OS                              | Windows_NT                          |
-| Path                            |                                     | 
+| Name                              | Value                                 |
+|-----------------------------------+---------------------------------------|
+| =ALLUSERSPROFILE=                 | =C:\ProgramData=                      |
+| =APPDATA=                         | =C:\Users\$user_name\AppData\Roaming= |
+| =CommonProgramFiles=              | =C:\Program Files\Common Files=       |
+| =CommonProgramFiles(x86)=         | =C:\Program Files (x86)\Common Files= |
+| =CommonProgramW6432=              | =C:\Program Files\Common Files=       |
+| =COMPUTERNAME=                    | =$computer_name=                      |
+| =ComSpec=                         | =C:\Windows\system32\cmd.exe=         |
+| =FPS_BROWSER_APP_PROFILE_STRING=  | =Internet Explorer=                   |
+| =FPS_BROWSER_USER_PROFILE_STRING= | =Default=                             |
+| =HOMEDRIVE=                       | =C:=                                  |
+| =HOMEPATH=                        | =\Users\$username=                    |
+| =LOCALAPPDATA=                    | =C:\Users\$user_name\AppData\Local=   |
+| =LOGONSERVER=                     | =\\$logon_server=                     |
+| =NUMBER_OF_PROCESSORS=            | =$number_of_processors=               |
+| =OneDrive=                        | =C:\Users\$user_name\OneDrive=        |
+| =OS=                              | =Windows_NT=                          |
+| =Path=                            |                                       |
 #+BEGIN_QUOTE
 变量不区分大小写
 
-$user_name 代表 用户名
+=$user_name= 代表 用户名
 
-$computer_name 代表 电脑名称
+=$computer_name= 代表 电脑名称
 
-$HOMEDRIVE=C: 大写的 c 然后是 冒号 不是 分号
+=$HOMEDRIVE= C: 大写的 c 冒号 不是 分号
 
-$logon_server 代表 登陆服务器
+=$logon_server= 代表 登陆服务器
 
-$number_of_processors 代表 处理器核心数
+=$number_of_processors= 代表 处理器核心数
 #+END_QUOTE
 * PowerShell
 ** Example
@@ -1106,13 +1105,13 @@ setx 用于设置用户环境变量和系统环境变量
 #+END_QUOTE
 -----
 *定义一个变量*
-#+BEGIN_QUOTE
 #+BEGIN_SRC 
 $a = "abc"
 #+END_SRC
-#+BEGIN_CENTER
+#+BEGIN_SRC
 $a_dir = "X:\a"
-#+END_CENTER
+#+END_SRC
+#+BEGIN_QUOTE
 PowerShell中的变量只存在PowerShell内部会话中,一旦PowerShell关闭,定义的变量将失效
 #+END_QUOTE
 -----
@@ -1136,12 +1135,6 @@ setx /m path "$env:path;$apache_dir\bin;$mariadb_dir\bin;$php_dir"
 #+BEGIN_QUOTE
 命令在 *PowerShell* 中运行
 
-=$apache_dir= 代表apache根目录
-
-=$mariadb_dir= 代表mariadb根目录
-
-=$php_dir= 代表php根目录
-
 path 变量用 "*;*" 分隔路径
 
 变量名不要包含 "*-*" 否则 *PowerShell* 会以为是 *减号*
@@ -1150,13 +1143,9 @@ path 变量用 "*;*" 分隔路径
 
 #+BEGIN_EXAMPLE
 Define SRVROOT "$apache_dir"
-
-PHPIniDir "$php_dir"
-
 LoadModule php7_module "$php_dir\php7apache2_4.dll"
-
+PHPIniDir "$php_dir"
 AddType application/x-httpd-php .php
-
 <IfModule dir_module>
     DirectoryIndex index.html index.php
 </IfModule>
@@ -1180,11 +1169,9 @@ php.ini-production    有较高的安全设定,适合生产模式
 #+END_QUOTE
 - 配置 php.ini
 #+BEGIN_EXAMPLE
-date.timezone = Asia/Shanghai
-
 extension_dir = "$php_dir\ext"
-
 extension=php_mysqli.dll
+date.timezone = Asia/Shanghai
 #+END_EXAMPLE
 - 安装服务
 #+BEGIN_SRC 
@@ -1219,15 +1206,11 @@ mysqladmin -u$root -p$password password $new-password
 - with thinkphp
 - 配置 php.ini
 #+BEGIN_EXAMPLE
-extension=php_openssl.dll
-
 extension=php_curl.dll
-
-extension=php_mbstring.dll
-
 extension=php_gd2.dll
-
+extension=php_mbstring.dll
 extension=php_pdo_mysql.dll
+extension=php_openssl.dll
 #+END_EXAMPLE
 - 下载 thinkphp
 #+BEGIN_SRC 
@@ -1236,3 +1219,52 @@ composer create-project topthink/think $www\thinkphp
 #+BEGIN_QUOTE
 topthink/think 指的是[[https://packagist.org][ packagist]] *包* 地址
 #+END_QUOTE
+- 同 ~url_rewrite~
+- 配置 httpd.conf
+#+BEGIN_EXAMPLE
+loadmodule rewrite_module modules/mod_rewrite.so
+Include conf/extra/httpd-vhosts.conf
+#+END_EXAMPLE
+- 配置 httpd-vhosts.conf
+#+BEGIN_EXAMPLE
+<VirtualHost *:80>
+    ServerAdmin $mail
+    ServerName $domain
+    DocumentRoot "$www_vhosts"
+    <Directory "$www_vhosts">
+        Options indexes FollowSymLinks
+        DirectoryIndex index.html index.php
+        AllowOverride All
+        Require all granted
+    </Directory>
+    ErrorLog "$log_dir/$domain-error.log"
+    CustomLog "$logs_dir/$domain-access.log" common
+</VirtualHost>
+#+END_EXAMPLE
+#+BEGIN_QUOTE
+加载了 =mod_authz_host.so= 依旧提示
+#+BEGIN_EXAMPLE
+Invalid command 'roder', perhaps misspelled or defined by a module not included in the server configuration
+#+END_EXAMPLE
+in apache2.2
+#+BEGIN_EXAMPLE
+Order allow,deny
+Allow from all
+#+END_EXAMPLE
+
+in apache2.4
+#+BEGIN_EXAMPLE
+Require all granted
+#+END_EXAMPLE
+#+END_QUOTE
+- 配置 .htaccess
+#+BEGIN_EXAMPLE
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks -Multiviews
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]
+</IfModule>
+#+END_EXAMPLE
