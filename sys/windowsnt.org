@@ -123,6 +123,7 @@ Windows NT是基于OS/2 NT的基础编制的。OS/2是由微软和IBM联合研�
 | downloads.mariadb.org                                              | mysql 替代方案                                                                                                                              |
 | desktop.github.com                                                 | github desktop                                                                                                                              |
 | www.mozilla.org/en-US/firefox/organizations/all                    | firefox-esr                                                                                                                                 |
+| get2.adobe.com/cn/flashplayer                                      | adobe flash player                                                                                                                          |
 * File
 *Hosts*
 #+BEGIN_QUOTE
