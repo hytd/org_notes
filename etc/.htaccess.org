@@ -9,7 +9,7 @@ AuthType Basic
 AuthUserFile $www/.htpasswd
 Require valid-user
 #+END_EXAMPLE
-* thinkphp
+* thinkphp-5
 #+BEGIN_EXAMPLE
 <IfModule mod_rewrite.c>
 Options +FollowSymlinks -Multiviews
