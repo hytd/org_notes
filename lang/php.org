@@ -59,7 +59,7 @@ echo 接受参数列表， print 仅支持一个参数
 -----
 *把字符串转换为大写*
 #+BEGIN_QUOTE
-strtupper() 这个函数将字符串转换为大写 str to upper
+strtopper() 这个函数将字符串转换为大写 str to upper
 #+END_QUOTE
 -----
 *把字符串转换为小写*
