@@ -397,3 +397,77 @@ explain
 - 内连接，进行连接的两个表对应的想匹配的字段完全相同的连接
 - 左连接(LEFT OUTER JOIN)，两个表左连接时会返回左边表中的所有行和右边表中与之相匹配的列值，如果没有则用空值代替
 - 右连接(RIGHT OUTER JOIN)，两个表进行右连接时会返回右边表中的所有的行和左边表中与之想匹配的列值，没有匹配的用空值代替
+-----
+*用php打印出前一天的时间,格式是 2016-5-10 22:21:21 如何实现?*
+#+BEGIN_SRC 
+<?php
+echo date('Y-m-d H:i:s', strtotime('-1 days');
+#+END_SRC
+-----
+*如何实现字符串"Hi Boya"翻转*
+#+BEGIN_SRC 
+<?php
+$str = strrev("Hi Boya");
+#+END_SRC
+-----
+*请写出实现汉语字符串截取无乱码的方法*
+#+BEGIN_SRC 
+<?php
+echo mb_substr('这样一来,汉语没有乱码', 0, 7, 'utf-8');
+#+END_SRC
+-----
+*什么是 oauth2.0 授权?*
+#+BEGIN_QUOTE
+OAuth(开放授权)是一种开放标准,允许用户授权第三方网站访问他们存储在另外的服务器提供者上的信息,而不需要将用户名和密码提供给第三方网站或分享他们数据的所有内容
+#+END_QUOTE
+-----
+*如何打开php的错误报告?*
+修改php.ini文件
+#+BEGIN_EXAMPLE
+display_errors = On
+#+END_EXAMPLE
+-----
+*js表单淡出对话框函数是什么?获得输入焦点函数是什么?*
+#+BEGIN_EXAMPLE
+弹出对话框: alert()
+获得输入焦点: focus()
+#+END_EXAMPLE
+-----
+*下面哪个函数可以打开一个文件,以对文件进行读和写操作?*
+- [ ] fget()
+- [ ] ~file_open()~
+- [-] fopen()
+- [ ] ~open_file()~
+-----
+*下面哪个选项没有将john添加到users数组中?*
+- [ ] $users[] = 'john';
+- [-] array_add($users, 'john');
+- [ ] array_push($users, 'john');
+- [ ] $users ||= 'john';
+-----
+*写出以下程序的输出结果*
+#+BEGIN_SRC 
+<?php
+$b = 201;
+$c = 40;
+$a = $b >$c?4:5;
+echo $a;
+#+END_SRC
+*4*
+-----
+*请写出php5的构造函数和析构函数*
+#+BEGIN_QUOTE
+构造函数: ~__construct()~
+析构函数: ~__destruct()~
+#+END_QUOTE
+-----
+*你知道的加密算法有几种?*
+| DES | AES | MD5 | RSA |
+-----
+*用php写出显示客户端ip与服务器ip的代码*
+#+BEGIN_SRC 
+<?php
+echo "客户端ip地址:" . '&nbsp' . '"' . $_SERVER['REMOTE_ADDR'] . '"';
+echo '</br>'
+echo "服务器ip地址:" . '&nbsp' . '"' . $_SERVER['SERVER_ADDR'] . '"';
+#+END_SRC
