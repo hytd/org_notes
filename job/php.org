@@ -56,7 +56,7 @@ echo 接受参数列表， print 仅支持一个参数
 -----
 *把字符串转换为大写*
 #+BEGIN_QUOTE
-strtopper() 这个函数将字符串转换为大写 str to upper
+strtouper() 这个函数将字符串转换为大写 str to upper
 #+END_QUOTE
 -----
 *把字符串转换为小写*
@@ -471,3 +471,110 @@ echo "客户端ip地址:" . '&nbsp' . '"' . $_SERVER['REMOTE_ADDR'] . '"';
 echo '</br>'
 echo "服务器ip地址:" . '&nbsp' . '"' . $_SERVER['SERVER_ADDR'] . '"';
 #+END_SRC
+-----
+*UTF-8 编码文件的 BOM 头 占几个 byte?*
+#+BEGIN_QUOTE
+BOM(Byte Order Mark) 占用 *3* byte
+#+END_QUOTE
+-----
+*如何修改session的生存时间*
+#+BEGIN_QUOTE
+修改php.ini
+#+END_QUOTE
+#+BEGIN_EXAMPLE
+session.cookie_lifetime = $expiretime
+#+END_EXAMPLE
+#+BEGIN_QUOTE
+或者在 ~session_start()~ 之前,用 ~session_set_cookie_params($expiretime)~ 来修改
+#+END_QUOTE
+#+BEGIN_SRC 
+<?php
+$lifetime = 86400;
+session_set_cookie_params($lifetime);
+session_start();
+$_SESSION['example'] = true;
+#+END_SRC
+-----
+*谈谈你对MVC理解*
+#+BEGIN_QUOTE
+由模型(Model),视图(View),控制器(Controller)完成的应用程序
+
+由模型发出要实现的功能到控制器,控制器接受组织功能传递给视图
+#+END_QUOTE
+-----
+*写出发帖数最多的是个人名字的sql,利用下表: members(id,username,posts,pass,email)*
+#+BEGIN_SRC sql
+SELECT username FROM members ORDER BY posts DESC LIMIT 10;
+#+END_SRC
+-----
+*请说明php中传值与传引用的区别*
+#+BEGIN_QUOTE
+传值: 函数范围内对值的任何改变在函数外部都会被忽略
+
+传引用: 函数范围内对值的任何改变在函数外部也能反映出这些改变
+#+END_QUOTE
+-----
+*写一个函数,给一个日期,输出该日期的前一天,输出日期格式为 2014-05-19 14:30:22*
+#+BEGIN_SRC 
+<?php
+function to_yesterday($time)
+{
+    $time_stamp = strtotime($time);
+    $to_yesterday_time_stamp = $time_stamp - 86400;
+    date('Y-m-d H:i:s', $to_yesterday_time_stamp);
+}
+#+END_SRC
+-----
+*写一个函数,从一个标准url中获取文件的扩展名*
+#+BEGIN_SRC 
+<?php
+function get_extension($url)
+{
+    $extension = pathinfo($url, PATHINFO_EXTENSION);
+    strstr($extension, '?', true);
+}
+#+END_SRC
+-----
+*ajax是什么?同步和异步的区别*
+#+BEGIN_QUOTE
+AJAX全称为"Asynchronous JavaScript And XML"(异步JavaScript和XML),是一种创建交互式网页应用的网页开发技术
+
+- 同步: 脚本会停留并等待服务器发出回复然后再继续
+- 异步: 脚本允许页面继续其进程并处理可能的回复
+#+END_QUOTE
+-----
+*http协议中几个状态码的含义: 502 500 403 401 301 200*
+- 502: 网关错误
+- 500: 服务器内部错误
+- 403: 禁止
+- 401: 未授权
+- 301: 永久移动
+- 200: ok
+-----
+*php中有集中形式装载代码,并列举,以包含同目录下的config.php为例*
+#+BEGIN_SRC 
+<?php
+require('./config.php');
+#+END_SRC
+#+BEGIN_SRC 
+<?php
+include('./config.php');
+#+END_SRC
+#+BEGIN_SRC 
+<?php
+require_once('./config.php');
+#+END_SRC
+#+BEGIN_SRC 
+<?php
+include_once('./config.php');
+#+END_SRC
+-----
+*写几个常用的php数组函数并简述函数用法*
+
+count() 计算数组中的单元数目,或对象中的属性个数
+
+current() 返回数组中的当前单元
+
+next() 将数组中的内部指针向前移动一位
+
+prev() 将数组的内部指针倒回一位
