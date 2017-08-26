@@ -13,8 +13,7 @@
 #+BEGIN_SRC 
 <?php
 
-function microtime_float()
-{
+function microtime_float() {
     list($usec, $sec) = explode(" ", microtime());
     return ($usec + $sec);
 }
@@ -26,6 +25,7 @@ $time_start = microtime_float();
 $time_end = microtime_float();
 $time = $time_end - $time_start;
 echo "$time";
+
 #+END_SRC
 -----
 *冒泡排序*
@@ -43,6 +43,7 @@ for ($i=0; $i < $len; $i++) {
     }
 }
 print_r($array);
+
 #+END_SRC
 -----
 *echo 和 print 的区别*
@@ -211,6 +212,7 @@ echo date('Y-m-d H:i:s', strtotime('-1 day');
     }
 
     $a = new a();
+
 #+END_SRC
 致命错误，因为类a是抽象类，不能被实例化
 -----
@@ -230,6 +232,7 @@ class b extends a{
 }
 
 $a = new b();
+
 #+END_SRC
 echo class b somehing
 -----
@@ -244,6 +247,7 @@ class MyClass
     public static function justDoIt() {
     }
 }
+
 #+END_SRC
 -----
 *只有该类才能访问该类的私有变量吗*
@@ -274,6 +278,7 @@ class MyClass
 
     $b = new b();
     echo $b->print_data();
+
 #+END_SRC
 输出结果 10
 -----
@@ -294,6 +299,7 @@ class MyClass
     $testobject = new test();
     $encryption = $testobject->get_test("abc");
     echo $encryption;
+
 #+END_SRC
 双重md5加密
 -----
@@ -303,12 +309,14 @@ class MyClass
     class myclass
     {
     }
+
 #+END_SRC
 -----
 *如何实例化一个名为"myclass"的对象*
 #+BEGIN_SRC 
 <?php
     $obj = new myclass();
+
 #+END_SRC
 -----
 *在php中 ~error_reporting() 这个函数有什么作用*
@@ -402,18 +410,21 @@ explain
 #+BEGIN_SRC 
 <?php
 echo date('Y-m-d H:i:s', strtotime('-1 days');
+
 #+END_SRC
 -----
 *如何实现字符串"Hi Boya"翻转*
 #+BEGIN_SRC 
 <?php
 $str = strrev("Hi Boya");
+
 #+END_SRC
 -----
 *请写出实现汉语字符串截取无乱码的方法*
 #+BEGIN_SRC 
 <?php
 echo mb_substr('这样一来,汉语没有乱码', 0, 7, 'utf-8');
+
 #+END_SRC
 -----
 *什么是 oauth2.0 授权?*
@@ -470,6 +481,7 @@ echo $a;
 echo "客户端ip地址:" . '&nbsp' . '"' . $_SERVER['REMOTE_ADDR'] . '"';
 echo '</br>'
 echo "服务器ip地址:" . '&nbsp' . '"' . $_SERVER['SERVER_ADDR'] . '"';
+
 #+END_SRC
 -----
 *UTF-8 编码文件的 BOM 头 占几个 byte?*
@@ -493,6 +505,7 @@ $lifetime = 86400;
 session_set_cookie_params($lifetime);
 session_start();
 $_SESSION['example'] = true;
+
 #+END_SRC
 -----
 *谈谈你对MVC理解*
@@ -517,22 +530,22 @@ SELECT username FROM members ORDER BY posts DESC LIMIT 10;
 *写一个函数,给一个日期,输出该日期的前一天,输出日期格式为 2014-05-19 14:30:22*
 #+BEGIN_SRC 
 <?php
-function to_yesterday($time)
-{
+function to_yesterday($time) {
     $time_stamp = strtotime($time);
     $to_yesterday_time_stamp = $time_stamp - 86400;
     date('Y-m-d H:i:s', $to_yesterday_time_stamp);
 }
+
 #+END_SRC
 -----
 *写一个函数,从一个标准url中获取文件的扩展名*
 #+BEGIN_SRC 
 <?php
-function get_extension($url)
-{
+function get_extension($url) {
     $extension = pathinfo($url, PATHINFO_EXTENSION);
     strstr($extension, '?', true);
 }
+
 #+END_SRC
 -----
 *ajax是什么?同步和异步的区别*
@@ -555,18 +568,22 @@ AJAX全称为"Asynchronous JavaScript And XML"(异步JavaScript和XML),是一种
 #+BEGIN_SRC 
 <?php
 require('./config.php');
+
 #+END_SRC
 #+BEGIN_SRC 
 <?php
 include('./config.php');
+
 #+END_SRC
 #+BEGIN_SRC 
 <?php
 require_once('./config.php');
+
 #+END_SRC
 #+BEGIN_SRC 
 <?php
 include_once('./config.php');
+
 #+END_SRC
 -----
 *写几个常用的php数组函数并简述函数用法*
@@ -578,3 +595,90 @@ current() 返回数组中的当前单元
 next() 将数组中的内部指针向前移动一位
 
 prev() 将数组的内部指针倒回一位
+
+implode() 将一个一维数组的值转化为字符串
+-----
+*写出几个常用的php字符串函数并且简述函数用法*
+
+strlen() 获取字符串长度
+
+substr() 返回字符串的子串
+
+substr_count() 计算字符串出现的次数
+
+strstr() 查找字符串的首次出现
+
+strrev() 反转字符串
+-----
+*写出php的三种注释方式,区别*
+#+BEGIN_SRC 
+<?php
+echo 'example';//单行注释
+
+#+END_SRC
+#+BEGIN_SRC 
+<?php
+echo 'example';
+/*
+这是
+多行注释
+*/
+
+#+END_SRC
+
+#+BEGIN_SRC
+<?php
+echo 'example';
+/*
+~* 这是
+~* 多行注释
+~* 波浪号是因为orgmode会把行首的 * 解析为 标题行
+*/
+
+#+END_SRC
+
+- 单行注释用于单行
+- 多行注释用于多行
+- 块注释通常用于提供对文件,方法,数据结构和算法的描述.块注释被置于每个文件的开始处以及每个方法之前.它们也可以用于其他地方,比如方法内部.在功能和方法内部的块注释应该和它们所描述的代码具有一样的缩进格式.块注释之首应该有一个空行,用于把块注释和代码分割开来
+-----
+*写一个函数,能够遍历一个文件夹下的所有文件和子文件夹*
+#+BEGIN_SRC 
+<?php
+function scan_dir_file($dir) {
+	$files = array();
+	if ($handle = opendir($dir)) {
+		while (($file = readdir($handle)) !== false) {
+			if ($file != '.' && $file != '..') {
+				if (is_dir($dir . '/' . $file)) {
+					$files[$file] = scan_dir_file($dir . '/' . $file);
+				} else {
+					$files[] = $file;
+				}
+			}
+		}
+		closedir($handle);
+		return $files;
+	}
+}
+
+#+END_SRC
+-----
+*UTF-8 编码下,下面程序输出什么,为什么?*
+#+BEGIN_SRC 
+echo strlen('Welcome to 多酷');
+#+END_SRC
+*17*,因为在UTF-8编码下,一个英文字符占用一个字节,空格占用一个字节,一个汉字占用三个字节
+-----
+*简述以下memcache和redis的区别*
+- redis和memcache都是将数据存放在内存中,都是内存数据库,不过memcache还可以用于缓存其它东西,例如图片,视频等
+- redis不仅仅支持简单的K(key)/V(value)类型的数据
+- redis当物理内存用时,可以将一些很久没用用到的 value 交换到磁盘
+- memcache挂掉后,数据不可恢复,redis数据丢失后可以通过aof恢复
+- redis支持数据持久化,可以将内存中的数据保持在磁盘中,重启的时候可以再次加载进行使用
+-----
+*谈谈序列化和反序列化的作用*
+- 序列化: 指将php中 对象 类 数组 变量 匿名函数等,转化为字符串
+- 反序列化: 将字符串转化为 对象 类 数组 变量 匿名函数
+- 序列化在每个编程语言中都存在
+- 广义的说,将一个word保存为docx,这就是序列化的过程,打开docx文档,显示内容,就是反序列化的过程
+- 序列化之后,会返回一个可存储的字符串,有利于存储或传递php的值,同时不丢失其数据类型和结构
