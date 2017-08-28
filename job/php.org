@@ -682,3 +682,47 @@ echo strlen('Welcome to 多酷');
 - 序列化在每个编程语言中都存在
 - 广义的说,将一个word保存为docx,这就是序列化的过程,打开docx文档,显示内容,就是反序列化的过程
 - 序列化之后,会返回一个可存储的字符串,有利于存储或传递php的值,同时不丢失其数据类型和结构
+-----
+*列举出几个php魔术常量*
+- ~__FILE__~ 文件的完整路径和文件名。如果用在被包含文件中，则返回被包含的文件名
+- ~__LINE__~ 文件中的当前行号
+- ~__DIR__~ 文件所在的目录。如果用在被包括文件中，则返回被包括的文件所在的目录。它等价于 dirname(__FILE__)。除非是根目录，否则目录中名不包括末尾的斜杠
+- ~__FUNCTION__~ 函数名称。返回该函数被定义时的名字（区分大小写）
+- ~__CLASS__~ 类的名称。返回该类被定义时的名字（区分大小写）
+-----
+*php是用什么语言编写的*
+#+BEGIN_QUOTE
+c
+#+END_QUOTE
+-----
+*请列出php的8种数据类型*
+#+BEGIN_QUOTE
+4种标量类型: boolean(布尔型) integer(整形) float(浮点型,也称作 double) string(字符串)
+
+2种符合类型: array(数组) object(对象)
+
+2种特殊类型: resource(资源) NULL(NULL)
+#+END_QUOTE
+-----
+*$m = " MY name IS PHP " 编程实现将$m中的字符串前后的空格以及中间的空格去掉,并全部转换为小写字母,最后输出$m和$m中的字母的个数*
+#+BEGIN_SRC 
+<?php
+$m = ' MY name IS PHP ';
+$m = str_replace(' ', '', $m);
+$m = strtolower($m);
+echo $m;
+echo strlen($m);
+
+#+END_SRC
+-----
+*$m = "woxihuanphp" 编程实现: 将字符串分割为单个字符存放到一个数组中,并打印数组*
+#+BEGIN_SRC 
+<?php
+$m = 'woxihuanphp';
+$len = strlen($m);
+for ($i = 0; $i < $len; $i++) {
+    $array[] = substr($m, $i, 1);
+}
+print_r($array);
+
+#+END_SRC
