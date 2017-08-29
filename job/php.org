@@ -131,9 +131,9 @@ echo "<h1>aaaaaaaaaaaaaa</h1>";
 #+END_SRC
 #+BEGIN_SRC
 <?php
-print <<< EOF
+print <<<EOF
 <h1>aaaaaaaaaaaaaaaa</h1>
-EOT;
+EOF;
 ?>
 #+END_SRC
 -----
