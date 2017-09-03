@@ -112,6 +112,7 @@ ucwords() 将字符串中每个单词的首字母转换为大写 uc word s
 *get和post提交方法的区别*
 - get 和 post 理论上没有大小限制，但是 get 的长度和 url 的长度有直接关系 http协议没有对 url 长度进行限制 ie浏览器最url最大限制为 2083 字节 其他浏览器更多，所以 get 最好限制在 2083 字节
 - get 放在url中，因此不安全，而 post 传输数据相对安全
+- get是从服务器上获取数据,post是向服务器传送数据
 -----
 *检测一个变量是否有设置的函数*
 #+BEGIN_QUOTE
@@ -126,7 +127,7 @@ empty() 判断一个变量是否被认为是空，如果变量是非空或非零
 *在php中插入一段html的办法*
 #+BEGIN_SRC 
 <?php
-echo "<h1>aaaaaaaaaaaaaa</h1>";
+echo '<h1>aaaaaaaaaaaaaa</h1>';
 ?>
 #+END_SRC
 #+BEGIN_SRC
@@ -726,3 +727,38 @@ for ($i = 0; $i < $len; $i++) {
 print_r($array);
 
 #+END_SRC
+-----
+*php中单引号和双引号的区别,哪个速度更快?*
+#+BEGIN_QUOTE
+在php中,单引号内的数据不会被解析(任何变量和特殊转义符),所以更快,而双引号内的数据会被解析,如变量($var)值会被代入字符串中,特殊转义符也会被解析成特定的单个字
+#+END_QUOTE
+-----
+*防止SQL注入一般用什么函数?*
+#+BEGIN_QUOTE
+addslashes()
+#+END_QUOTE
+-----
+*sort() asort() ksort() 有什么区别*
+- sort() 对数组进行排序,函数结束时数组单元将被从最低到最高从新安排
+- asort() 对数组进行排序,数组的索引保持和单元的关联
+- ksort() 对数组按照键名排序,保留键名到数据的关联
+-----
+*写出session的运行机制*
+#+BEGIN_QUOTE
+浏览器第一次打开网站页面,服务器自动生成sessionid,响应给浏览器,浏览器把这个sessionid保存到cookie中,再次打开这个网站页面时将cookie保存的sessionid发送给服务器,session变量中储存的值存在服务器中,浏览器只有sessionid的值,当浏览器关闭页面或者sessionid超时,session自动注销
+#+END_QUOTE
+-----
+*抓取远程图片到本地,你会用什么函数*
+#+BEGIN_SRC 
+file_get_contents()
+#+END_SRC
+-----
+*~var_dump()~和~print_r()的区别*
+#+BEGIN_QUOTE
+var_dump()返回表达式的类型与值,而print_r仅返回结果
+#+END_QUOTE
+-----
+*在php中~error_reporting~这个函数的作用是什么*
+#+BEGIN_QUOTE
+设置应该报告何种php错误
+#+END_QUOTE
