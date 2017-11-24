@@ -762,3 +762,12 @@ var_dump()返回表达式的类型与值,而print_r仅返回结果
 #+BEGIN_QUOTE
 设置应该报告何种php错误
 #+END_QUOTE
+-----
+*什么是抽象方法*
+#+BEGIN_QUOTE
+我们在类里面定义的 *没有方法体* 的方法就是抽象方法,所谓的没有方法体指的是,在方法声明的时候 *没有大括号以及其中的内容* ,而是直接在声明时在方法名后加上分号结束,另外在声明抽象方法时还要加一个关键字 *abstrace* 来修饰;例如:
+#+END_QUOTE
+#+BEGIN_SRC
+abstract function fun1();
+abstract function fun2();
+#+END_SRC
