@@ -36,37 +36,37 @@ cp_auto() {
     cp_call
     if test $? -ne 0
     then
-        echo "\033[49;31mcp_call failed\033[0m"
+        echo -e "\033[49;31mcp_call failed\033[0m"
     fi
 
     cp_camera
     if test $? -ne 0
     then
-        echo "\033[49;31mcp_camera failed\033[0m"
+        echo -e "\033[49;31mcp_camera failed\033[0m"
     fi
 
     cp_screenshots
     if test $? -ne 0
     then
-        echo "\033[49;31mcp_screenshots failed\033[0m"
+        echo -e "\033[49;31mcp_screenshots failed\033[0m"
     fi
 
     cp_voice2
     if test $? -ne 0
     then
-        echo "\033[49;31mcp_voice2 failed\033[0m"
+        echo -e "\033[49;31mcp_voice2 failed\033[0m"
     fi
 
     cp_weixin
     if test $? -ne 0
     then
-        echo "\033[49;31mcp_weixin failed\033[0m"
+        echo -e "\033[49;31mcp_weixin failed\033[0m"
     fi
 
     mv_voice2
     if test $? -ne 0
     then
-        echo "\033[49;31mcp_voice2 failed\033[0m"
+        echo -e "\033[49;31mcp_voice2 failed\033[0m"
     fi
 }
 
@@ -94,31 +94,31 @@ rm_rc() {
     rm_rc_call
     if test $? -ne 0
     then
-        echo "\033[49;31mrm_rc_call failed\033[0m"
+        echo -e "\033[49;31mrm_rc_call failed\033[0m"
     fi
 
     rm_rc_camera
     if test $? -ne 0
     then
-        echo "\033[49;31mrm_rc_camera failed\033[0m"
+        echo -e "\033[49;31mrm_rc_camera failed\033[0m"
     fi
 
     rm_rc_screenshots
     if test $? -ne 0
     then
-        echo "\033[49;31mrm_rc_screenshots failed\033[0m"
+        echo -e "\033[49;31mrm_rc_screenshots failed\033[0m"
     fi
 
     rm_rc_voice2
     if test $? -ne 0
     then
-        echo "\033[49;31mrm_rc_voice2 failed\033[0m"
+        echo -e "\033[49;31mrm_rc_voice2 failed\033[0m"
     fi
 
     rm_rc_weixin
     if test $? -ne 0
     then
-        echo "\033[49;31mrm_rc_weixin failed\033[0m"
+        echo -e "\033[49;31mrm_rc_weixin failed\033[0m"
     fi
 }
 
@@ -133,10 +133,10 @@ rm_lc() {
         then
             continue
         fi
-        rm -rfv $i
-        if test $? -ne 0
+	rm -rfv $i
+	if test $? -ne 0
         then
-            echo "\033[49;31mrm -rf $i failed\033[0m"
+            echo -e "\033[49;31mrm -rf $i failed\033[0m"
         fi
     done
 }
