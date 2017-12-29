@@ -28,7 +28,7 @@ mv_voice2() {
     fi
     for i in `find ./voice2 -name "*.amr"`
     do
-        mv -iv $i ./voice
+        mv -v $i ./voice
     done
 }
 
@@ -70,55 +70,55 @@ cp_auto() {
     fi
 }
 
-remote_clean_call() {
+rm_rc_call() {
     adb shell rm /sdcard/Call/*
 }
 
-remote_clean_camera() {
+rm_rc_camera() {
     adb shell rm /sdcard/DCIM/Camera/*
 }
 
-remote_clean_screenshots() {
+rm_rc_screenshots() {
     adb shell rm /sdcard/DCIM/Screenshots/*
 }
 
-remote_clean_voice2() {
+rm_rc_voice2() {
     adb shell rm /sdcard/tencent/MicroMsg/${id}/voice2/*
 }
 
-remote_clean_weixin() {
+rm_rc_weixin() {
     adb shell rm /sdcard/tencent/MicroMsg/WeiXin/*
 }
 
-remote_clean() {
-    remote_clean_call
+rm_rc() {
+    rm_rc_call
     if test $? -ne 0
     then
-        echo "\033[49;31mrc_call failed\033[0m"
+        echo "\033[49;31mrm_rc_call failed\033[0m"
     fi
 
-    remote_clean_camera
+    rm_rc_camera
     if test $? -ne 0
     then
-        echo "\033[49;31mrc_camera failed\033[0m"
+        echo "\033[49;31mrm_rc_camera failed\033[0m"
     fi
 
-    remote_clean_screenshots
+    rm_rc_screenshots
     if test $? -ne 0
     then
-        echo "\033[49;31mrc_screenshots failed\033[0m"
+        echo "\033[49;31mrm_rc_screenshots failed\033[0m"
     fi
 
-    remote_clean_voice2
+    rm_rc_voice2
     if test $? -ne 0
     then
-        echo "\033[49;31mrc_voice2 failed\033[0m"
+        echo "\033[49;31mrm_rc_voice2 failed\033[0m"
     fi
 
-    remote_clean_weixin
+    rm_rc_weixin
     if test $? -ne 0
     then
-        echo "\033[49;31mrc_weixin failed\033[0m"
+        echo "\033[49;31mrm_rc_weixin failed\033[0m"
     fi
 }
 
@@ -126,7 +126,7 @@ mv_call() {
     echo
 }
 
-local_clean() {
+rm_lc() {
     for i in *
     do
         if test $i = ${0:2}
