@@ -1,0 +1,144 @@
+#!/usr/bin/env sh
+id=
+
+cp_call() {
+    adb pull /sdcard/Call ./call
+}
+
+cp_camera() {
+    adb pull /sdcard/DCIM/Camera ./camera
+}
+
+cp_screenshots() {
+    adb pull /sdcard/DCIM/Screenshots ./screenshots
+}
+
+cp_voice2() {
+    adb pull /sdcard/tencent/MicroMsg/${id}/voice2 ./voice2
+}
+
+cp_weixin() {
+    adb pull /sdcard/tencent/MicroMsg/WeiXin ./weixin
+}
+
+mv_voice2() {
+    if test ! -d voice
+    then
+        mkdir voice
+    fi
+    for i in `find ./voice2 -name "*.amr"`
+    do
+        mv -iv $i ./voice
+    done
+}
+
+cp_auto() {
+    cp_call
+    if test $? -ne 0
+    then
+        echo "\033[49;31mcp_call failed\033[0m"
+    fi
+
+    cp_camera
+    if test $? -ne 0
+    then
+        echo "\033[49;31mcp_camera failed\033[0m"
+    fi
+
+    cp_screenshots
+    if test $? -ne 0
+    then
+        echo "\033[49;31mcp_screenshots failed\033[0m"
+    fi
+
+    cp_voice2
+    if test $? -ne 0
+    then
+        echo "\033[49;31mcp_voice2 failed\033[0m"
+    fi
+
+    cp_weixin
+    if test $? -ne 0
+    then
+        echo "\033[49;31mcp_weixin failed\033[0m"
+    fi
+
+    mv_voice2
+    if test $? -ne 0
+    then
+        echo "\033[49;31mcp_voice2 failed\033[0m"
+    fi
+}
+
+remote_clean_call() {
+    adb shell rm /sdcard/Call/*
+}
+
+remote_clean_camera() {
+    adb shell rm /sdcard/DCIM/Camera/*
+}
+
+remote_clean_screenshots() {
+    adb shell rm /sdcard/DCIM/Screenshots/*
+}
+
+remote_clean_voice2() {
+    adb shell rm /sdcard/tencent/MicroMsg/${id}/voice2/*
+}
+
+remote_clean_weixin() {
+    adb shell rm /sdcard/tencent/MicroMsg/WeiXin/*
+}
+
+remote_clean() {
+    remote_clean_call
+    if test $? -ne 0
+    then
+        echo "\033[49;31mrc_call failed\033[0m"
+    fi
+
+    remote_clean_camera
+    if test $? -ne 0
+    then
+        echo "\033[49;31mrc_camera failed\033[0m"
+    fi
+
+    remote_clean_screenshots
+    if test $? -ne 0
+    then
+        echo "\033[49;31mrc_screenshots failed\033[0m"
+    fi
+
+    remote_clean_voice2
+    if test $? -ne 0
+    then
+        echo "\033[49;31mrc_voice2 failed\033[0m"
+    fi
+
+    remote_clean_weixin
+    if test $? -ne 0
+    then
+        echo "\033[49;31mrc_weixin failed\033[0m"
+    fi
+}
+
+mv_call() {
+    echo
+}
+
+local_clean() {
+    for i in *
+    do
+        if test $i = ${0:2}
+        then
+            continue
+        fi
+        rm -rfv $i
+        if test $? -ne 0
+        then
+            echo "\033[49;31mrm -rf $i failed\033[0m"
+        fi
+    done
+}
+
+$1
