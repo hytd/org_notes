@@ -71,23 +71,23 @@ cp_auto() {
 }
 
 rm_rc_call() {
-    adb shell rm /sdcard/Call/*
+    adb shell rm -f /sdcard/Call/*
 }
 
 rm_rc_camera() {
-    adb shell rm /sdcard/DCIM/Camera/*
+    adb shell rm -f /sdcard/DCIM/Camera/*
 }
 
 rm_rc_screenshots() {
-    adb shell rm /sdcard/DCIM/Screenshots/*
+    adb shell rm -f /sdcard/DCIM/Screenshots/*
 }
 
 rm_rc_voice2() {
-    adb shell rm -r /sdcard/tencent/MicroMsg/${id}/voice2/*
+    adb shell rm -rf /sdcard/tencent/MicroMsg/${id}/voice2/*
 }
 
 rm_rc_weixin() {
-    adb shell rm /sdcard/tencent/MicroMsg/WeiXin/*
+    adb shell rm -f /sdcard/tencent/MicroMsg/WeiXin/*
 }
 
 rm_rc() {
