@@ -32,6 +32,11 @@ mv_voice2() {
     done
 }
 
+cp_one() {
+    cp_screenshots
+    cp_weixin
+}
+
 cp_auto() {
     cp_call
     if test $? -ne 0
@@ -88,6 +93,11 @@ rm_rc_voice2() {
 
 rm_rc_weixin() {
     adb shell rm -f /sdcard/tencent/MicroMsg/WeiXin/*
+}
+
+rm_rc_one() {
+    rm_rc_screenshots
+    rm_rc_weixin
 }
 
 rm_rc() {
