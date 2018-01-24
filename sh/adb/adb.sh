@@ -7,7 +7,7 @@ done
 
 cp_one(){
 	cp_screenshots
-	cp_wechat_weixin
+	cp_weixin
 }
 
 rm_one() {
