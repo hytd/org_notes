@@ -21,7 +21,7 @@ mv_voice2() {
 }
 
 rm_wechat_voice2() {
-	adb shell rm -f /sdcard/tencent/MicroMsg/${id}/voice2/*
+	adb shell rm -rf /sdcard/tencent/MicroMsg/${id}/voice2/*
 }
 
 rm_wechat_weixin() {
