@@ -1,1 +1,63 @@
 # بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ
+
+* example
+
+*检出版本库*
+#+BEGIN_SRC shell
+svn checkout(co) $url
+#+END_SRC
+#+BEGIN_SRC shell
+svn co --username $user --password $pass
+#+END_SRC
+-----
+*创建版本库*
+#+BEGIN_SRC shell
+svnadmin create $path/$repository
+#+END_SRC
+-----
+*运行服务器*
+#+BEGIN_SRC shell
+svnserve -d -r $path
+#+END_SRC
+#+BEGIN_CENTER
+-d 后台模式
+
+-r 服务器根目录,路径最好在版本库的上级目录
+#+END_CENTER
+-----
+*配置svn服务器*
+#+BEGIN_QUOTE
+svnserve.conf
+#+END_QUOTE
+#+BEGIN_QUOTE
+[general]
+anon-access = none # 非授权用户权限 none 没有  read 读  write 写
+auth-access = write # 授权用户权限
+password-db = passwd # 密码文件
+authz-db = authz # 授权文件
+realm = $repository # 认证空间名(仓库名)
+#+END_QUOTE
+#+BEGIN_CENTER
+*-----*
+#+END_CENTER
+#+BEGIN_QUOTE
+passwd
+#+END_QUOTE
+#+BEGIN_QUOTE
+[users]
+$username = $password
+#+END_QUOTE
+#+BEGIN_CENTER
+*-----*
+#+END_CENTER
+#+BEGIN_QUOTE
+authz
+#+END_QUOTE
+#+BEGIN_QUOTE
+[groups]
+$group = $user,$user
+
+[$repository:$path]
+@user = $permit
+@$group = $permit
+#+END_QUOTE
