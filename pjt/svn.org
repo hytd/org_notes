@@ -31,6 +31,7 @@ svnserve.conf
 #+END_QUOTE
 #+BEGIN_QUOTE
 [general]
+
 anon-access = none # 非授权用户权限 none 没有  read 读  write 写
 auth-access = write # 授权用户权限
 password-db = passwd # 密码文件
@@ -45,6 +46,7 @@ passwd
 #+END_QUOTE
 #+BEGIN_QUOTE
 [users]
+
 $username = $password
 #+END_QUOTE
 #+BEGIN_CENTER
@@ -55,6 +57,7 @@ authz
 #+END_QUOTE
 #+BEGIN_QUOTE
 [groups]
+
 $group = $user,$user
 
 [$repository:$path]
